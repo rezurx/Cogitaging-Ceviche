@@ -12,6 +12,9 @@ on:
   push:
     branches: [ main, master ]
 
+permissions:
+  contents: write
+
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
