@@ -1,0 +1,62 @@
+{{ define "main" }}
+  <div class="pa3 pa4-ns w-100 w-70-ns center">
+    {{ $paginator := .Paginate (.Site.RegularPages.ByDate.Reverse) }}
+    
+    <div class="article-grid">
+      {{ range $paginator.Pages }}
+        <div class="grid-item">
+          <article class="grid-card">
+            <a href="{{ .Params.canonicalUrl }}" class="grid-card-link" target="_blank" rel="noopener noreferrer">
+              {{ $featured_image := .Params.featured_image | default .Params.thumbnail }}
+              {{ if $featured_image }}
+                <div class="grid-card-image">
+                  <img src="{{ $featured_image }}" alt="{{ .Title }}">
+                </div>
+              {{ end }}
+              <div class="grid-card-content">
+                <h2 class="grid-card-title">{{ .Title }}</h2>
+                <div class="grid-card-summary">
+                  {{ $content := .Content | plainify }}
+                  {{ $words := split $content " " }}
+                  {{ $excerpt := first 20 $words }}
+                  {{ delimit $excerpt " " }}{{ if gt (len $words) 20 }}...{{ end }}
+                </div>
+                <div class="grid-card-meta">
+                  {{ with .Params.source }}
+                    <span class="grid-card-source">{{ . }}</span>
+                  {{ end }}
+                  <span class="grid-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+      {{ end }}
+    </div>
+    
+    <!-- Pagination -->
+    {{ if or $paginator.HasPrev $paginator.HasNext }}
+      <nav class="pagination w-100 pa3 mt4 tc">
+        <div class="pagination-wrapper">
+          {{ if $paginator.HasPrev }}
+            <a href="{{ $paginator.Prev.URL }}" class="pagination-link pagination-prev">← Previous</a>
+          {{ end }}
+          
+          <div class="pagination-numbers">
+            {{ range $paginator.Pagers }}
+              {{ if eq . $paginator }}
+                <span class="pagination-current">{{ .PageNumber }}</span>
+              {{ else }}
+                <a href="{{ .URL }}" class="pagination-link">{{ .PageNumber }}</a>
+              {{ end }}
+            {{ end }}
+          </div>
+          
+          {{ if $paginator.HasNext }}
+            <a href="{{ $paginator.Next.URL }}" class="pagination-link pagination-next">Next →</a>
+          {{ end }}
+        </div>
+      </nav>
+    {{ end }}
+  </div>
+{{ end }}

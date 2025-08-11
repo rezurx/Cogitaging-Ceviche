@@ -1,0 +1,182 @@
+/* Modern Medium-style grid layout */
+
+/* Global typography improvements */
+body {
+  font-family: 'Charter', 'Georgia', serif !important;
+  line-height: 1.6;
+  color: #292929;
+  background-color: #fafafa;
+}
+
+/* Container improvements */
+.pa3.pa4-ns.w-100.w-70-ns.center {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Grid Layout */
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Grid Card Styling */
+.grid-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  border: 1px solid #e1e5e9;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.grid-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.grid-card-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.grid-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.grid-card:hover .grid-card-image img {
+  transform: scale(1.05);
+}
+
+.grid-card-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-card-title {
+  font-family: 'Charter', 'Georgia', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #1a1a1a;
+  margin: 0 0 0.75rem 0;
+  flex-shrink: 0;
+}
+
+.grid-card-summary {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #6b6b6b;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.grid-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #8b8b8b;
+  margin-top: auto;
+}
+
+.grid-card-source {
+  background: #0066cc;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.grid-card-date {
+  font-weight: 500;
+}
+
+/* Pagination Styling */
+.pagination {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e1e5e9;
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pagination-numbers {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.pagination-link {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #0066cc;
+  border: 1px solid #e1e5e9;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.pagination-link:hover {
+  background: #0066cc;
+  color: white;
+  border-color: #0066cc;
+}
+
+.pagination-current {
+  padding: 0.5rem 1rem;
+  background: #0066cc;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.pagination-prev, .pagination-next {
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+}
+
+/* Responsive pagination */
+@media (max-width: 768px) {
+  .pagination-wrapper {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .pagination-numbers {
+    order: -1;
+  }
+}

@@ -1,0 +1,22 @@
+# Dependencies for Claude Code Subagent Manager
+rich>=13.0.0
+questionary>=2.0.0
+PyYAML>=6.0.0
+
+# Content ingestion dependencies
+feedparser>=6.0.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+requests>=2.31.0
+
+# Automation dependencies
+schedule>=1.2.0
+APScheduler>=3.10.0
+
+# Deployment dependencies
+paramiko>=3.0.0
+scp>=0.14.0
+
+# Optional dependencies for enhanced functionality  
+colorama>=0.4.6
+click>=8.1.0

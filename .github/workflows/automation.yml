@@ -1,0 +1,272 @@
+# GitHub Actions Workflow for Cogitating Ceviche Automation
+# This workflow provides an alternative to cron-based automation using GitHub Actions
+
+name: Content Automation
+
+on:
+  # Scheduled runs - every 6 hours
+  schedule:
+    - cron: '0 */6 * * *'
+  
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      force_run:
+        description: 'Force run even if no new content'
+        required: false
+        default: false
+        type: boolean
+      skip_deploy:
+        description: 'Skip deployment step'
+        required: false
+        default: false
+        type: boolean
+
+  # Trigger on push to main branch (for manual content updates)
+  push:
+    branches: [ main ]
+    paths:
+      - 'content/**'
+      - 'ingest_external_articles.py'
+      - 'automation_config.yaml'
+
+env:
+  HUGO_VERSION: '0.128.0'
+  NODE_VERSION: '18'
+
+jobs:
+  automation:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        # Fetch full history for git operations
+        fetch-depth: 0
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: ${{ env.HUGO_VERSION }}
+        extended: true
+    
+    - name: Setup Node.js (for potential build tools)
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+        cache: 'npm'
+        cache-dependency-path: '**/package-lock.json'
+    
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Create automation directories
+      run: |
+        mkdir -p automation_logs
+        mkdir -p backups
+        mkdir -p .claude/agents
+    
+    - name: Configure Git
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+    
+    - name: Run content ingestion
+      id: ingestion
+      run: |
+        echo "Starting content ingestion..."
+        python automation_manager.py run-once --verbose
+        echo "ingestion_status=$?" >> $GITHUB_OUTPUT
+      continue-on-error: true
+    
+    - name: Check for new content
+      id: content_check
+      run: |
+        # Check if there are any new or modified content files
+        git add -A
+        if git diff --staged --quiet; then
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+          echo "No new content found"
+        else
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+          echo "New content detected"
+          git status --porcelain
+        fi
+    
+    - name: Commit new content
+      if: steps.content_check.outputs.has_changes == 'true'
+      run: |
+        git add content/
+        git commit -m "Automated content update - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+        echo "Content committed successfully"
+    
+    - name: Build site
+      if: steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true'
+      run: |
+        echo "Building Hugo site..."
+        hugo --gc --minify --verbose
+        echo "Build completed"
+    
+    - name: Run site tests (optional)
+      if: steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true'
+      run: |
+        # Basic site validation
+        if [ ! -d "public" ]; then
+          echo "Error: Hugo build failed - public directory not found"
+          exit 1
+        fi
+        
+        if [ ! -f "public/index.html" ]; then
+          echo "Error: Hugo build failed - index.html not found"
+          exit 1
+        fi
+        
+        # Check for broken internal links (basic check)
+        if command -v grep &> /dev/null; then
+          echo "Checking for obvious build issues..."
+          # Look for Hugo error messages in HTML
+          if grep -r "ERROR\|WARN" public/ | head -5; then
+            echo "Warning: Potential build issues detected"
+          fi
+        fi
+        
+        echo "Basic site validation passed"
+    
+    - name: Deploy to Netlify (via git push)
+      if: |
+        (steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true') &&
+        github.event.inputs.skip_deploy != 'true' &&
+        github.ref == 'refs/heads/main'
+      run: |
+        echo "Pushing changes to trigger Netlify deployment..."
+        git push origin main
+        echo "Git push completed - Netlify will auto-deploy"
+    
+    - name: Create backup
+      if: steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true'
+      run: |
+        # Create a backup of the built site
+        timestamp=$(date -u '+%Y%m%d_%H%M%S')
+        backup_name="site_backup_${timestamp}.tar.gz"
+        tar -czf "backups/${backup_name}" -C public .
+        echo "Backup created: ${backup_name}"
+        
+        # Keep only the last 5 backups to save space
+        ls -t backups/site_backup_*.tar.gz | tail -n +6 | xargs -r rm
+    
+    - name: Generate automation report
+      if: always()
+      run: |
+        echo "# Automation Run Report" > automation_report.md
+        echo "" >> automation_report.md
+        echo "**Run Date:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> automation_report.md
+        echo "**Workflow:** ${{ github.workflow }}" >> automation_report.md
+        echo "**Trigger:** ${{ github.event_name }}" >> automation_report.md
+        echo "" >> automation_report.md
+        
+        if [ "${{ steps.content_check.outputs.has_changes }}" == "true" ]; then
+          echo "✅ **New content detected and processed**" >> automation_report.md
+        else
+          echo "ℹ️ **No new content found**" >> automation_report.md
+        fi
+        
+        if [ "${{ steps.ingestion.outputs.ingestion_status }}" == "0" ]; then
+          echo "✅ **Content ingestion successful**" >> automation_report.md
+        else
+          echo "❌ **Content ingestion failed**" >> automation_report.md
+        fi
+        
+        echo "" >> automation_report.md
+        echo "## File Changes" >> automation_report.md
+        git diff --name-status HEAD~1 HEAD >> automation_report.md || echo "No changes" >> automation_report.md
+    
+    - name: Upload automation logs
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: automation-logs-${{ github.run_number }}
+        path: |
+          automation_logs/
+          automation_report.md
+        retention-days: 7
+    
+    - name: Update automation status
+      if: always()
+      run: |
+        echo "Updating automation status..."
+        python automation_manager.py status > automation_status.txt
+        cat automation_status.txt
+    
+    - name: Notify on failure
+      if: failure()
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const title = '🚨 Automation Pipeline Failed';
+          const body = `
+          The automated content pipeline failed during the latest run.
+          
+          **Details:**
+          - Workflow: ${{ github.workflow }}
+          - Run ID: ${{ github.run_id }}
+          - Trigger: ${{ github.event_name }}
+          - Time: ${{ steps.date.outputs.date }}
+          
+          Please check the workflow logs for more details.
+          `;
+          
+          // Create an issue (optional - requires issues: write permission)
+          try {
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: title,
+              body: body,
+              labels: ['automation', 'bug']
+            });
+          } catch (error) {
+            console.log('Could not create issue:', error.message);
+          }
+
+  # Health check job (runs more frequently)
+  health-check:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run health check
+      run: |
+        python automation_manager.py health-check --verbose
+    
+    - name: Check site availability
+      run: |
+        # Check if the deployed site is accessible
+        site_url="https://darkorange-lark-300659.hostingersite.com"
+        if curl -f -s -I "$site_url" > /dev/null; then
+          echo "✅ Site is accessible: $site_url"
+        else
+          echo "⚠️ Site may not be accessible: $site_url"
+        fi

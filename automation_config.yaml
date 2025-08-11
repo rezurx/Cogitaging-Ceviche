@@ -1,0 +1,120 @@
+# Automation Configuration for Cogitating Ceviche Site
+# This file controls all automated processes for content ingestion and deployment
+
+# Content Ingestion Settings
+content:
+  # Schedule for content ingestion (cron format)
+  ingestion_schedule: "0 */6 * * *"  # Every 6 hours
+  
+  # Sources configuration (can override defaults in script)
+  sources:
+    cogitating-ceviche:
+      type: "rss"
+      url: "https://thecogitatingceviche.substack.com/feed"
+      enabled: true
+      priority: 1
+    cybernetic-ceviche:
+      type: "rss" 
+      url: "https://thecyberneticceviche.substack.com/feed"
+      enabled: true
+      priority: 1
+    vocal:
+      type: "scrape"
+      url: "https://vocal.media/authors/conrad-hannon"
+      enabled: true
+      priority: 2
+  
+  # Content processing options
+  max_articles_per_run: 50
+  enable_content_enhancement: true
+  skip_duplicates: true
+
+# Build & Deploy Settings
+build:
+  # Automatic build after content updates
+  auto_build: true
+  
+  # Deploy after successful build
+  auto_deploy: true
+  
+  # Build command (Hugo)
+  build_command: "hugo --gc --minify"
+  
+  # Deploy methods (can enable multiple)
+  deploy_methods:
+    netlify: false  # Disabled for now - requires git repository
+    local_backup: true
+  
+  # Deployment schedule (for manual deployments)
+  deploy_schedule: "0 8,20 * * *"  # 8 AM and 8 PM daily
+
+# Error Handling & Notifications
+error_handling:
+  # Retry attempts for failed operations
+  max_retries: 2  # Reduced for testing
+  retry_delay: 10  # Reduced delay for testing (seconds)
+  
+  # Notifications (configure as needed)
+  notifications:
+    console: true
+    log_file: true
+    email: false  # Configure SMTP if needed
+  
+  # What constitutes a critical error
+  critical_errors:
+    - "Build failed"
+    - "Deploy failed" 
+    - "No content found"
+    - "Source unavailable"
+
+# Logging Settings
+logging:
+  # Log levels: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file settings
+  log_file: "automation_logs/automation.log"
+  max_log_size: 10485760  # 10MB
+  backup_count: 5
+  
+  # Log rotation
+  rotate_logs: true
+
+# Monitoring & Health Checks  
+monitoring:
+  # Enable status monitoring
+  enabled: true
+  
+  # Health check interval (seconds)
+  health_check_interval: 3600  # 1 hour
+  
+  # Status file location
+  status_file: "automation_logs/status.json"
+  
+  # Performance metrics
+  track_performance: true
+  performance_log: "automation_logs/performance.log"
+
+# Maintenance Settings
+maintenance:
+  # Cleanup old logs
+  log_cleanup_days: 30
+  
+  # Backup settings
+  backup_enabled: true
+  backup_retention_days: 7
+  backup_location: "backups/"
+  
+  # Auto-update dependencies
+  auto_update_deps: false
+  
+# Environment Settings
+environment:
+  # Working directory
+  working_directory: "/home/resurx/websites/cogitating-ceviche"
+  
+  # Python environment
+  python_env: "subagent-env"
+  
+  # Required Hugo version (updated to match current)
+  hugo_version: "0.147.9"

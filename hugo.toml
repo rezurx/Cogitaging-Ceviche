@@ -1,0 +1,29 @@
+baseURL = "https://darkorange-lark-300659.hostingersite.com"
+title = "The Cogitating Ceviche"
+theme = "ananke"
+
+[pagination]
+  pagerSize = 35
+
+[author]
+  name = "Conrad T. Hannon"
+
+[params]
+  author = "Conrad T. Hannon"
+  description = "Where history meets modern madness - satirical commentary by Conrad T. Hannon"
+  favicon = ""
+  logo = ""
+  mainSections = ["external-articles"]
+  recent_posts_number = 20
+  
+[params.ananke]
+  show_recent_posts = true
+  
+[[params.ananke_socials]]
+  name = "substack"
+  url = "https://thecogitatingceviche.substack.com"
+  
+[[params.ananke_socials]]
+  name = "substack"
+  url = "https://thecyberneticceviche.substack.com"
+  

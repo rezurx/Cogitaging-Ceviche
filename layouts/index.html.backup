@@ -1,0 +1,70 @@
+{{ define "main" }}
+  <div class="ph3 ph5-ns pv4 nested-copy-line-height">
+    <h1 class="f3 f2-ns measure-narrow tc mv0 center lh-title">{{ .Title }}</h1>
+    <p class="f5 tc measure-wide center lh-copy mid-gray">
+      A collection of articles written for other platforms, syndicated here for archival purposes.
+    </p>
+  </div>
+  <div class="pa3 pa4-ns">
+    <div class="flex flex-wrap nl3 nr3">
+      {{ range .Pages.ByDate.Reverse }}
+        <article class="w-100 w-50-m w-third-l pa3">
+          <div class="bg-white shadow-hover-2 br3 pa4 h-100 flex flex-column">
+            <!-- Thumbnail placeholder -->
+            <div class="w-100 h4 bg-light-gray br3 mb3 flex items-center justify-center">
+              {{ if .Params.thumbnail }}
+                <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="w-100 h-100 br3 object-cover">
+              {{ else }}
+                <span class="f6 gray tc">{{ .Params.source | default "Article" }}</span>
+              {{ end }}
+            </div>
+            
+            <!-- Article content -->
+            <div class="flex-auto">
+              <h2 class="f4 fw6 mt0 mb2 lh-title dark-gray">
+                {{ .Title }}
+              </h2>
+              
+              <!-- 100-word excerpt -->
+              <p class="f6 lh-copy gray mb3">
+                {{ $content := .Content | plainify }}
+                {{ $words := split $content " " }}
+                {{ $excerpt := first 100 $words }}
+                {{ delimit $excerpt " " }}{{ if gt (len $words) 100 }}...{{ end }}
+              </p>
+            </div>
+            
+            <!-- Meta info and link -->
+            <div class="mt-auto">
+              <div class="f7 lh-copy mb2">
+                <time class="db gray mb1">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.source }}
+                  <span class="db fw6" style="color: {{ if eq .Params.source "Medium" }}#00ab6c{{ else if eq .Params.source "Substack" }}#ff6719{{ else if eq .Params.source "Vocal" }}#6366f1{{ else }}#357edd{{ end }}">
+                    {{ .Params.source }}
+                  </span>
+                {{ end }}
+              </div>
+              <a href="{{ .Params.canonicalUrl }}" class="link dim white bg-blue br2 pa2 f6 fw6 dib" target="_blank" rel="noopener noreferrer">
+                Read Full Article →
+              </a>
+            </div>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+
+  <style>
+    .shadow-hover-2:hover {
+      box-shadow: 0 8px 16px rgba(0,0,0,.1);
+      transform: translateY(-2px);
+      transition: all 0.2s ease;
+    }
+    .bg-white {
+      background-color: white;
+    }
+    .h4 {
+      height: 8rem;
+    }
+  </style>
+{{ end }}
