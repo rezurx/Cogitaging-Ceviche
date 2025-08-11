@@ -31,12 +31,27 @@ Site showing 404 at cogitating-ceviche.com despite correct DNS configuration
 - Workflow should auto-deploy on push to main
 - .gitmodules file added to fix theme detection
 
-## Issue Update
-- GitHub Pages showing repository README instead of Hugo site
-- Site displays: "Cogitating-Ceviche The Cogitating Ceviche Modern Hugo-Based..."
-- This indicates gh-pages branch not being served or doesn't exist
-- Added `permissions: contents: write` to workflow - still showing README
-- Workflow may still be failing or GitHub Pages source not set to gh-pages branch
+## RESOLVED ISSUES
+
+### 1. GitHub Pages Deployment ✅
+- **Problem**: Site showing repository README instead of Hugo site
+- **Root Cause**: Missing workflow permissions to create gh-pages branch
+- **Solution**: Added `permissions: contents: write` to workflow YAML
+- **Status**: ✅ FIXED - Site now deploys properly
+
+### 2. CSS/Layout Not Loading ✅  
+- **Problem**: Medium-style grid layout not appearing, huge thumbnails
+- **Root Cause**: baseURL mismatch - site redirects to custom domain but assets point to GitHub Pages URLs
+- **Solution**: 
+  - Set `baseURL = "https://cogitating-ceviche.com"`
+  - Added `static/CNAME` file
+  - Created proper `layouts/partials/head-additions.html` for CSS loading
+- **Status**: ✅ FIXED - Medium-style grid now working
+
+### 3. Workflow Permission Errors ✅
+- **Problem**: `Permission to rezurx/Cogitaging-Ceviche.git denied to github-actions[bot]`
+- **Solution**: Added `permissions: contents: write` to workflow
+- **Status**: ✅ FIXED - Automation now works
 
 ## Next Steps to Try
 1. Check workflow run status at https://github.com/rezurx/Cogitaging-Ceviche/actions
