@@ -1,5 +1,6 @@
 {{ define "main" }}
-  <div class="pa3 pa4-ns w-100 w-70-ns center">
+  <link rel="stylesheet" href="{{ "css/grid-styles.css" | absURL }}">
+  <div class="pa3 pa4-ns w-100 center" style="max-width: 1200px;">
     {{ $paginator := .Paginate (.Site.RegularPages.ByDate.Reverse) }}
     
     <div class="article-grid">

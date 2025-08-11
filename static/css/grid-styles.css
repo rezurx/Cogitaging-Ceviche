@@ -1,9 +1,11 @@
 /* Medium-style grid layout */
 .article-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 2rem;
-  padding: 2rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .grid-item {
@@ -12,16 +14,17 @@
 
 .grid-card {
   background: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  transition: all 0.2s ease;
   overflow: hidden;
   height: 100%;
+  border: 1px solid #e5e5e5;
 }
 
 .grid-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .grid-card-link {
@@ -38,32 +41,34 @@
 
 .grid-card-image img {
   width: 100%;
-  height: 180px;
+  height: 160px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
 
 .grid-card:hover .grid-card-image img {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .grid-card-content {
-  padding: 1.5rem;
+  padding: 1.25rem;
 }
 
 .grid-card-title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.4;
-  margin: 0 0 1rem 0;
-  color: #1a1a1a;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 0.75rem 0;
+  color: #242424;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .grid-card-summary {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #757575;
   margin-bottom: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .grid-card-meta {
