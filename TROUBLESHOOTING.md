@@ -29,12 +29,21 @@ Site showing 404 at cogitating-ceviche.com despite correct DNS configuration
 - baseURL = "https://cogitating-ceviche.com" 
 - No CNAME file in repo
 - Workflow should auto-deploy on push to main
+- .gitmodules file added to fix theme detection
+
+## Issue Update
+- GitHub Pages showing repository README instead of Hugo site
+- Site displays: "Cogitating-Ceviche The Cogitating Ceviche Modern Hugo-Based..."
+- This indicates gh-pages branch not being served or doesn't exist
+- Added `permissions: contents: write` to workflow - still showing README
+- Workflow may still be failing or GitHub Pages source not set to gh-pages branch
 
 ## Next Steps to Try
 1. Check workflow run status at https://github.com/rezurx/Cogitaging-Ceviche/actions
 2. Verify gh-pages branch exists and has content
-3. Test direct GitHub Pages URL: https://rezurx.github.io/Cogitaging-Ceviche/
-4. If direct URL works, re-add CNAME file for custom domain
+3. Check GitHub Pages source setting (should be "Deploy from branch: gh-pages")
+4. Test direct GitHub Pages URL: https://rezurx.github.io/Cogitaging-Ceviche/
+5. If needed, manually trigger workflow or build site locally
 
 ## Files Changed
 - `.github/workflows/update-content.yml` - automation workflow
