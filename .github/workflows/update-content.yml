@@ -59,17 +59,3 @@ jobs:
         publish_branch: gh-pages
         force_orphan: true
     
-    - name: Commit new articles (if any)
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add content/external-articles/
-        if git diff --staged --quiet; then
-          echo "No new articles to commit"
-        else
-          echo "Committing new articles..."
-          git commit -m "Auto-update: Add new articles $(date '+%Y-%m-%d %H:%M:%S')"
-          git push
-        fi
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
