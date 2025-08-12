@@ -11,8 +11,8 @@ theme = "ananke"
 [params]
   author = "Conrad T. Hannon"
   description = "Where history meets modern madness - satirical commentary by Conrad T. Hannon"
-  favicon = ""
-  logo = ""
+  favicon = "/images/fish-logo.png"
+  site_logo = "/images/fish-logo.png"
   mainSections = ["external-articles"]
   recent_posts_number = 20
   
