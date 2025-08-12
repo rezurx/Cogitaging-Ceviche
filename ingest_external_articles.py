@@ -133,10 +133,52 @@ def get_substack_preview(url):
 
         if article_body:
             text = article_body.get_text(separator=' ', strip=True)
+            
+            # Skip promotional content that often appears at the start of Substack articles
+            skip_phrases = [
+                "Voice-over provided by Amazon Polly",
+                "Also check out Eleven Labs",
+                "Image created with generative AI",
+                "Preface by Conrad",
+                "Subscribe to get full access",
+                "Become a paying subscriber",
+                "Upgrade your subscription"
+            ]
+            
+            # Find the start of actual content by skipping promotional text
             words = text.split()
-            preview = ' '.join(words[:100])
-            if len(words) > 100:
-                preview += '...'
+            start_index = 0
+            
+            # Look for promotional phrases and skip past them
+            for i, word in enumerate(words[:50]):  # Check first 50 words
+                current_text = ' '.join(words[max(0, i-5):i+10])  # Context window
+                for phrase in skip_phrases:
+                    if phrase.lower() in current_text.lower():
+                        # Found promotional content, continue looking for article start
+                        start_index = i + 10
+                        break
+            
+            # Extract 100 words starting from the actual content
+            content_words = words[start_index:]
+            if len(content_words) > 100:
+                preview = ' '.join(content_words[:100]) + '...'
+            else:
+                preview = ' '.join(content_words)
+            
+            # If preview is too short or still contains promotional text, fall back to original method
+            if len(preview.split()) < 20 or any(phrase.lower() in preview.lower() for phrase in skip_phrases):
+                print(f"  Warning: Preview may still contain promotional content for {url}")
+                # Try to find paragraphs and use the first substantial one
+                paragraphs = article_body.find_all('p')
+                for p in paragraphs:
+                    p_text = p.get_text(strip=True)
+                    if len(p_text) > 50 and not any(phrase.lower() in p_text.lower() for phrase in skip_phrases):
+                        words = p_text.split()
+                        preview = ' '.join(words[:100])
+                        if len(words) > 100:
+                            preview += '...'
+                        return preview
+            
             return preview
         else:
             print(f"  Warning: Could not find article body in {url}. Using default summary.")
