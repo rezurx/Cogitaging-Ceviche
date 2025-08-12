@@ -1,30 +1,68 @@
-# Cogitating Ceviche - Deployment Session Summary
+# Cogitating Ceviche - Brand Integration Session Summary
+## August 12, 2025
 
 ## ✅ COMPLETED TASKS
 
-### Core Content Management
-- **Re-enabled Cybernetic Ceviche articles** in homepage filter
-- **Removed 50 old articles** (pre-July 20, 2025), kept 15 recent ones  
-- **Implemented pagination** showing 35 articles per page with navigation
-- **Fixed 23+ TOML syntax errors** in article frontmatter
+### Session Focus: Brand Integration & Display Issues
 
-### GitHub Pages Setup & Automation
-- **Created GitHub repository**: https://github.com/rezurx/Cogitaging-Ceviche
-- **Configured DNS** at GoDaddy with proper A records
-- **Set up automated RSS ingestion** workflow running every 6 hours
-- **Deployed to custom domain**: https://cogitating-ceviche.com
+### 🔧 GitHub Actions & Automation Fixes
+- **Fixed PyYAML dependency issue** in GitHub Actions workflow
+- **Updated workflow** to use requirements.txt instead of hardcoded packages
+- **Resolved "ModuleNotFoundError: No module named 'yaml'"** error
+- **Automated deployments** now working without errors
 
-### Layout & Styling
-- **Implemented Medium-style grid layout** with responsive cards
-- **Fixed CSS loading** through proper Hugo theme integration
-- **Resolved baseURL mismatch** between GitHub Pages and custom domain
+### 📝 Content Enhancement
+- **Enhanced article preview scraper** to skip promotional content:
+  - Removes "Voice-over provided by Amazon Polly" text
+  - Skips subscription prompts and promotional text
+  - Extracts actual article content for previews
+- **Updated preview length** from 20 words to 100 words as requested
+- **Added new article**: "Faith in the Public Square" with improved preview
+
+### 🎨 Brand Integration Implementation
+- **Extracted color palette** from fish logo images:
+  - Fish Blue (#2c5f73) - Primary brand color
+  - Glasses Yellow (#f4c542) - Accent highlights
+  - Flag Red (#b91c1c) - Interactive states
+  - Cream Background (#fef7e0) - Page background
+- **Applied brand styling** across the website:
+  - Article cards with fish blue borders
+  - Golden top accents inspired by glasses
+  - Source badges in glasses yellow
+  - Cream background throughout site
+- **Integrated fish logo** into Hugo configuration
+- **Updated typography** to use serif fonts for titles
+
+## 🚨 **OUTSTANDING ISSUES (For Next Session):**
+
+### Display & Layout Issues
+1. **Fish Logo Not Displaying**: Despite correct Hugo configuration and file presence
+   - Logo file exists at `/static/images/fish-logo.png`
+   - Hugo config correctly references logo
+   - Built HTML shows correct image path
+   - Issue may be theme-level or caching
+
+2. **Left Margin Not Applied**: Page remains flush against left edge
+   - CSS rules implemented with `.main-container` class
+   - Used `!important` declarations
+   - May need theme-specific overrides
+
+3. **Header Link Issues**: May be redirecting to wrong URL
+   - Navigation template correctly points to Substack
+   - User reports seeing wrong URL path
+   - Needs investigation of actual deployed behavior
+
+4. **Title Font Not Changing**: Serif fonts not applying despite CSS rules
+   - Multiple CSS selectors tried
+   - May need more specific theme overrides
+
+### Next Session Priorities
+- Debug logo display issue (check theme CSS conflicts)
+- Fix left margin with theme-specific approach
+- Verify header link behavior on live site
+- Resolve typography styling conflicts
 
 ## 🔧 KEY TECHNICAL FIXES
-
-1. **Workflow Permissions**: Added `permissions: contents: write` to `.github/workflows/update-content.yml`
-2. **Theme Integration**: Added `.gitmodules` file for proper Ananke theme detection
-3. **CSS Loading**: Created `layouts/partials/head-additions.html` for custom styles
-4. **Domain Setup**: Added `static/CNAME` file and matched baseURL to custom domain
 
 ## 📁 IMPORTANT FILES
 
