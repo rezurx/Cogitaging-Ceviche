@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="w-100 center" style="max-width: 1200px; padding: 2rem; margin-left: 4rem;">
+  <div class="main-container">
     {{ $paginator := .Paginate (.Site.RegularPages.ByDate.Reverse) }}
     
     <div class="article-grid">
@@ -18,8 +18,8 @@
                 <div class="grid-card-summary">
                   {{ $content := .Content | plainify }}
                   {{ $words := split $content " " }}
-                  {{ $excerpt := first 20 $words }}
-                  {{ delimit $excerpt " " }}{{ if gt (len $words) 20 }}...{{ end }}
+                  {{ $excerpt := first 100 $words }}
+                  {{ delimit $excerpt " " }}{{ if gt (len $words) 100 }}...{{ end }}
                 </div>
                 <div class="grid-card-meta">
                   {{ with .Params.source }}

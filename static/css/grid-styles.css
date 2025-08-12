@@ -17,7 +17,10 @@ body {
 }
 
 /* Header branding */
-.site-title {
+.site-title, 
+nav a[href*="substack"],
+h1.f2,
+.f2 {
   font-family: Georgia, "Times New Roman", serif !important;
   color: var(--dark-blue) !important;
   font-weight: 700;
@@ -25,11 +28,20 @@ body {
 }
 
 /* Logo styling in header */
-img[alt="The Cogitating Ceviche"] {
+img[alt="The Cogitating Ceviche"],
+nav img {
   max-height: 60px !important;
   width: auto !important;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(44, 95, 115, 0.2);
+}
+
+/* Main container with left margin */
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 6rem !important;
+  padding: 2rem;
 }
 
 /* Medium-style grid layout with brand colors */
@@ -38,8 +50,6 @@ img[alt="The Cogitating Ceviche"] {
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1.5rem;
   padding: 1rem 0;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .grid-item {
@@ -181,6 +191,11 @@ img[alt="The Cogitating Ceviche"] {
 
 /* Responsive design */
 @media (max-width: 768px) {
+  .main-container {
+    margin-left: 1rem !important;
+    padding: 1rem;
+  }
+  
   .article-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -198,10 +213,5 @@ img[alt="The Cogitating Ceviche"] {
   .pagination-wrapper {
     flex-direction: column;
     gap: 1rem;
-  }
-  
-  /* Remove left margin on mobile */
-  div[style*="margin-left: 4rem"] {
-    margin-left: 1rem !important;
   }
 }
