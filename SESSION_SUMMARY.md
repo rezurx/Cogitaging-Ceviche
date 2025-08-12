@@ -11,12 +11,14 @@
 - **Resolved "ModuleNotFoundError: No module named 'yaml'"** error
 - **Automated deployments** now working without errors
 
-### 📝 Content Enhancement
+### 📝 Content Enhancement (PARTIAL - ISSUES REMAIN)
 - **Enhanced article preview scraper** to skip promotional content:
   - Removes "Voice-over provided by Amazon Polly" text
   - Skips subscription prompts and promotional text
   - Extracts actual article content for previews
+  - ❌ **Still not working properly** - promotional text still appearing
 - **Updated preview length** from 20 words to 100 words as requested
+  - ❌ **Template updated but may not be effective**
 - **Added new article**: "Faith in the Public Square" with improved preview
 
 ### 🎨 Brand Integration Implementation
@@ -56,11 +58,17 @@
    - Multiple CSS selectors tried
    - May need more specific theme overrides
 
+5. **Article Previews Not Working**: Despite scraper and template improvements
+   - Enhanced scraper logic not effective
+   - Promotional text still appearing in previews
+   - 100-word length may not be applying correctly
+
 ### Next Session Priorities
 - Debug logo display issue (check theme CSS conflicts)
 - Fix left margin with theme-specific approach
 - Verify header link behavior on live site
 - Resolve typography styling conflicts
+- **Fix article preview generation** (scraper + template issues)
 
 ## 🔧 KEY TECHNICAL FIXES
 

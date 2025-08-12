@@ -23,10 +23,10 @@
 - Hover effects with flag red transitions
 - Enhanced shadows and rounded corners throughout
 
-### Content Improvements  
-- 100-word article previews (up from 20 words)
-- Enhanced content scraper skips promotional text
-- Better typography hierarchy with serif fonts attempted
+### Content Improvements (ATTEMPTED)
+- ❌ **100-word article previews** - Template updated but not working properly
+- ❌ **Enhanced content scraper** - Logic implemented but promotional text still appearing
+- ❌ **Better typography hierarchy** - Serif fonts attempted but not applying
 
 ## 🚨 **Outstanding Issues**
 
@@ -73,6 +73,19 @@
 ```
 **Issue**: Theme's utility classes likely overriding with higher specificity
 
+### 5. Article Preview Issues
+**Status**: ❌ Not Working
+**Issues**:
+- Enhanced scraper logic not removing promotional text effectively
+- Template shows 100 words but may not be using improved content
+- Promotional text ("Voice-over provided by Amazon Polly") still appearing
+- Need to verify if scraper improvements are running in automation
+
+**Investigation Needed**: 
+- Check if automated workflow is using updated scraper
+- Verify content regeneration with new logic
+- May need to manually regenerate all articles with improved scraper
+
 ## 🔧 **Technical Investigation Needed**
 
 ### For Next Session Priority Actions:
@@ -98,6 +111,12 @@
    - Check for any URL rewriting or redirects
    - Verify GitHub Pages configuration
 
+5. **Article Preview Fix**:
+   - Manually regenerate articles with improved scraper
+   - Verify automation is using updated scraper code
+   - Test scraper logic on sample articles
+   - Check if template changes are being applied
+
 ## 📋 **Brand Asset To-Do List**
 From original `WebsiteAesthetics.txt`:
 
@@ -120,4 +139,4 @@ When brand integration is complete, users should see:
 - [ ] Serif typography for titles
 - [ ] Proper Substack header link
 
-**Current Success Rate**: ~60% - Colors and card styling working, but core display issues remain.
+**Current Success Rate**: ~40% - Colors and card styling working, but core display and content issues remain.

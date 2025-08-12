@@ -289,11 +289,12 @@ This is a personal blog project for Conrad T. Hannon's satirical content. The AI
 - **Left margin not applied** - page still flush against left edge  
 - **Header link issues** - may be redirecting incorrectly
 - **Title font** not changing to serif despite CSS rules
+- **Article previews not working** - still showing promotional text instead of 100-word content previews
 
 ## ✅ **Completed This Session:**
-- Enhanced article preview scraper (skips promotional content)
-- Fixed GitHub Actions PyYAML dependency issue
-- Implemented comprehensive brand color palette
+- Fixed GitHub Actions PyYAML dependency issue (automation now working)
+- Implemented comprehensive brand color palette (fish blue, glasses yellow, etc.)
 - Created branded card styling with fish blue borders and golden accents
-- Updated to 100-word article previews
+- Enhanced article preview scraper logic (needs debugging - not working yet)
+- Updated template to 100-word article previews (needs verification)
 - Added new content ingestion capabilities
