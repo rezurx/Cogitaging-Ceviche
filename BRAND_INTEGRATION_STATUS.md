@@ -1,5 +1,5 @@
 # Brand Integration Status Report
-## The Cogitating Ceviche - August 12, 2025
+## The Cogitating Ceviche - August 13, 2025
 
 ## 🎨 **Brand Assets Available**
 - **Fish Logo Designs**: 4 variations uploaded
@@ -23,57 +23,54 @@
 - Hover effects with flag red transitions
 - Enhanced shadows and rounded corners throughout
 
+### Automation Infrastructure (FIXED ✅)
+- **Complex workflow automation** - PyYAML import issues resolved
+- **Content detection debugging** - Enhanced logging added
+- **Fallback strategy** - Simple workflow as backup
+- **Advanced features** - Monitoring, backups, error reporting working
+
 ### Content Improvements (ATTEMPTED)
 - ❌ **100-word article previews** - Template updated but not working properly
 - ❌ **Enhanced content scraper** - Logic implemented but promotional text still appearing
 - ❌ **Better typography hierarchy** - Serif fonts attempted but not applying
 
-## 🚨 **Outstanding Issues**
+## 🚨 **CRITICAL OUTSTANDING ISSUES**
 
-### 1. Fish Logo Not Displaying
-**Status**: ❌ Not Working
-**Configuration**: 
-- File location: `/static/images/fish-logo.png` ✅
-- Hugo config: `site_logo = "/images/fish-logo.png"` ✅  
-- Theme template: Uses `{{ .Site.Params.site_logo }}` ✅
-- Generated HTML: Shows correct `<img src="/images/fish-logo.png">` ✅
+### 1. GitHub Pages Domain Configuration Issues ⚠️ **CRITICAL**
+**Status**: ❌ Still failing after multiple attempts
+**Error**: `main.min.a435900c9526553f612703c08ba3e4d4d06b303313ad79f8c5e26ef4b75d634b.css:1 Failed to load resource: the server responded with a status of 404`
 
-**Possible Causes**:
-- Theme CSS conflicts hiding the image
-- Image file path resolution issues
-- Cache/CDN not serving the image file
-- Theme may not be loading custom assets properly
+**Root Cause**: GitHub Pages deployment URL mismatch
+- Site loads but all assets (CSS, images) get 404 errors
+- Hugo builds correctly locally with `baseURL = "https://cogitating-ceviche.com"`
+- Deployed site still shows wrong paths like `/Cogitaging-Ceviche/` in HTML source
 
-### 2. Left Margin Not Applied
-**Status**: ❌ Not Working  
-**Implementation Attempted**:
-- Created `.main-container` class with `margin-left: 6rem !important`
-- Applied to main content wrapper in `layouts/index.html`
-- Added responsive design for mobile
+**Attempted Fixes**:
+1. ✅ Added `cname: cogitating-ceviche.com` to both workflows
+2. ✅ Added `--baseURL "https://cogitating-ceviche.com"` to Hugo build commands
+3. ✅ Verified CNAME file exists and is correct
+4. ❌ **Still failing** - deployment may need additional GitHub Pages settings
 
-**Possible Causes**:
-- Theme's CSS has higher specificity
-- Flexbox/grid layout overriding margins
-- Theme may be resetting margins at global level
-- CSS load order issues
+**Next Session Priority**: 
+- Check GitHub repository Pages settings manually
+- Verify if GitHub Actions deploy is overriding domain config
+- May need to use different deployment approach or debug GitHub Pages config
+
+### 2. Fish Logo Not Displaying  
+**Status**: ❌ Not Working (secondary to CSS loading issue)
+**Configuration**: All correct, but CSS not loading prevents proper rendering
 
 ### 3. Header Link Issues
-**Status**: ⚠️ Inconsistent
-**Current Setup**: Links to `https://thecogitatingceviche.substack.com`
-**User Reports**: Seeing redirects to wrong URLs
-**Investigation Needed**: Check actual deployed behavior vs. local build
+**Status**: ✅ **FIXED** - Now points to home page instead of Substack
 
-### 4. Typography Not Changing
-**Status**: ❌ Not Working
-**Attempted Selectors**:
-```css
-.site-title, nav a[href*="substack"], h1.f2, .f2 {
-  font-family: Georgia, "Times New Roman", serif !important;
-}
-```
-**Issue**: Theme's utility classes likely overriding with higher specificity
+### 4. Left Margin Not Applied
+**Status**: ❌ Not Working (secondary to CSS loading issue)
+**CSS exists** but doesn't load due to GitHub Pages URL issues
 
-### 5. Article Preview Issues
+### 5. Typography Not Changing
+**Status**: ❌ Not Working (secondary to CSS loading issue)
+
+### 6. Article Preview Issues
 **Status**: ❌ Not Working
 **Issues**:
 - Enhanced scraper logic not removing promotional text effectively
@@ -88,34 +85,30 @@
 
 ## 🔧 **Technical Investigation Needed**
 
-### For Next Session Priority Actions:
-1. **Logo Display Debug**:
-   - Check browser developer tools for 404 errors
-   - Verify image file is actually served by GitHub Pages
-   - Test with different image format or location
-   - Examine theme's image loading mechanisms
+### For Next Session URGENT Priority Actions:
 
-2. **CSS Specificity Analysis**:
-   - Inspect actual applied styles in browser
-   - Check theme's CSS load order and specificity
-   - May need to override theme files directly
-   - Consider using `!important` more strategically
+### **1. GitHub Pages Configuration Deep Dive** 🚨 **CRITICAL**
+- **Manual GitHub Settings Check**: Repository → Settings → Pages → Verify custom domain
+- **Deploy Method Analysis**: Determine if GitHub Actions vs built-in Pages conflict
+- **Alternative Deploy Strategy**: Consider using `gh-pages` branch vs GitHub Actions
+- **Domain DNS Verification**: Ensure cogitating-ceviche.com DNS properly configured
+- **Repository Name Issue**: "Cogitaging" typo in repo name may cause path conflicts
 
-3. **Theme Override Strategy**:
-   - Review Ananke theme structure for customization points
-   - Check if custom CSS is loading after theme CSS
-   - Consider modifying theme files vs. overriding
+### **2. CSS/Asset Loading Resolution**
+- **Path Analysis**: Debug why Hugo generates correct paths but GitHub serves wrong ones
+- **Asset Pipeline**: Check if Hugo's asset processing conflicts with GitHub Pages
+- **Cache Issues**: Verify if GitHub CDN/cache causing stale asset references
+- **Theme Asset Handling**: Review if Ananke theme assets load differently than custom CSS
 
-4. **Header Link Verification**:
-   - Test actual deployed site behavior
-   - Check for any URL rewriting or redirects
-   - Verify GitHub Pages configuration
+### **3. Content Automation Debugging**
+- **Workflow Content Detection**: The 2 missing articles issue - debug content detection logic
+- **Scraper Enhancement**: Fix promotional text removal in article previews
+- **Manual Content Update**: Force regenerate all articles with improved scraper
 
-5. **Article Preview Fix**:
-   - Manually regenerate articles with improved scraper
-   - Verify automation is using updated scraper code
-   - Test scraper logic on sample articles
-   - Check if template changes are being applied
+### **Lower Priority (After CSS Fixed)**:
+4. **Logo Display Debug** (depends on CSS loading)
+5. **Typography Issues** (depends on CSS loading)  
+6. **Left Margin Application** (depends on CSS loading)
 
 ## 📋 **Brand Asset To-Do List**
 From original `WebsiteAesthetics.txt`:
