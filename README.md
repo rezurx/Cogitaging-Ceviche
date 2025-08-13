@@ -1,7 +1,7 @@
 # The Cogitating Ceviche
 ## Modern Hugo-Based Satirical Blog with AI Development Integration
 
-**Live Site**: https://darkorange-lark-300659.hostingersite.com  
+**Live Site**: https://cogitating-ceviche.com  
 **Author**: Conrad T. Hannon (pseudonym)  
 **Status**: ✅ Live & AI-Enhanced
 
@@ -26,8 +26,8 @@ The Cogitating Ceviche is a professional Hugo-based static blog featuring satiri
 - **Static Site Generator**: Hugo v0.132+
 - **Theme**: Ananke (customized)
 - **Content Format**: Markdown with YAML frontmatter
-- **Hosting**: Hostinger
-- **Domain**: darkorange-lark-300659.hostingersite.com
+- **Hosting**: GitHub Pages
+- **Domain**: cogitating-ceviche.com
 
 ### AI Development Integration
 - **CC-Subagents System**: Universal AI development assistant framework
@@ -89,9 +89,9 @@ cogitating-ceviche/
 
 ### Content Management
 1. **External Content Ingestion**: `python3 ingest_external_articles.py`
-2. **Site Generation**: `hugo` (builds to `public/`)
+2. **Site Generation**: `hugo --minify --baseURL "https://cogitating-ceviche.com/"` (builds to `public/`)
 3. **Local Development**: `hugo server` (serves on localhost:1313)
-4. **Deployment**: Manual upload to Hostinger via SSH/File Manager
+4. **Deployment**: `git add . && git commit -m "message" && git push origin main`
 
 ### AI-Assisted Development
 1. **Activate Environment**: `./activate_subagents.sh`
@@ -128,10 +128,10 @@ cogitating-ceviche/
 ## Deployment Information
 
 ### Live Deployment
-- **URL**: https://darkorange-lark-300659.hostingersite.com
-- **Hosting**: Hostinger shared hosting
-- **SSL**: Enabled (Let's Encrypt)
-- **Build Process**: Hugo → Upload to `public_html/`
+- **URL**: https://cogitating-ceviche.com
+- **Hosting**: GitHub Pages
+- **SSL**: Enabled (GitHub Pages default)
+- **Build Process**: Hugo → Git push → GitHub Pages deployment
 
 ### Development Environment
 - **Local Development**: Hugo server (when localhost is accessible)
@@ -244,7 +244,8 @@ hugo
 ### Common Issues
 - **Hugo Build Errors**: Check `hugo.toml` configuration and theme compatibility
 - **Content Ingestion**: Verify RSS feed URLs and network connectivity
-- **Deployment Issues**: Check Hostinger file structure and permissions
+- **CSS 404 Errors**: Run `hugo --minify --baseURL "https://cogitating-ceviche.com/"` to rebuild with correct baseURL
+- **GitHub Pages Deployment**: Ensure `CNAME` file contains `cogitating-ceviche.com` and baseURL matches
 - **AI Agent Issues**: Ensure virtual environment is activated
 
 ### Quick Fixes
@@ -252,11 +253,15 @@ hugo
 # Reset Hugo caches
 hugo mod clean
 
+# Fix CSS 404 errors (rebuild with correct baseURL)
+hugo --minify --baseURL "https://cogitating-ceviche.com/"
+git add . && git commit -m "Fix CSS deployment issue" && git push origin main
+
 # Reinstall AI dependencies
 source subagent-env/bin/activate && pip install -r requirements.txt
 
 # Rebuild everything
-rm -rf public/ resources/ && hugo
+rm -rf public/ resources/ && hugo --minify --baseURL "https://cogitating-ceviche.com/"
 ```
 
 ---
@@ -292,6 +297,9 @@ This is a personal blog project for Conrad T. Hannon's satirical content. The AI
 - **Article previews not working** - still showing promotional text instead of 100-word content previews
 
 ## ✅ **Completed This Session:**
+- ✅ **FIXED CSS 404 Error**: Resolved missing CSS file issue on GitHub Pages
+- ✅ **Fixed GitHub Pages Deployment**: Proper baseURL configuration and rebuild process
+- ✅ **Updated Documentation**: Added troubleshooting for CSS deployment issues
 - Fixed GitHub Actions PyYAML dependency issue (automation now working)
 - Implemented comprehensive brand color palette (fish blue, glasses yellow, etc.)
 - Created branded card styling with fish blue borders and golden accents
