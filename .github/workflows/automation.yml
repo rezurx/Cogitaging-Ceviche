@@ -130,15 +130,26 @@ jobs:
     - name: Check for new content
       id: content_check
       run: |
+        echo "=== Checking for new content ==="
+        echo "Current working directory: $(pwd)"
+        echo "Content directory contents:"
+        ls -la content/ || echo "No content directory"
+        echo "Git status before adding:"
+        git status --porcelain
+        
         # Check if there are any new or modified content files
         git add -A
+        echo "Git status after git add -A:"
+        git status --porcelain
+        
         if git diff --staged --quiet; then
           echo "has_changes=false" >> $GITHUB_OUTPUT
           echo "No new content found"
         else
           echo "has_changes=true" >> $GITHUB_OUTPUT
           echo "New content detected"
-          git status --porcelain
+          echo "Staged changes:"
+          git diff --staged --name-status
         fi
     
     - name: Commit new content
