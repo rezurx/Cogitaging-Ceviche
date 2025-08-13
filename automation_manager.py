@@ -16,8 +16,33 @@ import sys
 import json
 try:
     import yaml
-except ImportError:
-    print("ERROR: PyYAML not installed. Run: pip install PyYAML")
+    print(f"✅ PyYAML imported successfully (version: {yaml.__version__})")
+except ImportError as e:
+    print("❌ ERROR: PyYAML not installed or not accessible")
+    print(f"ImportError details: {e}")
+    print("\n🔧 Diagnostic information:")
+    print(f"Python version: {sys.version}")
+    print(f"Python path: {sys.path}")
+    
+    # Try to show what packages are available
+    try:
+        import subprocess
+        result = subprocess.run([sys.executable, '-m', 'pip', 'list'], 
+                              capture_output=True, text=True, timeout=30)
+        print(f"Installed packages:\n{result.stdout}")
+    except Exception as pkg_error:
+        print(f"Could not list packages: {pkg_error}")
+    
+    print("\n💡 Solutions to try:")
+    print("1. pip install PyYAML")
+    print("2. python -m pip install PyYAML") 
+    print("3. pip install pyyaml")
+    print("4. Check if running in virtual environment")
+    
+    sys.exit(1)
+except Exception as e:
+    print(f"❌ UNEXPECTED ERROR importing yaml: {e}")
+    print(f"Error type: {type(e).__name__}")
     sys.exit(1)
 import logging
 import traceback

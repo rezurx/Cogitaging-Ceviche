@@ -49,7 +49,7 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-        cache: 'pip'
+        # Disable cache to avoid potential issues
     
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
@@ -64,14 +64,56 @@ jobs:
         cache: 'npm'
         cache-dependency-path: '**/package-lock.json'
     
-    - name: Install Python dependencies
+    - name: Debug Python environment
       run: |
+        echo "Python version:"
+        python --version
+        echo "Python path:"
+        python -c "import sys; print('\n'.join(sys.path))"
+        echo "Pip version:"
+        pip --version
+        echo "Current working directory:"
+        pwd
+        echo "Available packages before install:"
+        pip list | head -10
+
+    - name: Install Python dependencies with debugging
+      run: |
+        echo "=== Upgrading pip ==="
         python -m pip install --upgrade pip
-        # Install PyYAML first to ensure it's available
-        pip install PyYAML pyyaml
-        pip install -r requirements.txt
-        # Verify PyYAML is installed
-        python -c "import yaml; print('PyYAML successfully installed:', yaml.__version__)"
+        
+        echo "=== Installing PyYAML with multiple approaches ==="
+        # Try multiple package names and installation methods
+        pip install PyYAML || echo "PyYAML install failed"
+        pip install pyyaml || echo "pyyaml install failed" 
+        pip install "PyYAML>=6.0" || echo "PyYAML>=6.0 install failed"
+        python -m pip install PyYAML || echo "python -m pip PyYAML failed"
+        
+        echo "=== Installing from requirements.txt ==="
+        pip install -r requirements.txt || echo "requirements.txt install had issues"
+        
+        echo "=== Verifying installations ==="
+        pip list | grep -i yaml || echo "No yaml packages found"
+        echo "Testing yaml import:"
+        python -c "
+import sys
+try:
+    import yaml
+    print('✅ SUCCESS: yaml imported successfully')
+    print('yaml.__file__:', yaml.__file__)
+    print('yaml.__version__:', yaml.__version__)
+except ImportError as e:
+    print('❌ FAILED: Cannot import yaml')
+    print('Error:', str(e))
+    print('Installed packages:')
+    import subprocess
+    result = subprocess.run(['pip', 'list'], capture_output=True, text=True)
+    print(result.stdout)
+    sys.exit(1)
+except Exception as e:
+    print('❌ UNEXPECTED ERROR:', str(e))
+    sys.exit(1)
+"
     
     - name: Create automation directories
       run: |
@@ -88,8 +130,21 @@ jobs:
       id: ingestion
       run: |
         echo "Starting content ingestion..."
-        python automation_manager.py run-once --verbose
-        echo "ingestion_status=$?" >> $GITHUB_OUTPUT
+        echo "=== Attempting automation_manager.py ==="
+        if python automation_manager.py run-once --verbose; then
+          echo "✅ automation_manager.py succeeded"
+          echo "ingestion_status=0" >> $GITHUB_OUTPUT
+        else
+          echo "❌ automation_manager.py failed, falling back to simple approach"
+          echo "=== Falling back to ingest_external_articles.py ==="
+          if python3 ingest_external_articles.py; then
+            echo "✅ Fallback ingestion succeeded"
+            echo "ingestion_status=0" >> $GITHUB_OUTPUT
+          else
+            echo "❌ Both approaches failed"
+            echo "ingestion_status=1" >> $GITHUB_OUTPUT
+          fi
+        fi
       continue-on-error: true
     
     - name: Check for new content
