@@ -95,25 +95,7 @@ jobs:
         echo "=== Verifying installations ==="
         pip list | grep -i yaml || echo "No yaml packages found"
         echo "Testing yaml import:"
-        python -c "
-import sys
-try:
-    import yaml
-    print('✅ SUCCESS: yaml imported successfully')
-    print('yaml.__file__:', yaml.__file__)
-    print('yaml.__version__:', yaml.__version__)
-except ImportError as e:
-    print('❌ FAILED: Cannot import yaml')
-    print('Error:', str(e))
-    print('Installed packages:')
-    import subprocess
-    result = subprocess.run(['pip', 'list'], capture_output=True, text=True)
-    print(result.stdout)
-    sys.exit(1)
-except Exception as e:
-    print('❌ UNEXPECTED ERROR:', str(e))
-    sys.exit(1)
-"
+        python -c "import sys; import yaml; print('✅ SUCCESS: yaml imported successfully, version:', yaml.__version__)" || python -c "print('❌ FAILED: Cannot import yaml'); import subprocess; result = subprocess.run(['pip', 'list'], capture_output=True, text=True); print('Installed packages:', result.stdout); exit(1)"
     
     - name: Create automation directories
       run: |
