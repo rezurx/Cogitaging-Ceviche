@@ -141,15 +141,17 @@ jobs:
         
         echo "Basic site validation passed"
     
-    - name: Deploy to Netlify (via git push)
+    - name: Deploy to GitHub Pages
       if: |
         (steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true') &&
         github.event.inputs.skip_deploy != 'true' &&
         github.ref == 'refs/heads/main'
-      run: |
-        echo "Pushing changes to trigger Netlify deployment..."
-        git push origin main
-        echo "Git push completed - Netlify will auto-deploy"
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        publish_branch: gh-pages
+        force_orphan: true
     
     - name: Create backup
       if: steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true'
@@ -264,7 +266,7 @@ jobs:
     - name: Check site availability
       run: |
         # Check if the deployed site is accessible
-        site_url="https://darkorange-lark-300659.hostingersite.com"
+        site_url="https://cogitating-ceviche.com"
         if curl -f -s -I "$site_url" > /dev/null; then
           echo "✅ Site is accessible: $site_url"
         else

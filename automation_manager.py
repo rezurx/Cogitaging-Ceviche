@@ -14,7 +14,11 @@ This script provides a complete automation system including:
 import os
 import sys
 import json
-import yaml
+try:
+    import yaml
+except ImportError:
+    print("ERROR: PyYAML not installed. Run: pip install PyYAML")
+    sys.exit(1)
 import logging
 import traceback
 import subprocess
