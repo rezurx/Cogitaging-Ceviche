@@ -202,6 +202,7 @@ jobs:
         publish_dir: ./public
         publish_branch: gh-pages
         force_orphan: true
+        cname: cogitating-ceviche.com
     
     - name: Create backup
       if: steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true'
