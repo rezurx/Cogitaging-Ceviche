@@ -67,9 +67,11 @@ jobs:
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
+        # Install PyYAML first to ensure it's available
+        pip install PyYAML pyyaml
         pip install -r requirements.txt
-        # Explicit install as backup in case requirements.txt fails
-        pip install PyYAML
+        # Verify PyYAML is installed
+        python -c "import yaml; print('PyYAML successfully installed:', yaml.__version__)"
     
     - name: Create automation directories
       run: |
