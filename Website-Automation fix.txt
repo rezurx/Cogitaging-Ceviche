@@ -1,0 +1,48 @@
+The job failed because the Python script tried to import the yaml module, but it isn't installed in the environment:
+
+```
+ModuleNotFoundError: No module named 'yaml'
+```
+This error occurred in automation_manager.py at import yaml.
+
+## Solution
+
+Add PyYAML as a dependency so it's installed before the script runs.
+
+### If you use requirements.txt:
+Add this line to requirements.txt:
+```txt
+PyYAML
+```
+
+### If you install dependencies in your workflow file:
+Add this step before running your Python script in .github/workflows/automation.yml:
+```yaml
+- name: Install PyYAML
+  run: pip install PyYAML
+```
+
+### Example workflow snippet:
+```yaml
+steps:
+  - uses: actions/checkout@v3
+  - name: Set up Python
+    uses: actions/setup-python@v4
+    with:
+      python-version: "3.x"
+  - name: Install dependencies
+    run: |
+      pip install -r requirements.txt
+      pip install PyYAML
+  # ...rest of your steps
+```
+
+## After applying the fix
+
+Re-run the workflow. The ModuleNotFoundError should be resolved.
+
+### Direct link to the failing line:
+See the import in automation_manager.py at ref 86de6780b72cfd7719164d8e4c4bfa610c5c7a7a:
+https://github.com/rezurx/Cogitaging-Ceviche/blob/86de6780b72cfd7719164d8e4c4bfa610c5c7a7a/automation_manager.py#L17
+
+Let me know if you need help adjusting your workflow or requirements files.

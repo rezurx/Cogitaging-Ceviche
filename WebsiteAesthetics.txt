@@ -1,0 +1,55 @@
+Here's what's next to finish the full asset kit for **The Cogitating Ceviche** brand site:
+
+---
+
+## ✅ **To-Do List (Remaining Deliverables)**
+
+### 1. **Favicon (32×32 and 64×64)**
+
+* Crop and simplify the fish to a clean, high-contrast icon.
+* Export as `.ico` and `.png`.
+
+### 2. **Transparent Logo PNG**
+
+* Export the fish with no background.
+* One version with just the fish, one with “The Cogitating Ceviche” in matching font.
+
+### 3. **Palette Reference Sheet**
+
+* Extract HEX codes:
+
+  * 🟦 Fish blue
+  * 🟨 Glasses yellow
+  * 🟥 Flag red
+  * 🏁 Cream/off-white
+  * ⚫ Black outline
+* Present them in swatches with labels.
+
+### 4. **Style Tile**
+
+A 1-page design reference including:
+
+* Logo
+* Typography (title + body fonts)
+* Color palette
+* Background texture suggestion
+* Button style or accent ideas
+
+---
+
+## 🔧 I Will Now Generate:
+
+* Favicon (fish icon cropped + downscaled)
+* Transparent logo PNG (just the fish)
+* Transparent logo PNG (with text)
+* Color palette reference
+* Full style tile layout
+
+Please confirm:
+
+1. Do you want any **tagline text** included? (e.g., “American Absurdity, Fileted for You”)
+2. Do you prefer **uppercase, mixed case**, or all **lowercase** in the logo text?
+3. What font style do you like for the text? (e.g., bold sans-serif, retro serif, typewriter, etc.)
+
+Once I have that, I’ll generate and compile everything.
+
