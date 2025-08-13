@@ -50,7 +50,7 @@ jobs:
     - name: Build Hugo site
       run: |
         echo "Building Hugo site..."
-        hugo --gc --minify
+        hugo --gc --minify --baseURL "https://cogitating-ceviche.com"
         echo "Hugo build completed."
     
     - name: Deploy to GitHub Pages

@@ -163,7 +163,7 @@ jobs:
       if: steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true'
       run: |
         echo "Building Hugo site..."
-        hugo --gc --minify --verbose
+        hugo --gc --minify --verbose --baseURL "https://cogitating-ceviche.com"
         echo "Build completed"
     
     - name: Run site tests (optional)
