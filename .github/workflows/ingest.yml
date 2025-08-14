@@ -21,19 +21,11 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install requests feedparser
+          pip install requests feedparser beautifulsoup4 lxml
 
-      - name: Build posts.json
-        env:
-          # TODO: Set this to your deployed Cloudflare Worker URL
-          # WORKER_PROXY_URL: https://your-worker.workers.dev
-          WORKER_PROXY_URL: ""  # Empty = use direct URLs (will fail in CI until Worker deployed)
+      - name: Ingest external articles
         run: |
-          python scripts/ingest_substack_new.py
-
-      - name: Generate sitemap
-        run: |
-          python scripts/sitemap_new.py
+          python ingest_external_articles.py
 
       - name: Commit data
         run: |
