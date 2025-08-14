@@ -53,48 +53,17 @@ BANNED_INLINE_PATTERNS = [
 
 ELLIPSIS = "..."
 
-def fetch_rss(url, max_retries=8, backoff=4.0):
-    """Fetch RSS with enhanced error handling and fallback strategies"""
+def fetch_rss(url, max_retries=4, backoff=2.0):
+    """Fetch RSS with simple approach that works like the original script"""
     for i in range(max_retries):
         try:
-            # Try different User-Agent strings for better success
-            user_agents = [
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-                "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-                "PostmanRuntime/7.32.2"
-            ]
-            
-            headers = HDRS.copy()
-            headers["User-Agent"] = user_agents[i % len(user_agents)]
-            
-            # Add more browser-like headers
-            headers.update({
-                "Accept-Language": "en-US,en;q=0.9",
-                "Accept-Encoding": "gzip, deflate, br",
-                "DNT": "1",
-                "Upgrade-Insecure-Requests": "1",
-                "Sec-Fetch-Dest": "document",
-                "Sec-Fetch-Mode": "navigate",
-                "Sec-Fetch-Site": "none"
-            })
-            
-            resp = requests.get(url, headers=headers, timeout=30)
-            
+            resp = requests.get(url, headers=HDRS, timeout=25)
             if resp.status_code == 200:
                 return resp.text
-            elif resp.status_code in (403, 429):
-                # Wait longer for rate limiting/blocking
-                wait_time = backoff * (i + 1) * 2
-                logging.warning(f"Got {resp.status_code} for {url}, waiting {wait_time}s...")
-                time.sleep(wait_time)
-            else:
-                logging.warning(f"GET {url} returned {resp.status_code}; retrying...")
-                time.sleep(backoff * (i + 1))
-                
+            logging.warning(f"GET {url} returned {resp.status_code}; retrying...")
         except requests.RequestException as e:
             logging.warning(f"GET error {e}; retrying...")
-            time.sleep(backoff * (i + 1))
+        time.sleep(backoff * (i + 1))
     
     # If all retries failed, return empty string instead of raising
     logging.error(f"Failed to fetch feed after {max_retries} retries: {url}")
