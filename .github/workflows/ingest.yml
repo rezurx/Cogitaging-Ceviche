@@ -23,9 +23,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests feedparser beautifulsoup4 lxml
 
-      - name: Ingest external articles
+      - name: Build posts.json
+        env:
+          WORKER_PROXY_URL: "https://small-water-400f.rezurx-ceviphant.workers.dev"
         run: |
-          python ingest_external_articles.py
+          python scripts/ingest_substack_new.py
 
       - name: Commit data
         run: |
