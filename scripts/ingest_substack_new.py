@@ -53,21 +53,32 @@ BANNED_INLINE_PATTERNS = [
 
 ELLIPSIS = "..."
 
-def fetch_rss(url, max_retries=4, backoff=2.0):
-    """Fetch RSS with simple approach that works like the original script"""
-    for i in range(max_retries):
-        try:
-            resp = requests.get(url, headers=HDRS, timeout=25)
-            if resp.status_code == 200:
-                return resp.text
-            logging.warning(f"GET {url} returned {resp.status_code}; retrying...")
-        except requests.RequestException as e:
-            logging.warning(f"GET error {e}; retrying...")
-        time.sleep(backoff * (i + 1))
-    
-    # If all retries failed, return empty string instead of raising
-    logging.error(f"Failed to fetch feed after {max_retries} retries: {url}")
-    return ""
+def parse_feed_direct(url, source_hint):
+    """Parse feed directly using feedparser to avoid 403 issues"""
+    try:
+        # Let feedparser handle the fetching - it's more resilient
+        d = feedparser.parse(url)
+        
+        if not hasattr(d, 'entries') or not d.entries:
+            print(f"  ❌ No entries found in feed: {url}")
+            return []
+            
+        items = []
+        for it in d.entries:
+            html = it.get("content", [{}])[0].get("value") if it.get("content") else it.get("summary", "")
+            items.append({
+                "title": it.get("title", "") or "",
+                "url": it.get("link", "") or "",
+                "published": it.get("published", it.get("updated", "")) or "",
+                "image": extract_first_image(html),
+                "excerpt": sanitize_preview(html, 25, 40),
+                "source": source_hint,
+            })
+        return items
+        
+    except Exception as e:
+        print(f"  ❌ Error parsing feed {url}: {e}")
+        return []
 
 def strip_html_to_text(html: str) -> str:
     txt = re.sub(r"<br\s*/?>", "\n", html or "", flags=re.I)
@@ -119,21 +130,6 @@ def extract_first_image(html):
     m = re.search(r'<img[^>]+src="([^"]+)"', html or "", re.I)
     return m.group(1) if m else ""
 
-def parse_feed(xml_text, source_hint):
-    d = feedparser.parse(xml_text)
-    items = []
-    for it in d.entries:
-        html = it.get("content", [{}])[0].get("value") if it.get("content") else it.get("summary", "")
-        items.append({
-            "title": it.get("title", "") or "",
-            "url": it.get("link", "") or "",
-            "published": it.get("published", it.get("updated", "")) or "",
-            "image": extract_first_image(html),
-            "excerpt": sanitize_preview(html, 25, 40),
-            "source": source_hint,
-        })
-    return items
-
 def ingest_substacks():
     all_items = []
     successful_feeds = 0
@@ -141,9 +137,8 @@ def ingest_substacks():
     for feed in SUBSTACK_FEEDS:
         try:
             print(f"Fetching {feed}...")
-            xml = fetch_rss(feed)
-            if xml:  # Only process if we got content
-                items = parse_feed(xml, source_hint="substack")
+            items = parse_feed_direct(feed, source_hint="substack")
+            if items:  # Only process if we got content
                 all_items.extend(items)
                 successful_feeds += 1
                 print(f"  ✅ Found {len(items)} items")
@@ -174,7 +169,7 @@ def ingest_substacks():
 def write_output(items, out_path="public/data/posts.json"):
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
-        json.dump({"generatedAt": datetime.utcnow().isoformat(), "items": items}, f, ensure_ascii=False, indent=2)
+        json.dump({"generatedAt": datetime.now().isoformat(), "items": items}, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     items = ingest_substacks()
