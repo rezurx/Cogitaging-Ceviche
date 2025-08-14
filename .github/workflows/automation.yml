@@ -61,7 +61,6 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ env.NODE_VERSION }}
-        cache: 'npm'
     
     - name: Debug Python environment
       run: |
@@ -114,25 +113,26 @@ jobs:
         echo "Starting content ingestion..."
         echo "=== Attempting automation_manager.py ==="
         
-        # Set timeout for individual commands
-        timeout 600 python automation_manager.py run-once --verbose
+        # Use the new enhanced ingestion script
+        timeout 300 python3 scripts/ingest_substack_new.py
         if [ $? -eq 0 ]; then
-          echo "✅ automation_manager.py succeeded"
+          echo "✅ Enhanced ingestion succeeded"
           echo "ingestion_status=0" >> $GITHUB_OUTPUT
+          # Also generate sitemap
+          python3 scripts/sitemap_new.py
         elif [ $? -eq 124 ]; then
-          echo "⏰ automation_manager.py timed out after 10 minutes"
-          echo "=== Falling back to ingest_external_articles.py ==="
+          echo "⏰ Enhanced ingestion timed out after 5 minutes"
+          echo "=== Falling back to original script ==="
           timeout 300 python3 ingest_external_articles.py
           if [ $? -eq 0 ]; then
             echo "✅ Fallback ingestion succeeded"
             echo "ingestion_status=0" >> $GITHUB_OUTPUT
           else
-            echo "❌ Fallback also failed or timed out"
+            echo "❌ Both approaches failed or timed out"
             echo "ingestion_status=1" >> $GITHUB_OUTPUT
           fi
         else
-          echo "❌ automation_manager.py failed, falling back to simple approach"
-          echo "=== Falling back to ingest_external_articles.py ==="
+          echo "❌ Enhanced ingestion failed, falling back to original"
           timeout 300 python3 ingest_external_articles.py
           if [ $? -eq 0 ]; then
             echo "✅ Fallback ingestion succeeded"
