@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
-import time, re, json, logging, os
+import time, re, json, logging, os, subprocess
 from datetime import datetime
-import requests
 import feedparser
 from html import unescape
 
@@ -15,11 +14,6 @@ UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
-HDRS = {
-    "User-Agent": UA,
-    "Accept": "application/rss+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.7",
-    "Connection": "keep-alive",
-}
 
 # Phrases/lines to remove from teaser text
 BANNED_LINE_PATTERNS = [
@@ -53,11 +47,37 @@ BANNED_INLINE_PATTERNS = [
 
 ELLIPSIS = "..."
 
-def parse_feed_direct(url, source_hint):
-    """Parse feed directly using feedparser to avoid 403 issues"""
+def fetch_with_curl(url):
+    """Use curl to fetch RSS content - often bypasses Python-specific blocks"""
     try:
-        # Let feedparser handle the fetching - it's more resilient
-        d = feedparser.parse(url)
+        cmd = [
+            'curl', '-s', '-L',
+            '-H', f'User-Agent: {UA}',
+            '-H', 'Accept: application/rss+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.7',
+            '-H', 'Connection: keep-alive',
+            '--max-time', '30',
+            url
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=35)
+        if result.returncode == 0 and result.stdout.strip():
+            return result.stdout
+        else:
+            print(f"  ❌ curl failed for {url}: {result.stderr}")
+            return None
+    except Exception as e:
+        print(f"  ❌ curl error for {url}: {e}")
+        return None
+
+def parse_feed_direct(url, source_hint):
+    """Parse feed using curl then feedparser to avoid Python HTTP blocks"""
+    try:
+        # First try to fetch with curl to bypass potential Python/requests blocking
+        xml_content = fetch_with_curl(url)
+        if not xml_content:
+            return []
+            
+        # Parse the fetched content
+        d = feedparser.parse(xml_content)
         
         if not hasattr(d, 'entries') or not d.entries:
             print(f"  ❌ No entries found in feed: {url}")
