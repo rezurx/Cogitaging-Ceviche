@@ -1,5 +1,6 @@
 # Hugo build output
-public/
+public/*
+!public/data/
 resources/_gen/
 
 # Python
