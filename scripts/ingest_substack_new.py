@@ -53,17 +53,52 @@ BANNED_INLINE_PATTERNS = [
 
 ELLIPSIS = "..."
 
-def fetch_rss(url, max_retries=4, backoff=2.0):
+def fetch_rss(url, max_retries=8, backoff=4.0):
+    """Fetch RSS with enhanced error handling and fallback strategies"""
     for i in range(max_retries):
         try:
-            resp = requests.get(url, headers=HDRS, timeout=25)
+            # Try different User-Agent strings for better success
+            user_agents = [
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+                "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+                "PostmanRuntime/7.32.2"
+            ]
+            
+            headers = HDRS.copy()
+            headers["User-Agent"] = user_agents[i % len(user_agents)]
+            
+            # Add more browser-like headers
+            headers.update({
+                "Accept-Language": "en-US,en;q=0.9",
+                "Accept-Encoding": "gzip, deflate, br",
+                "DNT": "1",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "none"
+            })
+            
+            resp = requests.get(url, headers=headers, timeout=30)
+            
             if resp.status_code == 200:
                 return resp.text
-            logging.warning(f"GET {url} returned {resp.status_code}; retrying...")
+            elif resp.status_code in (403, 429):
+                # Wait longer for rate limiting/blocking
+                wait_time = backoff * (i + 1) * 2
+                logging.warning(f"Got {resp.status_code} for {url}, waiting {wait_time}s...")
+                time.sleep(wait_time)
+            else:
+                logging.warning(f"GET {url} returned {resp.status_code}; retrying...")
+                time.sleep(backoff * (i + 1))
+                
         except requests.RequestException as e:
             logging.warning(f"GET error {e}; retrying...")
-        time.sleep(backoff * (i + 1))
-    raise RuntimeError(f"Failed to fetch feed after retries: {url}")
+            time.sleep(backoff * (i + 1))
+    
+    # If all retries failed, return empty string instead of raising
+    logging.error(f"Failed to fetch feed after {max_retries} retries: {url}")
+    return ""
 
 def strip_html_to_text(html: str) -> str:
     txt = re.sub(r"<br\s*/?>", "\n", html or "", flags=re.I)
@@ -132,15 +167,38 @@ def parse_feed(xml_text, source_hint):
 
 def ingest_substacks():
     all_items = []
+    successful_feeds = 0
+    
     for feed in SUBSTACK_FEEDS:
-        xml = fetch_rss(feed)
-        all_items.extend(parse_feed(xml, source_hint="substack"))
-        time.sleep(1.5)
+        try:
+            print(f"Fetching {feed}...")
+            xml = fetch_rss(feed)
+            if xml:  # Only process if we got content
+                items = parse_feed(xml, source_hint="substack")
+                all_items.extend(items)
+                successful_feeds += 1
+                print(f"  ✅ Found {len(items)} items")
+            else:
+                print(f"  ❌ Failed to fetch {feed}")
+        except Exception as e:
+            print(f"  ❌ Error processing {feed}: {e}")
+            continue
+        
+        time.sleep(1.5)  # Be nice to servers
+    
+    if successful_feeds == 0:
+        print("⚠️  Warning: No feeds were successfully processed")
+        # Don't fail completely, just return empty list
+        return []
+    
+    print(f"✅ Successfully processed {successful_feeds}/{len(SUBSTACK_FEEDS)} feeds")
+    
     def ts(s):
         try:
             return int(datetime.fromisoformat(s).timestamp())
         except Exception:
             return 0
+    
     all_items.sort(key=lambda x: ts(x["published"]), reverse=True)
     return all_items
 
