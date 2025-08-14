@@ -24,6 +24,10 @@ jobs:
           pip install requests feedparser
 
       - name: Build posts.json
+        env:
+          # TODO: Set this to your deployed Cloudflare Worker URL
+          # WORKER_PROXY_URL: https://your-worker.workers.dev
+          WORKER_PROXY_URL: ""  # Empty = use direct URLs (will fail in CI until Worker deployed)
         run: |
           python scripts/ingest_substack_new.py
 

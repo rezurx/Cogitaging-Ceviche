@@ -1,0 +1,9 @@
+name = "cogitating-ceviche-rss-proxy"
+main = "worker.js"
+compatibility_date = "2023-10-30"
+
+# This Worker will be deployed to proxy RSS feeds for the Cogitating Ceviche website
+# It bypasses Substack's blocking of GitHub Actions IPs
+
+[env.production]
+name = "cogitating-ceviche-rss-proxy"

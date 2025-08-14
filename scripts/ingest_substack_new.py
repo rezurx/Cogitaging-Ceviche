@@ -5,10 +5,28 @@ from datetime import datetime
 import feedparser
 from html import unescape
 
-SUBSTACK_FEEDS = [
+# RSS Feed Configuration
+# Direct URLs work locally, but GitHub Actions needs the Cloudflare Worker proxy
+DIRECT_SUBSTACK_FEEDS = [
     "https://thecogitatingceviche.substack.com/feed",
     "https://thecyberneticceviche.substack.com/feed",
 ]
+
+# Set WORKER_PROXY_URL environment variable to use Cloudflare Worker
+# Example: https://your-worker.workers.dev
+WORKER_PROXY_URL = os.environ.get("WORKER_PROXY_URL")
+
+if WORKER_PROXY_URL:
+    # Use Cloudflare Worker proxy (for CI environments)
+    SUBSTACK_FEEDS = [
+        f"{WORKER_PROXY_URL}/?feed=https://thecogitatingceviche.substack.com/feed",
+        f"{WORKER_PROXY_URL}/?feed=https://thecyberneticceviche.substack.com/feed",
+    ]
+    print(f"🔄 Using Cloudflare Worker proxy: {WORKER_PROXY_URL}")
+else:
+    # Use direct URLs (for local development)
+    SUBSTACK_FEEDS = DIRECT_SUBSTACK_FEEDS
+    print("🔗 Using direct Substack URLs (local mode)")
 
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
