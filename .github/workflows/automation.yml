@@ -46,10 +46,10 @@ jobs:
         fetch-depth: 0
     
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-        # Disable cache to avoid potential issues
+        cache: 'pip'
     
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
@@ -58,9 +58,10 @@ jobs:
         extended: true
     
     - name: Setup Node.js (for potential build tools)
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ env.NODE_VERSION }}
+        cache: 'npm'
     
     - name: Debug Python environment
       run: |
@@ -108,16 +109,32 @@ jobs:
     
     - name: Run content ingestion
       id: ingestion
+      timeout-minutes: 15
       run: |
         echo "Starting content ingestion..."
         echo "=== Attempting automation_manager.py ==="
-        if python automation_manager.py run-once --verbose; then
+        
+        # Set timeout for individual commands
+        timeout 600 python automation_manager.py run-once --verbose
+        if [ $? -eq 0 ]; then
           echo "✅ automation_manager.py succeeded"
           echo "ingestion_status=0" >> $GITHUB_OUTPUT
+        elif [ $? -eq 124 ]; then
+          echo "⏰ automation_manager.py timed out after 10 minutes"
+          echo "=== Falling back to ingest_external_articles.py ==="
+          timeout 300 python3 ingest_external_articles.py
+          if [ $? -eq 0 ]; then
+            echo "✅ Fallback ingestion succeeded"
+            echo "ingestion_status=0" >> $GITHUB_OUTPUT
+          else
+            echo "❌ Fallback also failed or timed out"
+            echo "ingestion_status=1" >> $GITHUB_OUTPUT
+          fi
         else
           echo "❌ automation_manager.py failed, falling back to simple approach"
           echo "=== Falling back to ingest_external_articles.py ==="
-          if python3 ingest_external_articles.py; then
+          timeout 300 python3 ingest_external_articles.py
+          if [ $? -eq 0 ]; then
             echo "✅ Fallback ingestion succeeded"
             echo "ingestion_status=0" >> $GITHUB_OUTPUT
           else
@@ -161,10 +178,27 @@ jobs:
     
     - name: Build site
       if: steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true'
+      timeout-minutes: 10
       run: |
         echo "Building Hugo site..."
-        hugo --gc --minify --verbose --baseURL "https://cogitating-ceviche.com"
-        echo "Build completed"
+        echo "Available disk space:"
+        df -h
+        echo "Memory usage:"
+        free -h
+        
+        # Build with enhanced error checking
+        hugo --gc --minify --verbose --enableGitInfo --baseURL "https://cogitating-ceviche.com" --logLevel info
+        
+        if [ $? -eq 0 ]; then
+          echo "✅ Hugo build completed successfully"
+          echo "Generated files:"
+          ls -la public/ | head -10
+          echo "Site size:"
+          du -sh public/
+        else
+          echo "❌ Hugo build failed"
+          exit 1
+        fi
     
     - name: Run site tests (optional)
       if: steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true'
@@ -196,13 +230,15 @@ jobs:
         (steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true') &&
         github.event.inputs.skip_deploy != 'true' &&
         github.ref == 'refs/heads/main'
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
         publish_branch: gh-pages
         force_orphan: true
         cname: cogitating-ceviche.com
+        enable_jekyll: false
+        commit_message: 'Automated deployment: ${{ github.event.head_commit.message }}'
     
     - name: Create backup
       if: steps.content_check.outputs.has_changes == 'true' || github.event.inputs.force_run == 'true'
@@ -261,20 +297,26 @@ jobs:
     
     - name: Notify on failure
       if: failure()
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         script: |
           const title = '🚨 Automation Pipeline Failed';
+          const runUrl = `${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`;
           const body = `
           The automated content pipeline failed during the latest run.
           
           **Details:**
           - Workflow: ${{ github.workflow }}
-          - Run ID: ${{ github.run_id }}
+          - Run ID: [${{ github.run_id }}](${runUrl})
           - Trigger: ${{ github.event_name }}
-          - Time: ${{ steps.date.outputs.date }}
+          - Branch: ${{ github.ref_name }}
+          - Commit: ${{ github.sha }}
+          - Time: ${new Date().toISOString()}
           
-          Please check the workflow logs for more details.
+          **Failed Jobs:**
+          Check the [workflow run](${runUrl}) for detailed logs.
+          
+          This issue was automatically created by the automation system.
           `;
           
           // Create an issue (optional - requires issues: write permission)
@@ -284,10 +326,12 @@ jobs:
               repo: context.repo.repo,
               title: title,
               body: body,
-              labels: ['automation', 'bug']
+              labels: ['automation', 'bug', 'needs-investigation']
             });
+            console.log('✅ Issue created successfully');
           } catch (error) {
-            console.log('Could not create issue:', error.message);
+            console.log('⚠️ Could not create issue:', error.message);
+            console.log('This may be due to insufficient permissions');
           }
 
   # Health check job (runs more frequently)
@@ -300,7 +344,7 @@ jobs:
       uses: actions/checkout@v4
     
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
         cache: 'pip'

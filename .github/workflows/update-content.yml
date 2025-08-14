@@ -26,9 +26,10 @@ jobs:
         fetch-depth: 0
     
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
+        cache: 'pip'
     
     - name: Install Python dependencies
       run: |
@@ -42,19 +43,35 @@ jobs:
         extended: true
     
     - name: Run content ingestion
+      timeout-minutes: 10
       run: |
         echo "Starting content ingestion..."
-        python3 ingest_external_articles.py
-        echo "Content ingestion completed."
+        timeout 600 python3 ingest_external_articles.py
+        if [ $? -eq 0 ]; then
+          echo "✅ Content ingestion completed successfully."
+        elif [ $? -eq 124 ]; then
+          echo "⏰ Content ingestion timed out after 10 minutes"
+          exit 1
+        else
+          echo "❌ Content ingestion failed"
+          exit 1
+        fi
     
     - name: Build Hugo site
+      timeout-minutes: 5
       run: |
         echo "Building Hugo site..."
-        hugo --gc --minify --baseURL "https://cogitating-ceviche.com"
-        echo "Hugo build completed."
+        hugo --gc --minify --enableGitInfo --baseURL "https://cogitating-ceviche.com" --logLevel info
+        if [ $? -eq 0 ]; then
+          echo "✅ Hugo build completed successfully."
+          echo "Site size: $(du -sh public/)"
+        else
+          echo "❌ Hugo build failed"
+          exit 1
+        fi
     
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -62,4 +79,6 @@ jobs:
         publish_branch: gh-pages
         force_orphan: true
         cname: cogitating-ceviche.com
+        enable_jekyll: false
+        commit_message: ${{ github.event.head_commit.message }}
     
