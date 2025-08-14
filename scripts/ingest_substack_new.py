@@ -48,7 +48,9 @@ BANNED_INLINE_PATTERNS = [
 ELLIPSIS = "..."
 
 def fetch_with_curl(url):
-    """Use curl to fetch RSS content - often bypasses Python-specific blocks"""
+    """Use curl to fetch RSS content with multiple fallback strategies"""
+    
+    # Strategy 1: Standard curl with browser headers
     try:
         cmd = [
             'curl', '-s', '-L',
@@ -60,18 +62,51 @@ def fetch_with_curl(url):
         ]
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=35)
         if result.returncode == 0 and result.stdout.strip():
-            return result.stdout
-        else:
-            print(f"  ❌ curl failed for {url}: {result.stderr}")
-            return None
-    except Exception as e:
-        print(f"  ❌ curl error for {url}: {e}")
-        return None
+            content = result.stdout.strip()
+            # Quick check if it's actually RSS XML
+            if content.startswith('<?xml') and '<rss' in content:
+                return content
+    except Exception:
+        pass
+    
+    # Strategy 2: Use a simpler user agent that might be less likely to get blocked
+    try:
+        simple_ua = "feedreader/1.0"
+        cmd = [
+            'curl', '-s', '-L', '--max-time', '30',
+            '-H', f'User-Agent: {simple_ua}',
+            url
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=35)
+        if result.returncode == 0 and result.stdout.strip():
+            content = result.stdout.strip()
+            if content.startswith('<?xml') and '<rss' in content:
+                return content
+    except Exception:
+        pass
+    
+    # Strategy 3: Use wget as fallback
+    try:
+        cmd = [
+            'wget', '-q', '-O', '-', '--timeout=30',
+            '--user-agent', UA,
+            url
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=35)
+        if result.returncode == 0 and result.stdout.strip():
+            content = result.stdout.strip()
+            if content.startswith('<?xml') and '<rss' in content:
+                return content
+    except Exception:
+        pass
+    
+    print(f"  ❌ All fetch strategies failed for {url}")
+    return None
 
 def parse_feed_direct(url, source_hint):
-    """Parse feed using curl then feedparser to avoid Python HTTP blocks"""
+    """Parse feed using multiple fetch strategies"""
     try:
-        # First try to fetch with curl to bypass potential Python/requests blocking
+        # Try to fetch with multiple fallback strategies
         xml_content = fetch_with_curl(url)
         if not xml_content:
             return []
@@ -79,8 +114,15 @@ def parse_feed_direct(url, source_hint):
         # Parse the fetched content
         d = feedparser.parse(xml_content)
         
+        # Check for parsing errors (keep minimal debug for CI)
+        if hasattr(d, 'bozo') and d.bozo:
+            print(f"  ⚠️  Feed parsing warning: {d.get('bozo_exception', 'Unknown')}")
+        
         if not hasattr(d, 'entries') or not d.entries:
-            print(f"  ❌ No entries found in feed: {url}")
+            print(f"  ❌ No entries found - feed title: '{d.feed.get('title', 'N/A')}'")
+            # In CI, the content might be HTML instead of RSS - check first few chars
+            if not xml_content.startswith('<?xml'):
+                print(f"  🔍 Content doesn't appear to be XML: {xml_content[:100]}...")
             return []
             
         items = []
