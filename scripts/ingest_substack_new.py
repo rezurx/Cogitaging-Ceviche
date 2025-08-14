@@ -1,27 +1,16 @@
 #!/usr/bin/env python3
 
-import os
-import time
-import feedparser
-import requests
-import re
-import json
-import logging
-from urllib.parse import urlparse, urljoin
+import time, re, json, logging, os
 from datetime import datetime
-from bs4 import BeautifulSoup
+import requests
+import feedparser
 from html import unescape
 
-# --- Configuration ---
-HUGO_CONTENT_PATH = "content/external-articles"
-
-# Define sources (Substack-only per implementation guide)
 SUBSTACK_FEEDS = [
     "https://thecogitatingceviche.substack.com/feed",
     "https://thecyberneticceviche.substack.com/feed",
 ]
 
-# Enhanced request headers for 403 resistance
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
@@ -64,19 +53,7 @@ BANNED_INLINE_PATTERNS = [
 
 ELLIPSIS = "..."
 
-# --- Enhanced Helper Functions ---
-def slugify(text):
-    """
-    Converts text to a URL-friendly slug.
-    """
-    text = text.lower()
-    text = re.sub(r"[^a-z0-9\s-]", "", text)
-    text = re.sub(r"[\s_-]+", "-", text)
-    text = re.sub(r"^-+|-+$", "", text)
-    return text
-
 def fetch_rss(url, max_retries=4, backoff=2.0):
-    """Enhanced RSS fetching with retry logic and proper headers."""
     for i in range(max_retries):
         try:
             resp = requests.get(url, headers=HDRS, timeout=25)
@@ -89,7 +66,6 @@ def fetch_rss(url, max_retries=4, backoff=2.0):
     raise RuntimeError(f"Failed to fetch feed after retries: {url}")
 
 def strip_html_to_text(html: str) -> str:
-    """Convert HTML to clean text with proper formatting."""
     txt = re.sub(r"<br\s*/?>", "\n", html or "", flags=re.I)
     txt = re.sub(r"</p\s*>", "\n", txt, flags=re.I)
     txt = re.sub(r"<[^>]+>", " ", txt)  # remove tags
@@ -97,7 +73,6 @@ def strip_html_to_text(html: str) -> str:
     return txt
 
 def remove_banned(text: str) -> str:
-    """Remove banned phrases and promotional content."""
     lines = [ln.strip() for ln in re.split(r"[.\n]+", text) if ln.strip()]
     kept = []
     for ln in lines:
@@ -110,7 +85,6 @@ def remove_banned(text: str) -> str:
     return re.sub(r"\s{2,}", " ", cleaned).strip()
 
 def trim_to_word_window(text: str, min_words: int = 25, max_words: int = 40) -> str:
-    """Trim text to 25-40 words with proper sentence endings."""
     if not text: return ""
     sentences = re.split(r"(?<=[.!?])\s+", text)
     teaser = sentences[0].strip()
@@ -132,37 +106,16 @@ def trim_to_word_window(text: str, min_words: int = 25, max_words: int = 40) -> 
     return out
 
 def sanitize_preview(raw_html: str, min_words: int = 25, max_words: int = 40) -> str:
-    """Complete preview sanitization pipeline."""
     plain = strip_html_to_text(raw_html or "")
     cleaned = remove_banned(plain)
     if not cleaned: return ""
     return trim_to_word_window(cleaned, min_words=min_words, max_words=max_words)
 
 def extract_first_image(html):
-    """Extract first image from HTML content."""
     m = re.search(r'<img[^>]+src="([^"]+)"', html or "", re.I)
     return m.group(1) if m else ""
 
-def get_existing_article_links(content_path):
-    """
-    Scans the content directory to find all existing canonical URLs to avoid duplicates.
-    """
-    existing_links = set()
-    if not os.path.exists(content_path):
-        return existing_links
-    for root, _, files in os.walk(content_path):
-        for file in files:
-            if file.endswith(".md"):
-                file_path = os.path.join(root, file)
-                with open(file_path, "r", encoding="utf-8") as f:
-                    content = f.read()
-                    match = re.search(r'canonicalUrl\s*=\s*"(.*?)"', content)
-                    if match:
-                        existing_links.add(match.group(1))
-    return existing_links
-
 def parse_feed(xml_text, source_hint):
-    """Parse RSS feed and extract articles with enhanced preview generation."""
     d = feedparser.parse(xml_text)
     items = []
     for it in d.entries:
@@ -178,13 +131,11 @@ def parse_feed(xml_text, source_hint):
     return items
 
 def ingest_substacks():
-    """Ingest articles from all Substack feeds."""
     all_items = []
     for feed in SUBSTACK_FEEDS:
         xml = fetch_rss(feed)
         all_items.extend(parse_feed(xml, source_hint="substack"))
-        time.sleep(1.5)  # Rate limiting
-    
+        time.sleep(1.5)
     def ts(s):
         try:
             return int(datetime.fromisoformat(s).timestamp())
@@ -193,80 +144,12 @@ def ingest_substacks():
     all_items.sort(key=lambda x: ts(x["published"]), reverse=True)
     return all_items
 
-
-
-
-# --- Main Script ---
-def main():
-    print("Starting enhanced ingestion of external articles...")
-
-    script_dir = os.path.dirname(__file__)
-    hugo_content_dir = os.path.join(script_dir, HUGO_CONTENT_PATH)
-    os.makedirs(hugo_content_dir, exist_ok=True)
-
-    existing_links = get_existing_article_links(hugo_content_dir)
-    print(f"Found {len(existing_links)} existing articles.")
-
-    try:
-        # Get articles from all Substack feeds
-        items = ingest_substacks()
-        print(f"Found {len(items)} total articles from Substack feeds.")
-
-        new_articles_count = 0
-        for item in items:
-            title = item.get('title', 'No Title')
-            link = item.get('url', '')
-            published = item.get('published', datetime.now().strftime("%a, %d %b %Y %H:%M:%S GMT"))
-            excerpt = item.get('excerpt', 'No excerpt available...')
-            featured_image = item.get('image', '')
-            source = item.get('source', 'substack')
-
-            if not link or link in existing_links:
-                if link:
-                    print(f"  Skipping existing article: {title}")
-                continue
-
-            slug = slugify(title)
-            file_name = f"{slug}.md"
-            file_path = os.path.join(hugo_content_dir, file_name)
-
-            counter = 1
-            while os.path.exists(file_path):
-                file_name = f"{slug}-{counter}.md"
-                file_path = os.path.join(hugo_content_dir, file_name)
-                counter += 1
-
-            # Build the front matter
-            front_matter = f"""+++
-title = "{title.replace('"', '"')}"
-date = "{published}"
-draft = false
-canonicalUrl = "{link}"
-source = "{source.capitalize()}"
-slug = "{slug}"""
-
-            # Add featured image if available
-            if featured_image:
-                front_matter += f'\nfeatured_image = "{featured_image}"'
-            
-            front_matter += "\n+++\n"
-
-            markdown_content = f"{front_matter}\n{excerpt}\n"
-
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(markdown_content)
-            print(f"  ✅ Enhanced preview (25-40 words): {title}")
-            existing_links.add(link)
-            new_articles_count += 1
-
-        print(f"\n🎉 Enhanced ingestion complete! Added {new_articles_count} new articles with improved 25-40 word teasers.")
-        
-    except Exception as e:
-        print(f"Error during enhanced ingestion: {e}")
-        import traceback
-        traceback.print_exc()
+def write_output(items, out_path="public/data/posts.json"):
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump({"generatedAt": datetime.utcnow().isoformat(), "items": items}, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
-    # Set up logging
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-    main()
+    items = ingest_substacks()
+    write_output(items)
+    print(f"Wrote {len(items)} items")

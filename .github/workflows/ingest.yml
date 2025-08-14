@@ -1,0 +1,42 @@
+name: Ingest Substack feeds
+
+on:
+  schedule:
+    - cron: "0 * * * *"    # hourly
+  workflow_dispatch:
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests feedparser
+
+      - name: Build posts.json
+        run: |
+          python scripts/ingest_substack_new.py
+
+      - name: Generate sitemap
+        run: |
+          python scripts/sitemap_new.py
+
+      - name: Commit data
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "data: update posts.json and sitemap.xml"
+            git push
+          fi

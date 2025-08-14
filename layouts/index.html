@@ -1,62 +1,109 @@
 {{ define "main" }}
-  <div class="main-container">
-    {{ $paginator := .Paginate (.Site.RegularPages.ByDate.Reverse) }}
+  <!-- Skip link for accessibility -->
+  <a href="#main" class="skip">Skip to content</a>
+
+  <!-- New Hero Section -->
+  <header class="hero">
+    <div class="inner">
+      <h1>The Cogitating Ceviche</h1>
+      <p class="subtitle">Food for Thought</p>
+    </div>
+  </header>
+
+  <!-- New Navigation -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="/" class="brand">
+        <span class="logo-badge"><img src="/images/fish-logo.png" alt="The Cogitating Ceviche"></span>
+        <span class="brand-text">The Cogitating Ceviche</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/all/">All Posts</a></li>
+        <li><a href="/topics/">Topics</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="https://thecogitatingceviche.substack.com" rel="noopener">Substack</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main" class="page">
+    <div class="card-grid" id="card-grid">
+      <!-- Cards will be loaded here via JavaScript -->
+    </div>
     
-    <div class="article-grid">
-      {{ range $paginator.Pages }}
-        <div class="grid-item">
-          <article class="grid-card">
-            <a href="{{ .Params.canonicalUrl }}" class="grid-card-link" target="_blank" rel="noopener noreferrer">
-              {{ $featured_image := .Params.featured_image | default .Params.thumbnail }}
-              {{ if $featured_image }}
-                <div class="grid-card-image">
-                  <img src="{{ $featured_image }}" alt="{{ .Title }}">
-                </div>
-              {{ end }}
-              <div class="grid-card-content">
-                <h2 class="grid-card-title">{{ .Title }}</h2>
-                <div class="grid-card-summary">
-                  {{ $content := .Content | plainify }}
-                  {{ $words := split $content " " }}
-                  {{ $excerpt := first 100 $words }}
-                  {{ delimit $excerpt " " }}{{ if gt (len $words) 100 }}...{{ end }}
-                </div>
-                <div class="grid-card-meta">
-                  {{ with .Params.source }}
-                    <span class="grid-card-source">{{ . }}</span>
-                  {{ end }}
-                  <span class="grid-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    <!-- Loading indicator -->
+    <div id="loading" class="loading">Loading articles...</div>
+  </main>
+
+  <!-- Client-side loading script -->
+  <script>
+    async function loadCards() {
+      try {
+        const res = await fetch("/data/posts.json", { cache: "no-cache" });
+        const { items } = await res.json();
+        renderCards(items.slice(0, 30));
+      } catch (error) {
+        console.error('Failed to load articles:', error);
+        document.getElementById('loading').textContent = 'Failed to load articles. Please refresh the page.';
+      }
+    }
+
+    function renderCards(items) {
+      const grid = document.getElementById('card-grid');
+      const loading = document.getElementById('loading');
+      
+      if (!items || items.length === 0) {
+        loading.textContent = 'No articles found.';
+        return;
+      }
+
+      grid.innerHTML = items.map(item => {
+        const publishedDate = new Date(item.published).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric'
+        });
+        
+        const imageHtml = item.image 
+          ? `<img src="${item.image}" alt="${item.title}" loading="lazy" decoding="async" width="1200" height="675">`
+          : `<div class="placeholder" aria-hidden="true">TC</div>`;
+
+        return `
+          <article class="card">
+            <a class="card-link" href="${item.url}" aria-label="${item.title}">
+              ${imageHtml}
+              <div class="card-body">
+                <h3>${item.title}</h3>
+                <p class="excerpt">${item.excerpt}</p>
+                <div class="meta-row">
+                  <span class="chip">Substack</span>
+                  <time datetime="${item.published}">${publishedDate}</time>
                 </div>
               </div>
             </a>
           </article>
-        </div>
-      {{ end }}
-    </div>
-    
-    <!-- Pagination -->
-    {{ if or $paginator.HasPrev $paginator.HasNext }}
-      <nav class="pagination w-100 pa3 mt4 tc">
-        <div class="pagination-wrapper">
-          {{ if $paginator.HasPrev }}
-            <a href="{{ $paginator.Prev.URL }}" class="pagination-link pagination-prev">← Previous</a>
-          {{ end }}
-          
-          <div class="pagination-numbers">
-            {{ range $paginator.Pagers }}
-              {{ if eq . $paginator }}
-                <span class="pagination-current">{{ .PageNumber }}</span>
-              {{ else }}
-                <a href="{{ .URL }}" class="pagination-link">{{ .PageNumber }}</a>
-              {{ end }}
-            {{ end }}
-          </div>
-          
-          {{ if $paginator.HasNext }}
-            <a href="{{ $paginator.Next.URL }}" class="pagination-link pagination-next">Next →</a>
-          {{ end }}
-        </div>
-      </nav>
-    {{ end }}
-  </div>
+        `;
+      }).join('');
+
+      loading.style.display = 'none';
+    }
+
+    // Navigation toggle functionality
+    const btn = document.querySelector(".nav-toggle");
+    const links = document.getElementById("nav-links");
+    if (btn && links) {
+      btn.addEventListener("click", () => {
+        const open = links.classList.toggle("show");
+        btn.setAttribute("aria-expanded", String(open));
+      });
+    }
+
+    // Load cards when page loads
+    document.addEventListener("DOMContentLoaded", loadCards);
+  </script>
 {{ end }}
