@@ -1,12 +1,32 @@
 # Progress Tracker: Cogitating Ceviche Website
 
-## 🎉 **Latest Update: August 14, 2025 - RSS INGESTION FIXED**
+## 🎉 **Latest Update: August 14, 2025 - WEBSITE LAYOUT FIXES COMPLETE**
 
-### 🔧 **RSS Ingestion Issue Resolution (August 14, 2025):**
+### 🎨 **Website Layout Improvements (August 14, 2025):**
 
-**Problem**: GitHub Actions getting 403 Forbidden errors from Substack RSS feeds, preventing automated content updates.
+**Issues Addressed**: Based on user feedback from website screenshot review, multiple UI/UX improvements needed.
 
-**Root Cause**: Substack blocks GitHub Actions runner IP addresses.
+**Layout Fixes Implemented**:
+1. **Button Label Clarity**: Changed generic "Substack" to source-specific labels ("Read on Cogitating Ceviche", "Read on Cybernetic Ceviche")
+2. **Stray Text Cleanup**: Enhanced RSS ingestion to remove fragments like "is a now", "preface", "discussion via NotebookLM" 
+3. **Chronological Sorting**: Ensured articles display newest first with failsafe sorting in both backend and frontend
+4. **Subtitle Display**: Added subtitle extraction and display under article titles in smaller, italic text
+5. **Layout Consistency**: Implemented flexbox for consistent card heights and proper spacing alignment
+
+**Technical Improvements**:
+- Enhanced `ingest_substack_new.py` with better text cleaning and subtitle extraction
+- Updated frontend JavaScript for source-specific button labels and subtitle rendering
+- Improved CSS with flexbox layout and subtitle styling
+- Resolved GitHub Actions conflicts during deployment
+
+**Results**: 
+- ✅ Clear source attribution on all article cards
+- ✅ Professional subtitle display with 100-char limit
+- ✅ Clean article excerpts without promotional fragments
+- ✅ Consistent card layout and proper chronological ordering
+- ✅ Automated hourly updates continue with enhanced script
+
+### 🔧 **Previous Update: RSS Ingestion Fixed (August 14, 2025):**
 
 **Solution Implemented**:
 1. **Deployed Cloudflare Worker Proxy**: `https://small-water-400f.rezurx-ceviphant.workers.dev/`
@@ -19,10 +39,9 @@
 - ✅ Automated hourly updates functional
 - ✅ Website displaying articles correctly via client-side JSON loading
 
-### 📋 **Remaining Tasks for Next Session:**
-- Fix article preview quality/formatting
-- Fix navigation issues  
+### 📋 **Outstanding Tasks:**
 - Implement ads system
+- Performance optimization review
 
 ---
 
