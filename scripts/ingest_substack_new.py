@@ -46,6 +46,10 @@ BANNED_LINE_PATTERNS = [
     r"^the cybernetic cevich[eé].*reader[- ]supported publication.*$",
     r"^to receive new posts and support my work.*$",
     r"^consider becoming a free or paid subscriber.*$",
+    r"^is a now$",
+    r"^now$",
+    r"^is a$",
+    r"^preface$",
 ]
 
 BANNED_INLINE_PATTERNS = [
@@ -61,6 +65,10 @@ BANNED_INLINE_PATTERNS = [
     r"consider becoming a free or paid subscriber",
     r"the cogitating cevich[eé]",
     r"the cybernetic cevich[eé]",
+    r"\bis a now\b",
+    r"^now\b",
+    r"^is a\b",
+    r"^preface\b",
 ]
 
 ELLIPSIS = "..."
@@ -146,8 +154,17 @@ def parse_feed_direct(url, source_hint):
         items = []
         for it in d.entries:
             html = it.get("content", [{}])[0].get("value") if it.get("content") else it.get("summary", "")
+            # Extract subtitle from summary if available
+            subtitle = ""
+            if it.get("summary"):
+                subtitle_text = strip_html_to_text(it.get("summary", ""))
+                # Take first 80-100 chars as subtitle if different from title
+                if subtitle_text and subtitle_text.lower() != it.get("title", "").lower():
+                    subtitle = subtitle_text[:100] + ("..." if len(subtitle_text) > 100 else "")
+            
             items.append({
                 "title": it.get("title", "") or "",
+                "subtitle": subtitle,
                 "url": it.get("link", "") or "",
                 "published": it.get("published", it.get("updated", "")) or "",
                 "image": extract_first_image(html),
@@ -203,6 +220,15 @@ def trim_to_word_window(text: str, min_words: int = 25, max_words: int = 40) -> 
 def sanitize_preview(raw_html: str, min_words: int = 25, max_words: int = 40) -> str:
     plain = strip_html_to_text(raw_html or "")
     cleaned = remove_banned(plain)
+    if not cleaned: return ""
+    
+    # Additional cleanup for common fragment words at start
+    cleaned = re.sub(r'^\s*(is\s+a\s+now|now|is\s+a|preface)\s+', '', cleaned, flags=re.I)
+    cleaned = re.sub(r'^\s*(discussion\s+(via|by)\s+notebooklm)\s+', '', cleaned, flags=re.I)
+    cleaned = re.sub(r'^\s*(image\s+created?\s+with\s+generative\s+ai)\s+', '', cleaned, flags=re.I)
+    cleaned = re.sub(r'^\s*(also,?\s+check\s+out)\s+', '', cleaned, flags=re.I)
+    cleaned = re.sub(r'^\s*(read\s+more\.\.\.)\s*$', '', cleaned, flags=re.I)
+    
     if not cleaned: return ""
     return trim_to_word_window(cleaned, min_words=min_words, max_words=max_words)
 

@@ -46,7 +46,11 @@
       try {
         const res = await fetch("/data/posts.json", { cache: "no-cache" });
         const { items } = await res.json();
-        renderCards(items.slice(0, 30));
+        
+        // Ensure chronological sorting (newest first) in case it's not already sorted
+        const sortedItems = items.sort((a, b) => new Date(b.published) - new Date(a.published));
+        
+        renderCards(sortedItems.slice(0, 30));
       } catch (error) {
         console.error('Failed to load articles:', error);
         document.getElementById('loading').textContent = 'Failed to load articles. Please refresh the page.';
@@ -73,15 +77,23 @@
           ? `<img src="${item.image}" alt="${item.title}" loading="lazy" decoding="async" width="1200" height="675">`
           : `<div class="placeholder" aria-hidden="true">TC</div>`;
 
+        // Determine source name from URL
+        const sourceName = item.url.includes('thecogitatingceviche.substack.com') 
+          ? 'Cogitating Ceviche' 
+          : item.url.includes('thecyberneticceviche.substack.com')
+          ? 'Cybernetic Ceviche'
+          : 'Substack';
+
         return `
           <article class="card">
             <a class="card-link" href="${item.url}" aria-label="${item.title}">
               ${imageHtml}
               <div class="card-body">
                 <h3>${item.title}</h3>
+                ${item.subtitle ? `<p class="subtitle">${item.subtitle}</p>` : ''}
                 <p class="excerpt">${item.excerpt}</p>
                 <div class="meta-row">
-                  <span class="chip">Substack</span>
+                  <span class="chip">Read on ${sourceName}</span>
                   <time datetime="${item.published}">${publishedDate}</time>
                 </div>
               </div>
