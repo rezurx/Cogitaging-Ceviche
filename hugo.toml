@@ -26,4 +26,18 @@ theme = "ananke"
 [[params.ananke_socials]]
   name = "substack"
   url = "https://thecyberneticceviche.substack.com"
-  
+
+[[menu.main]]
+  name = "The Cogitating Ceviche"
+  url = "https://thecogitatingceviche.substack.com/"
+  weight = 10
+
+[[menu.main]]
+  name = "The Cybernetic Ceviche"
+  url = "https://thecyberneticceviche.substack.com/"
+  weight = 20
+
+[[menu.main]]
+  name = "LinkTree"
+  url = "https://linktr.ee/CogitatingCeviche"
+  weight = 30
