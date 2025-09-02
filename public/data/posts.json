@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-02T05:24:18.242564",
+  "generatedAt": "2025-09-02T06:36:35.599469",
   "items": [
     {
       "title": "The American Story:",
@@ -182,6 +182,15 @@
       "source": "substack"
     },
     {
+      "title": "Wired Without Wires:",
+      "subtitle": "How Non-Invasive Brain–Computer Interfaces Are Quietly Reshaping Daily Life",
+      "url": "https://thecyberneticceviche.substack.com/p/wired-without-wires",
+      "published": "Tue, 02 Sep 2025 06:02:31 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!hR0A!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a1588b1-280a-4699-b5b8-eb3ea96fd472_1024x1024.png",
+      "excerpt": "The Opening Gambit: Neuralink Gets the Headlines, But It's Not the Story When Elon Musk straps a coin-sized chip into someone's skull, it's front-page news It's also a kind of theatre: futurist circus for the age of livestreamed neurosurgery We...",
+      "source": "substack"
+    },
+    {
       "title": "The Cathedrals of COBOL and the Blockchains of Babel",
       "subtitle": "Why the Future Still Depends on the Systems Everyone Pretends Are Dead",
       "url": "https://thecyberneticceviche.substack.com/p/the-cathedrals-of-cobol-and-the-blockchains",
@@ -350,15 +359,6 @@
       "published": "Mon, 22 Jan 2024 12:01:45 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!kb-E!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ce9f6cd-130f-483f-a271-43d48c57201f_1024x1024.png",
       "excerpt": ", which we use for all our fiction Preface by Conrad Hannon I requested an article from ARTIE explaining who will win the Super Bowl and why, along with details on how the game might play out, utilizing its browsing...",
-      "source": "substack"
-    },
-    {
-      "title": "AI and the Future of Journalism:",
-      "subtitle": "Navigating the New Media Landscape",
-      "url": "https://thecyberneticceviche.substack.com/p/ai-and-the-future-of-journalism",
-      "published": "Tue, 16 Jan 2024 12:30:52 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!YLL_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ccac26c-95c4-4e77-93bc-9a27cdbb3b61_1024x1024.png",
-      "excerpt": ", which we use for all our fiction Preface by Conrad T Hannon: In this latest venture with ARTIE, our AI-driven editorial assistant, I posed a distinctive challenge to delve into a subject that might seem out of reach for...",
       "source": "substack"
     }
   ]
