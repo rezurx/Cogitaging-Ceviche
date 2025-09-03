@@ -21,11 +21,9 @@
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
 
       <ul id="nav-links" class="nav-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/all/">All Posts</a></li>
-        <li><a href="/topics/">Topics</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="https://thecogitatingceviche.substack.com" rel="noopener">Substack</a></li>
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}" {{ if strings.HasPrefix .URL "http" }}rel="noopener"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
       </ul>
     </div>
   </nav>
