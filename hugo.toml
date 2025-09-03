@@ -41,3 +41,8 @@ theme = "ananke"
   name = "LinkTree"
   url = "https://linktr.ee/CogitatingCeviche"
   weight = 30
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 40
