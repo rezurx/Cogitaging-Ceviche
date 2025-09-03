@@ -46,6 +46,19 @@ main.page { background:#fbfaf6; } /* content backdrop */
   .nav-links.show { display: flex; }
 }
 
+/* Content page styling */
+.content-wrapper { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+.content { background: #fbfaf6; border-radius: 12px; padding: 40px; box-shadow: 0 8px 24px rgba(0,0,0,0.06); }
+.content-header { margin-bottom: 32px; }
+.content-header h1 { color: #0f1b22; font-size: 2.5rem; margin: 0; line-height: 1.2; }
+.content-body { color: #2d3a3f; line-height: 1.7; font-size: 1.1rem; }
+.content-body h1, .content-body h2, .content-body h3 { color: #0f1b22; margin-top: 32px; margin-bottom: 16px; }
+.content-body h1 { font-size: 2rem; }
+.content-body h2 { font-size: 1.5rem; }
+.content-body h3 { font-size: 1.25rem; }
+.content-body p { margin-bottom: 20px; }
+.content-body strong { color: #0f1b22; font-weight: 700; }
+
 /* Skip link for accessibility */
 .skip {
   position: absolute;
