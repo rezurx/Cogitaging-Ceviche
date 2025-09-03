@@ -2,7 +2,7 @@
 title: "About"
 date: 2025-09-02T00:00:00Z
 draft: false
-type: "page"
+layout: "single"
 ---
 
 # About Cogitating Ceviche

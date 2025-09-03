@@ -1,0 +1,57 @@
+{{ define "main" }}
+  <!-- Skip link for accessibility -->
+  <a href="#main" class="skip">Skip to content</a>
+
+  <!-- New Hero Section -->
+  <header class="hero">
+    <div class="inner">
+      <h1>The Cogitating Ceviche</h1>
+      <p class="subtitle">Food for Thought</p>
+    </div>
+  </header>
+
+  <!-- New Navigation -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="/" class="brand">
+        <span class="logo-badge"><img src="/images/fish-logo.png" alt="The Cogitating Ceviche"></span>
+        <span class="brand-text">The Cogitating Ceviche</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+
+      <ul id="nav-links" class="nav-links">
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}" {{ if strings.HasPrefix .URL "http" }}rel="noopener"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main" class="page">
+    <div class="content-wrapper">
+      <article class="content">
+        <header class="content-header">
+          <h1>{{ .Title }}</h1>
+        </header>
+        
+        <div class="content-body">
+          {{ .Content }}
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- Navigation toggle functionality -->
+  <script>
+    const btn = document.querySelector(".nav-toggle");
+    const links = document.getElementById("nav-links");
+    if (btn && links) {
+      btn.addEventListener("click", () => {
+        const open = links.classList.toggle("show");
+        btn.setAttribute("aria-expanded", String(open));
+      });
+    }
+  </script>
+{{ end }}
