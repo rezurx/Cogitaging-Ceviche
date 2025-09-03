@@ -5,8 +5,6 @@ draft: false
 layout: "single"
 ---
 
-# About Cogitating Ceviche
-
 Cogitating Ceviche is a hub for ideas at the intersection of history, technology, and human systems. It brings together two distinct but complementary publications:
 
 **The Cogitating Ceviche** — A satirical and historical lens on modern life. Here you'll find commentary that blends wit with scholarship, spotlighting overlooked thinkers, cultural oddities, and the ways our past echoes through today's technological and political landscape.
