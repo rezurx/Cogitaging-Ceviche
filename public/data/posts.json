@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T05:22:44.565958",
+  "generatedAt": "2025-09-09T06:35:47.585734",
   "items": [
     {
       "title": "Guardrails of Liberty:",
@@ -182,6 +182,15 @@
       "source": "substack"
     },
     {
+      "title": "The Open Faced Cyborg:",
+      "subtitle": "Garnish, Not Graft",
+      "url": "https://thecyberneticceviche.substack.com/p/the-open-faced-cyborg",
+      "published": "Tue, 09 Sep 2025 06:00:44 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!pXE-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F97c7f230-b75e-44be-a6bb-a42e7ea00492_2048x2048.png",
+      "excerpt": "Picture this: You're standing in line at a trendy café, Apple Watch buzzing notifications against your wrist, AirPods whispering a podcast into your ears, while you ask ChatGPT to help compose a text to your mother about Sunday dinner The...",
+      "source": "substack"
+    },
+    {
       "title": "Wired Without Wires:",
       "subtitle": "How Non-Invasive Brain–Computer Interfaces Are Quietly Reshaping Daily Life",
       "url": "https://thecyberneticceviche.substack.com/p/wired-without-wires",
@@ -350,15 +359,6 @@
       "published": "Fri, 02 Feb 2024 12:00:38 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!CHp8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe2c8d45e-e394-45e8-a071-6a3619787b40_1024x1024.png",
       "excerpt": ", which we use for all our fiction Introduction In a rapidly evolving digital era, distinguishing between programmed machines and those with characteristics of consciousness is a vital ethical and legal challenge in artificial intelligence (AI) Once a staple of...",
-      "source": "substack"
-    },
-    {
-      "title": "ARTIE Predicts the Super Bowl",
-      "subtitle": "Voice-over provided by Amazon Polly",
-      "url": "https://thecyberneticceviche.substack.com/p/artie-predicts-the-super-bowl",
-      "published": "Mon, 22 Jan 2024 12:01:45 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!kb-E!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ce9f6cd-130f-483f-a271-43d48c57201f_1024x1024.png",
-      "excerpt": ", which we use for all our fiction Preface by Conrad Hannon I requested an article from ARTIE explaining who will win the Super Bowl and why, along with details on how the game might play out, utilizing its browsing...",
       "source": "substack"
     }
   ]
