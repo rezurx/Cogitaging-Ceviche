@@ -4,10 +4,13 @@ on:
   # Deploy when changes are pushed to main
   push:
     branches: [ main ]
-    paths-ignore:
-      - 'README.md'
-      - 'TROUBLESHOOTING.md'
-      - '.gitignore'
+    paths:
+      - 'content/**'
+      - 'layouts/**'
+      - 'static/**'
+      - 'public/data/**'
+      - 'hugo.toml'
+      - '.github/workflows/deploy.yml'
   
   # Allow manual triggering
   workflow_dispatch:
