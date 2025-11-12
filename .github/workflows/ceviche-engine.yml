@@ -12,6 +12,7 @@ on:
   push:
     branches:
       - main
+      - 'claude/fix-ceviche-engine-pipeline-*'
     paths:
       - 'ceviche_engine/**'
       - '.github/workflows/ceviche-engine.yml'
