@@ -8,11 +8,13 @@ Cannibalized from scripts/ingest_substack.py with enhancements
 
 import time
 import logging
+import random
 import requests
 import feedparser
 from typing import List, Dict, Optional, Any
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlparse
 
 # Import from our modules
 from config import (
@@ -39,64 +41,99 @@ from utils import (
 # RSS Fetching (Cannibalized from scripts/ingest_substack.py)
 # ============================================================================
 
-# Enhanced request headers for 403 resistance
-# Use browser-like User-Agent to avoid being blocked by Substack
-REQUEST_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Connection": "keep-alive",
-    "Cache-Control": "max-age=0",
-}
+# Multiple realistic User-Agent strings to rotate through
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+]
+
+def get_browser_headers(url: str) -> Dict[str, str]:
+    """
+    Generate realistic browser headers for a given URL.
+
+    Args:
+        url: The URL being requested
+
+    Returns:
+        Dictionary of HTTP headers
+    """
+    parsed = urlparse(url)
+    base_url = f"{parsed.scheme}://{parsed.netloc}"
+
+    return {
+        "User-Agent": random.choice(USER_AGENTS),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "DNT": "1",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Cache-Control": "max-age=0",
+        "Referer": base_url,
+    }
 
 def fetch_rss_with_retry(url: str) -> Optional[str]:
     """
     Enhanced RSS fetching with exponential backoff and comprehensive error handling.
-    Cannibalized from scripts/ingest_substack.py
+    Uses session-based requests with realistic browser behavior.
 
     Returns:
         RSS feed XML as string, or None if all retries failed
     """
+    # Create a session for cookie persistence
+    session = requests.Session()
+
     for attempt in range(RSS_RETRY_ATTEMPTS):
         try:
             logging.info(f"Fetching {url} (attempt {attempt + 1}/{RSS_RETRY_ATTEMPTS})")
 
-            # Add jitter to prevent thundering herd
-            if attempt > 0:
-                jitter = RSS_RETRY_DELAY * (attempt + 1) * RSS_RETRY_BACKOFF * (0.5 + 0.5 * hash(url) % 100 / 100)
-                logging.debug(f"Waiting {jitter:.2f}s before retry")
-                time.sleep(jitter)
+            # Add small random delay to mimic human behavior
+            if attempt == 0:
+                delay = random.uniform(0.5, 1.5)
+            else:
+                # Add jitter and exponential backoff for retries
+                jitter = RSS_RETRY_DELAY * (attempt + 1) * RSS_RETRY_BACKOFF * (0.5 + random.random() * 0.5)
+                delay = jitter
 
-            resp = requests.get(url, headers=REQUEST_HEADERS, timeout=RSS_TIMEOUT)
+            logging.debug(f"Waiting {delay:.2f}s before request")
+            time.sleep(delay)
+
+            # Generate fresh headers for each attempt
+            headers = get_browser_headers(url)
+
+            # First attempt: Visit homepage to get cookies (only on first attempt for each URL)
+            if attempt == 0:
+                parsed = urlparse(url)
+                home_url = f"{parsed.scheme}://{parsed.netloc}"
+                try:
+                    logging.debug(f"Pre-visiting homepage: {home_url}")
+                    session.get(home_url, headers=headers, timeout=10)
+                    time.sleep(random.uniform(0.3, 0.8))  # Brief pause between requests
+                except Exception as e:
+                    logging.debug(f"Homepage pre-visit failed (non-critical): {e}")
+
+            # Now fetch the actual RSS feed
+            resp = session.get(url, headers=headers, timeout=RSS_TIMEOUT)
 
             if resp.status_code == 200:
                 logging.info(f"Successfully fetched {url}")
                 return resp.text
 
             elif resp.status_code == 403:
-                logging.warning(f"403 Forbidden for {url}, trying with browser-like headers")
-                # Fallback headers mimicking real browsers for 403 issues
-                fallback_headers = {
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-                    "Accept-Language": "en-US,en;q=0.9",
-                    "Accept-Encoding": "gzip, deflate, br",
-                    "Connection": "keep-alive",
-                    "Upgrade-Insecure-Requests": "1",
-                    "Sec-Fetch-Dest": "document",
-                    "Sec-Fetch-Mode": "navigate",
-                    "Sec-Fetch-Site": "none",
-                    "Cache-Control": "max-age=0",
-                }
-                resp = requests.get(url, headers=fallback_headers, timeout=RSS_TIMEOUT)
-                if resp.status_code == 200:
-                    logging.info(f"Successfully fetched {url} with browser-like headers")
-                    return resp.text
+                logging.warning(f"403 Forbidden for {url} (attempt {attempt + 1})")
+                # On 403, try with different User-Agent on next iteration
+                continue
 
             elif resp.status_code == 429:
                 logging.warning(f"Rate limited on {url}, waiting longer")
-                time.sleep(RSS_RETRY_DELAY * (attempt + 2) * 2)  # Longer wait for rate limits
+                time.sleep(RSS_RETRY_DELAY * (attempt + 2) * 3)  # Longer wait for rate limits
                 continue
 
             logging.warning(f"GET {url} returned {resp.status_code}")
@@ -109,7 +146,12 @@ def fetch_rss_with_retry(url: str) -> Optional[str]:
             logging.warning(f"Request error for {url}: {e}")
         except Exception as e:
             logging.error(f"Unexpected error fetching {url}: {e}")
+        finally:
+            # Small delay between all attempts
+            if attempt < RSS_RETRY_ATTEMPTS - 1:
+                time.sleep(random.uniform(1, 2))
 
+    session.close()
     logging.error(f"Failed to fetch feed after {RSS_RETRY_ATTEMPTS} retries: {url}")
     return None
 
