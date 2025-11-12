@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/robert-hooke-the-invisible-architect-of-the-modern-world/",
+  "headline": "Robert Hooke: The Invisible Architect of the Modern World",
+  "url": "https://cogitating-ceviche.com/posts/robert-hooke-the-invisible-architect-of-the-modern-world/",
+  "datePublished": "2025-11-12T07:00:28+00:00",
+  "dateModified": "2025-11-12T07:00:28+00:00",
+  "description": "Image created by generative AIThe Cogitating Ceviché is a . , . nowPrefaceWelcome to the seventy-fourth entry in Past Forward: Historical Icons in the Digital Frontier. This series imagines how history’s most brilliant minds might navigate the...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/robert-hooke-the-invisible-architect-of-the-modern-world/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!IsRN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F329eac8d-d784-4409-bfe0-9ed61ead196a_1024x1536.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "wordCount": 354,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/robert-hooke-the-invisible-architect"
+  }
+}

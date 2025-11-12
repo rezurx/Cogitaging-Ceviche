@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-11-11T20:29:49.733731",
+  "generatedAt": "2025-11-12T18:36:24.293765",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_robert-hooke-the-invisible-architect-of-the-modern-world.json",
     "article_valor-and-recognition.json",
     "article_the-internet-of-beings.json",
     "article_the-christian-legacy-of-chivalry.json",
@@ -27,7 +28,6 @@
     "article_john-brown-the-morally-complex-revolutionary.json",
     "article_when-you-start-to-look-like-your-chatbot.json",
     "article_the-psalms-as-national-literature.json",
-    "article_cogitating-ceviches-week-in-review-25-40.json",
     "article_the-algorithm-has-no-taste-only-hunger.json",
     "article_the-poisoned-well.json",
     "article_the-future-of-culinary-science.json",
