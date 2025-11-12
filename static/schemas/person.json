@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://cogitating-ceviche.com/about/#person",
+  "name": "Conrad T. Hannon",
+  "url": "https://cogitating-ceviche.com/about/",
+  "description": "Writer, researcher, and cognitive explorer",
+  "sameAs": [
+    "https://cogitating-ceviche.com/about/"
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/about/"
+  },
+  "email": "conrad@cogitating-ceviche.com"
+}

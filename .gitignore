@@ -15,12 +15,14 @@ build/
 
 # Virtual environments
 venv/
+.venv/
 env/
 subagent-env/
 
 # Logs
 *.log
 automation_logs/
+logs/
 
 # Backups
 backups/

@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-poisoned-well/",
+  "headline": "The Poisoned Well:",
+  "url": "https://cogitating-ceviche.com/posts/the-poisoned-well/",
+  "datePublished": "2025-09-30T06:01:57+00:00",
+  "dateModified": "2025-09-30T06:01:57+00:00",
+  "description": "The Cybernetic Ceviché is a . , . nowThe internet was supposed to democratize information. Instead, it industrialized noise. News cycles now run on narrative flooding, pushing so many takes, counter-takes, and pre-packaged outrages that truth gets...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-poisoned-well/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!dQGD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90c6c69a-a495-4967-a762-f231168940c1_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "wordCount": 386,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/the-poisoned-well"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-quest-for-conscious-ai/",
+  "headline": "The Quest for Conscious AI:",
+  "url": "https://cogitating-ceviche.com/posts/the-quest-for-conscious-ai/",
+  "datePublished": "2024-05-27T11:01:40+00:00",
+  "dateModified": "2024-05-27T11:01:40+00:00",
+  "description": "Read more",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-quest-for-conscious-ai/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!eLJE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffbbc1589-f289-4750-a644-ddaccd34e83d_1024x1024.webp",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "John W Brown"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "wordCount": 26,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/the-quest-for-conscious-ai"
+  }
+}

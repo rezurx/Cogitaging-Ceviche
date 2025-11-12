@@ -1,0 +1,108 @@
+name: Ceviche Engine Pipeline
+
+on:
+  # Run daily at 6 AM UTC (1 AM EST)
+  schedule:
+    - cron: '0 6 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+  # Run on push to main (for testing)
+  push:
+    branches:
+      - main
+    paths:
+      - 'ceviche_engine/**'
+      - '.github/workflows/ceviche-engine.yml'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required for committing changes
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: 'ceviche_engine/requirements.txt'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ceviche_engine/requirements.txt
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Run Ceviche Engine Pipeline
+        run: |
+          cd ceviche_engine
+          python run_pipeline.py
+        env:
+          PYTHONUNBUFFERED: 1
+
+      - name: Build Hugo site
+        run: hugo --minify
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet content/ public/ static/schemas/ || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add content/posts/ public/data/posts.json static/schemas/
+          git commit -m "🤖 Automated content update via Ceviche Engine
+
+          Generated with [Ceviche Engine](https://github.com/yourusername/cogitating-ceviche)
+
+          Pipeline executed: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: '🚀 Deploy site update: ${{ github.event.head_commit.message }}'
+
+      - name: Pipeline Summary
+        if: always()
+        run: |
+          echo "## Ceviche Engine Pipeline Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Status:** ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Timestamp:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f logs/pipeline.log ]; then
+            echo "### Pipeline Log (last 20 lines):" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            tail -n 20 logs/pipeline.log >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pipeline-logs
+          path: logs/
+          retention-days: 30
