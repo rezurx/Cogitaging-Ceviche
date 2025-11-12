@@ -82,12 +82,52 @@ def get_browser_headers(url: str) -> Dict[str, str]:
 def fetch_rss_with_retry(url: str) -> Optional[str]:
     """
     Enhanced RSS fetching with exponential backoff and comprehensive error handling.
-    Uses session-based requests with realistic browser behavior.
+
+    For proxy URLs: Uses simple requests (proxy handles anti-bot measures)
+    For direct URLs: Uses session-based requests with realistic browser behavior
 
     Returns:
         RSS feed XML as string, or None if all retries failed
     """
-    # Create a session for cookie persistence
+    # Check if this is a proxy URL (Cloudflare Worker)
+    is_proxy_url = "workers.dev" in url
+
+    if is_proxy_url:
+        # Simple fetching for proxy URLs - the proxy handles everything
+        logging.debug(f"Using proxy URL: {url}")
+        for attempt in range(RSS_RETRY_ATTEMPTS):
+            try:
+                logging.info(f"Fetching {url} (attempt {attempt + 1}/{RSS_RETRY_ATTEMPTS})")
+
+                # Simple retry delay
+                if attempt > 0:
+                    delay = RSS_RETRY_DELAY * attempt
+                    time.sleep(delay)
+
+                # Simple headers for proxy request
+                headers = {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                    "Accept": "application/rss+xml, application/xml, text/xml",
+                }
+
+                resp = requests.get(url, headers=headers, timeout=RSS_TIMEOUT)
+
+                if resp.status_code == 200:
+                    logging.info(f"Successfully fetched {url} via proxy")
+                    return resp.text
+
+                logging.warning(f"GET {url} returned {resp.status_code}")
+
+            except requests.exceptions.Timeout:
+                logging.warning(f"Timeout fetching {url} (attempt {attempt + 1})")
+            except Exception as e:
+                logging.warning(f"Error fetching {url}: {e}")
+
+        logging.error(f"Failed to fetch feed after {RSS_RETRY_ATTEMPTS} retries: {url}")
+        return None
+
+    # Direct URL fetching with anti-bot measures (for local development)
+    logging.debug(f"Using direct URL with anti-bot measures: {url}")
     session = requests.Session()
 
     for attempt in range(RSS_RETRY_ATTEMPTS):
@@ -124,6 +164,7 @@ def fetch_rss_with_retry(url: str) -> Optional[str]:
 
             if resp.status_code == 200:
                 logging.info(f"Successfully fetched {url}")
+                session.close()
                 return resp.text
 
             elif resp.status_code == 403:
