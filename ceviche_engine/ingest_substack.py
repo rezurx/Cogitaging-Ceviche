@@ -40,11 +40,14 @@ from utils import (
 # ============================================================================
 
 # Enhanced request headers for 403 resistance
+# Use browser-like User-Agent to avoid being blocked by Substack
 REQUEST_HEADERS = {
-    "User-Agent": USER_AGENT,
-    "Accept": "application/rss+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.7",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
     "Connection": "keep-alive",
-    "Cache-Control": "no-cache",
+    "Cache-Control": "max-age=0",
 }
 
 def fetch_rss_with_retry(url: str) -> Optional[str]:
@@ -72,13 +75,23 @@ def fetch_rss_with_retry(url: str) -> Optional[str]:
                 return resp.text
 
             elif resp.status_code == 403:
-                logging.warning(f"403 Forbidden for {url}, trying with fallback headers")
-                # Fallback headers for 403 issues
-                fallback_headers = REQUEST_HEADERS.copy()
-                fallback_headers["User-Agent"] = "Mozilla/5.0 Content Hub/1.0"
+                logging.warning(f"403 Forbidden for {url}, trying with browser-like headers")
+                # Fallback headers mimicking real browsers for 403 issues
+                fallback_headers = {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Connection": "keep-alive",
+                    "Upgrade-Insecure-Requests": "1",
+                    "Sec-Fetch-Dest": "document",
+                    "Sec-Fetch-Mode": "navigate",
+                    "Sec-Fetch-Site": "none",
+                    "Cache-Control": "max-age=0",
+                }
                 resp = requests.get(url, headers=fallback_headers, timeout=RSS_TIMEOUT)
                 if resp.status_code == 200:
-                    logging.info(f"Successfully fetched {url} with fallback headers")
+                    logging.info(f"Successfully fetched {url} with browser-like headers")
                     return resp.text
 
             elif resp.status_code == 429:
