@@ -38,6 +38,13 @@ def run_full_pipeline(dry_run: bool = False) -> Dict[str, Any]:
     logging.info("Ceviche Engine Pipeline Starting")
     logging.info("=" * 60)
 
+    # Log proxy status
+    from config import WORKER_PROXY_URL
+    if WORKER_PROXY_URL:
+        logging.info(f"Using Cloudflare Worker proxy: {WORKER_PROXY_URL}")
+    else:
+        logging.info("Using direct RSS feed URLs (local mode)")
+
     pipeline_stats = {
         "start_time": start_time.isoformat(),
         "dry_run": dry_run,

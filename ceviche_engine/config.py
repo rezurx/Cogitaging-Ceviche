@@ -12,10 +12,25 @@ from pathlib import Path
 # RSS Feed URLs
 # ============================================================================
 
-RSS_FEEDS = [
+# Cloudflare Worker proxy for bypassing bot detection in CI environments
+# Set via environment variable: WORKER_PROXY_URL
+WORKER_PROXY_URL = os.getenv("WORKER_PROXY_URL")
+
+# Direct RSS feed URLs
+DIRECT_RSS_FEEDS = [
     "https://thecogitatingceviche.substack.com/feed",
     "https://thecyberneticceviche.substack.com/feed",
 ]
+
+# Use proxy URLs if WORKER_PROXY_URL is set (for GitHub Actions)
+# Otherwise use direct URLs (for local development)
+if WORKER_PROXY_URL:
+    RSS_FEEDS = [
+        f"{WORKER_PROXY_URL}/?feed=https://thecogitatingceviche.substack.com/feed",
+        f"{WORKER_PROXY_URL}/?feed=https://thecyberneticceviche.substack.com/feed",
+    ]
+else:
+    RSS_FEEDS = DIRECT_RSS_FEEDS
 
 # ============================================================================
 # Author Configuration

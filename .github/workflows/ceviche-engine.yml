@@ -53,6 +53,7 @@ jobs:
           python run_pipeline.py
         env:
           PYTHONUNBUFFERED: 1
+          WORKER_PROXY_URL: "https://small-water-400f.rezurx-ceviphant.workers.dev"
 
       - name: Build Hugo site
         run: hugo --minify
