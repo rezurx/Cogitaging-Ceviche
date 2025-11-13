@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-cathedrals-of-cobol-and-the-blockchains-of-babel/",
+  "headline": "The Cathedrals of COBOL and the Blockchains of Babel",
+  "url": "https://cogitating-ceviche.com/posts/the-cathedrals-of-cobol-and-the-blockchains-of-babel/",
+  "datePublished": "2025-08-26T06:01:10+00:00",
+  "dateModified": "2025-08-26T06:01:10+00:00",
+  "description": "Read more",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-cathedrals-of-cobol-and-the-blockchains-of-babel/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!44qD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbebd170d-7316-4962-92f7-e038b16555d7_2048x2048.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "wordCount": 26,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/the-cathedrals-of-cobol-and-the-blockchains"
+  }
+}

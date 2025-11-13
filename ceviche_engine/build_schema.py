@@ -252,6 +252,16 @@ def build_all_schemas(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
 
     manifest_path = write_schema_file(manifest, "manifest.json", SCHEMA_DIR)
 
+    # Copy schemas to assets/ directory for Hugo resources.Get
+    assets_schema_dir = Path("assets/schemas")
+    assets_schema_dir.mkdir(parents=True, exist_ok=True)
+
+    import shutil
+    for schema_file in SCHEMA_DIR.glob("*.json"):
+        shutil.copy2(schema_file, assets_schema_dir / schema_file.name)
+
+    logging.info(f"Copied {len(list(SCHEMA_DIR.glob('*.json')))} schemas to assets/schemas/")
+
     # Build stats
     stats = {
         "total_entries": len(entries),
@@ -260,6 +270,7 @@ def build_all_schemas(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
         "article_schemas_created": len(article_files),
         "manifest_created": manifest_path.exists(),
         "schema_dir": str(SCHEMA_DIR),
+        "assets_schema_dir": str(assets_schema_dir),
     }
 
     logging.info(f"Schema build complete: {len(article_files)} article schemas created")

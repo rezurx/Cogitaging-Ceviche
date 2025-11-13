@@ -32,6 +32,9 @@
     <!-- OpenGraph and other meta tags -->
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
+
+    <!-- JSON-LD Schema.org markup -->
+    {{ partial "schema.html" . }}
   </head>
   
   <body>

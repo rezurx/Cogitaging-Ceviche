@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-church-as-counterculture/",
+  "headline": "The Church as Counterculture:",
+  "url": "https://cogitating-ceviche.com/posts/the-church-as-counterculture/",
+  "datePublished": "2025-11-03T07:01:17+00:00",
+  "dateModified": "2025-11-03T07:01:17+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowIn every generation, the Church faces a choice between being admired and being faithful. The temptation to blend in, to seem approachable and relevant, is as old as the faith itself. In the modern age of...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-church-as-counterculture/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!7Quv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff2ec022-a3d4-419c-b880-39c4997f46a0_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "wordCount": 405,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-church-as-counterculture"
+  }
+}

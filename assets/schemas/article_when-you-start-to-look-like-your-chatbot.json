@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/when-you-start-to-look-like-your-chatbot/",
+  "headline": "When You Start to Look Like Your Chatbot",
+  "url": "https://cogitating-ceviche.com/posts/when-you-start-to-look-like-your-chatbot/",
+  "datePublished": "2025-10-14T06:00:50+00:00",
+  "dateModified": "2025-10-14T06:00:50+00:00",
+  "description": "Old wisdom claims that long-married couples eventually resemble one another. The joke was always that shared meals, shared stresses, and a lifetime of synchronized eye-rolls carved the same wrinkles into their faces. In 1987, psychologist Robert...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/when-you-start-to-look-like-your-chatbot/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!W048!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F044a4abe-abb4-4526-a3a8-7334b26f0ade_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "wordCount": 619,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/when-you-start-to-look-like-your"
+  }
+}

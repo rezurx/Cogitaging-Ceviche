@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/remember-when-i-told-you-blockchain-will-power-everything-well/",
+  "headline": "Remember When I Told You Blockchain Will Power Everything? Well...",
+  "url": "https://cogitating-ceviche.com/posts/remember-when-i-told-you-blockchain-will-power-everything-well/",
+  "datePublished": "2025-07-29T12:49:07+00:00",
+  "dateModified": "2025-07-29T12:49:07+00:00",
+  "description": "nowIntroduction: In Which I Admit I Was Being a Bit DramaticA while back, I wrote an article boldly proclaiming that \"Blockchain Will Power Everything.\" I was about as right as someone predicting the horse-and-buggy would dominate transportation...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/remember-when-i-told-you-blockchain-will-power-everything-well/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!1eAL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffed339e3-cf59-4ed8-b96f-ef2235e1ef4f_2048x2048.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "wordCount": 136,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/remember-when-i-told-you-blockchain"
+  }
+}

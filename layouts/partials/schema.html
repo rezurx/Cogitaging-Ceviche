@@ -1,0 +1,37 @@
+{{- /* Schema.org JSON-LD markup */ -}}
+
+{{- if .IsHome -}}
+  {{- /* WebSite schema for homepage */ -}}
+  {{- $websiteSchema := resources.Get "schemas/website.json" -}}
+  {{- if $websiteSchema -}}
+  <script type="application/ld+json">
+  {{ $websiteSchema.Content | safeJS }}
+  </script>
+  {{- end -}}
+
+  {{- /* Person schema for homepage */ -}}
+  {{- $personSchema := resources.Get "schemas/person.json" -}}
+  {{- if $personSchema -}}
+  <script type="application/ld+json">
+  {{ $personSchema.Content | safeJS }}
+  </script>
+  {{- end -}}
+{{- else if .IsPage -}}
+  {{- /* Article schema for individual posts */ -}}
+  {{- $slug := .File.ContentBaseName -}}
+  {{- $schemaPath := printf "schemas/article_%s.json" $slug -}}
+  {{- $articleSchema := resources.Get $schemaPath -}}
+  {{- if $articleSchema -}}
+  <script type="application/ld+json">
+  {{ $articleSchema.Content | safeJS }}
+  </script>
+  {{- end -}}
+
+  {{- /* Also include Person schema on article pages */ -}}
+  {{- $personSchema := resources.Get "schemas/person.json" -}}
+  {{- if $personSchema -}}
+  <script type="application/ld+json">
+  {{ $personSchema.Content | safeJS }}
+  </script>
+  {{- end -}}
+{{- end -}}
