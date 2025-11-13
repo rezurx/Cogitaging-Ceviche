@@ -8,6 +8,7 @@ Cannibalized from scripts/ingest_substack.py with enhancements
 
 import time
 import logging
+import subprocess
 import requests
 import feedparser
 from typing import List, Dict, Optional, Any
@@ -36,21 +37,83 @@ from utils import (
 )
 
 # ============================================================================
-# RSS Fetching (Cannibalized from scripts/ingest_substack.py)
+# RSS Fetching (Using curl subprocess - proven reliable approach)
 # ============================================================================
 
-# Enhanced request headers for 403 resistance
-REQUEST_HEADERS = {
-    "User-Agent": USER_AGENT,
-    "Accept": "application/rss+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.7",
-    "Connection": "keep-alive",
-    "Cache-Control": "no-cache",
-}
+# User agent for RSS requests
+RSS_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+def fetch_with_curl(url: str) -> Optional[str]:
+    """
+    Fetch RSS content using curl subprocess (proven reliable in CI).
+    This is the same approach used by scripts/ingest_substack_new.py which works reliably.
+
+    Args:
+        url: RSS feed URL (can be direct or proxy URL)
+
+    Returns:
+        RSS feed XML as string, or None if fetch failed
+    """
+    # Strategy 1: Standard curl with browser headers
+    try:
+        cmd = [
+            'curl', '-s', '-L',
+            '-H', f'User-Agent: {RSS_USER_AGENT}',
+            '-H', 'Accept: application/rss+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.7',
+            '-H', 'Connection: keep-alive',
+            '--max-time', '30',
+            url
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=35)
+        if result.returncode == 0 and result.stdout.strip():
+            content = result.stdout.strip()
+            # Quick check if it's actually RSS XML
+            if content.startswith('<?xml') and '<rss' in content:
+                return content
+    except Exception as e:
+        logging.debug(f"curl strategy 1 failed: {e}")
+
+    # Strategy 2: Use a simpler user agent
+    try:
+        simple_ua = "feedreader/1.0"
+        cmd = [
+            'curl', '-s', '-L', '--max-time', '30',
+            '-H', f'User-Agent: {simple_ua}',
+            url
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=35)
+        if result.returncode == 0 and result.stdout.strip():
+            content = result.stdout.strip()
+            if content.startswith('<?xml') and '<rss' in content:
+                return content
+    except Exception as e:
+        logging.debug(f"curl strategy 2 failed: {e}")
+
+    # Strategy 3: Use wget as fallback
+    try:
+        cmd = [
+            'wget', '-q', '-O', '-', '--timeout=30',
+            '--user-agent', RSS_USER_AGENT,
+            url
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=35)
+        if result.returncode == 0 and result.stdout.strip():
+            content = result.stdout.strip()
+            if content.startswith('<?xml') and '<rss' in content:
+                return content
+    except Exception as e:
+        logging.debug(f"wget strategy failed: {e}")
+
+    logging.error(f"All fetch strategies failed for {url}")
+    return None
 
 def fetch_rss_with_retry(url: str) -> Optional[str]:
     """
-    Enhanced RSS fetching with exponential backoff and comprehensive error handling.
-    Cannibalized from scripts/ingest_substack.py
+    Enhanced RSS fetching with retry logic using curl subprocess.
+    Uses the proven approach from scripts/ingest_substack_new.py
+
+    Args:
+        url: RSS feed URL (direct Substack or proxy URL)
 
     Returns:
         RSS feed XML as string, or None if all retries failed
@@ -59,43 +122,23 @@ def fetch_rss_with_retry(url: str) -> Optional[str]:
         try:
             logging.info(f"Fetching {url} (attempt {attempt + 1}/{RSS_RETRY_ATTEMPTS})")
 
-            # Add jitter to prevent thundering herd
+            # Add retry delay with exponential backoff
             if attempt > 0:
-                jitter = RSS_RETRY_DELAY * (attempt + 1) * RSS_RETRY_BACKOFF * (0.5 + 0.5 * hash(url) % 100 / 100)
-                logging.debug(f"Waiting {jitter:.2f}s before retry")
-                time.sleep(jitter)
+                delay = RSS_RETRY_DELAY * attempt * RSS_RETRY_BACKOFF
+                logging.debug(f"Waiting {delay:.1f}s before retry")
+                time.sleep(delay)
 
-            resp = requests.get(url, headers=REQUEST_HEADERS, timeout=RSS_TIMEOUT)
+            # Fetch using curl (proven reliable)
+            xml_content = fetch_with_curl(url)
 
-            if resp.status_code == 200:
+            if xml_content:
                 logging.info(f"Successfully fetched {url}")
-                return resp.text
+                return xml_content
 
-            elif resp.status_code == 403:
-                logging.warning(f"403 Forbidden for {url}, trying with fallback headers")
-                # Fallback headers for 403 issues
-                fallback_headers = REQUEST_HEADERS.copy()
-                fallback_headers["User-Agent"] = "Mozilla/5.0 Content Hub/1.0"
-                resp = requests.get(url, headers=fallback_headers, timeout=RSS_TIMEOUT)
-                if resp.status_code == 200:
-                    logging.info(f"Successfully fetched {url} with fallback headers")
-                    return resp.text
+            logging.warning(f"Failed to fetch {url} (no content or invalid XML)")
 
-            elif resp.status_code == 429:
-                logging.warning(f"Rate limited on {url}, waiting longer")
-                time.sleep(RSS_RETRY_DELAY * (attempt + 2) * 2)  # Longer wait for rate limits
-                continue
-
-            logging.warning(f"GET {url} returned {resp.status_code}")
-
-        except requests.exceptions.Timeout:
-            logging.warning(f"Timeout fetching {url} (attempt {attempt + 1})")
-        except requests.exceptions.ConnectionError as e:
-            logging.warning(f"Connection error for {url}: {e}")
-        except requests.exceptions.RequestException as e:
-            logging.warning(f"Request error for {url}: {e}")
         except Exception as e:
-            logging.error(f"Unexpected error fetching {url}: {e}")
+            logging.warning(f"Error fetching {url}: {e}")
 
     logging.error(f"Failed to fetch feed after {RSS_RETRY_ATTEMPTS} retries: {url}")
     return None
@@ -281,6 +324,13 @@ def ingest_all_feeds() -> List[Dict[str, Any]]:
     all_entries = []
 
     logging.info(f"Starting ingestion of {len(RSS_FEEDS)} feeds")
+
+    # Log the URLs being used for debugging
+    for i, feed in enumerate(RSS_FEEDS, 1):
+        if "workers.dev" in feed:
+            logging.info(f"Feed {i}: Using proxy URL")
+        else:
+            logging.info(f"Feed {i}: Using direct URL: {feed}")
 
     for feed_url in RSS_FEEDS:
         try:
