@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/terms-of-endearment/",
+  "headline": "Terms of Endearment:",
+  "url": "https://cogitating-ceviche.com/posts/terms-of-endearment/",
+  "datePublished": "2025-11-04T07:00:53+00:00",
+  "dateModified": "2025-11-04T07:00:53+00:00",
+  "description": "nowEvery modern relationship begins the same way: you scroll, you skim, you click “I Agree.” The digital age has replaced courtship with compliance. No vows, no ceremony, just the quiet submission of one soul to another through a pop-up...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/terms-of-endearment/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!mIHh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9610189a-3673-4441-8f54-099c2adc43bc_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "technology",
+  "wordCount": 354,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/terms-of-endearment"
+  }
+}

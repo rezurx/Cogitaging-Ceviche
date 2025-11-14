@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-republic-of-comments/",
+  "headline": "The Republic of Comments:",
+  "url": "https://cogitating-ceviche.com/posts/the-republic-of-comments/",
+  "datePublished": "2025-10-31T06:00:52+00:00",
+  "dateModified": "2025-10-31T06:00:52+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowBeneath the Article Lies the PeopleForget Athens. Forget Philadelphia. The true agora of the modern age lies just below the headline. The marble columns have been replaced by thread indentation, and the town...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-republic-of-comments/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!hPyW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F38b0a6fd-b861-48db-b5f7-97a43a6d5cc7_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 757,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-republic-of-comments"
+  }
+}

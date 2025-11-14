@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-25-41/",
+  "headline": "Cogitating Ceviche’s Week in Review (25-41)",
+  "url": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-25-41/",
+  "datePublished": "2025-10-19T06:01:58+00:00",
+  "dateModified": "2025-10-19T06:01:58+00:00",
+  "description": "The Cogitating Ceviché is a . , .Discussion via NotebookLMEditorial SummaryThis week’s writing moved across sacred texts, digital reflections, and the moral challenges of history. From Calista Freiheit’s meditation on the Psalms as the foundation of...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-25-41/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!SAWZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b7c3b98-1698-4767-8544-9c28b9f9d2a5_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "philosophy, technology, history",
+  "wordCount": 211,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-3ad"
+  }
+}

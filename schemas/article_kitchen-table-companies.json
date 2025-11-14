@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/kitchen-table-companies/",
+  "headline": "Kitchen-Table Companies:",
+  "url": "https://cogitating-ceviche.com/posts/kitchen-table-companies/",
+  "datePublished": "2025-08-12T06:01:35+00:00",
+  "dateModified": "2025-08-12T06:01:35+00:00",
+  "description": "The Old Game Is OverThere used to be a ritual to this sort of thing. You got a badge from an incubator (a startup bootcamp with free desks and dubious mentors), learned to speak venture capital in a minor key, and pitched PowerPoint slides to...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/kitchen-table-companies/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!VrWu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F260c27cf-00f0-4837-90c6-5d0ac963ef83_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "politics",
+  "wordCount": 171,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/kitchen-table-companies"
+  }
+}

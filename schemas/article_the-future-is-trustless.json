@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-future-is-trustless/",
+  "headline": "The Future Is Trustless",
+  "url": "https://cogitating-ceviche.com/posts/the-future-is-trustless/",
+  "datePublished": "2025-07-25T12:58:07+00:00",
+  "dateModified": "2025-07-25T12:58:07+00:00",
+  "description": "nowDiscussion provided by NotebookLMLet's talk about trust. Specifically, let's talk about how spectacularly bad humans are at deserving it.Every time you swipe your card, send an email, or buy something online, you're essentially playing a massive...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-future-is-trustless/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!IKPM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4905caaf-44fd-4b7b-bc04-a93c6e67b1c5_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 137,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/the-future-is-trustless"
+  }
+}
