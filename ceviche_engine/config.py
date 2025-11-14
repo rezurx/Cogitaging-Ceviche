@@ -124,6 +124,21 @@ TOPIC_MAX_COUNT = 8
 QA_CACHE_DIR = BASE_DIR / "data" / "qa_cache"
 
 # ============================================================================
+# Cost Control Settings
+# ============================================================================
+
+# Enable/disable features to control API costs
+ENABLE_QA_GENERATION = os.getenv("ENABLE_QA_GENERATION", "true").lower() == "true"
+ENABLE_TOPIC_EXTRACTION = os.getenv("ENABLE_TOPIC_EXTRACTION", "true").lower() == "true"
+
+# Maximum API calls per pipeline run (safety limit)
+# Set to None for unlimited, or a number like 50 to cap costs
+MAX_API_CALLS_PER_RUN = int(os.getenv("MAX_API_CALLS_PER_RUN", "100"))
+
+# Skip Q&A for articles longer than this (to control costs)
+MAX_CONTENT_LENGTH_FOR_QA = int(os.getenv("MAX_CONTENT_LENGTH_FOR_QA", "10000"))
+
+# ============================================================================
 # Content Requirements
 # ============================================================================
 

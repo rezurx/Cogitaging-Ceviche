@@ -24,6 +24,10 @@ from config import (
     TOPIC_MAX_COUNT,
     QA_CACHE_DIR,
     MIN_CONTENT_LENGTH_FOR_QA,
+    MAX_CONTENT_LENGTH_FOR_QA,
+    MAX_API_CALLS_PER_RUN,
+    ENABLE_QA_GENERATION,
+    ENABLE_TOPIC_EXTRACTION,
     ensure_directories,
 )
 
@@ -330,31 +334,90 @@ def process_article_qa(entry: Dict[str, Any]) -> Tuple[List[str], List[Dict[str,
 
     return topics, qna
 
-def build_all_qa(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
+def build_all_qa(entries: List[Dict[str, Any]]) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
     """
-    Process all articles and generate Q&A data.
+    Process all articles and generate Q&A data with cost controls.
 
     Args:
         entries: List of article entries from ingestion
 
     Returns:
-        Stats dict
+        Tuple of (stats dict, enriched entries list)
     """
     logging.info(f"Processing Q&A for {len(entries)} articles")
+
+    # Cost control flags
+    if not ENABLE_QA_GENERATION:
+        logging.warning("Q&A generation disabled via ENABLE_QA_GENERATION=false")
+    if not ENABLE_TOPIC_EXTRACTION:
+        logging.warning("Topic extraction disabled via ENABLE_TOPIC_EXTRACTION=false")
+    if MAX_API_CALLS_PER_RUN:
+        logging.info(f"API call limit: {MAX_API_CALLS_PER_RUN} calls per run")
 
     articles_with_qna = 0
     total_qna_pairs = 0
     total_topics = 0
+    api_calls_made = 0
+    cache_hits = 0
 
     # Process each article
     enriched_entries = []
     for entry in entries:
-        topics, qna = process_article_qa(entry)
+        # Check API call limit
+        if MAX_API_CALLS_PER_RUN and api_calls_made >= MAX_API_CALLS_PER_RUN:
+            logging.warning(f"Reached API call limit ({MAX_API_CALLS_PER_RUN}), skipping remaining articles")
+            # Still add entry but with empty topics/qna
+            entry['topics'] = []
+            entry['qna'] = []
+            enriched_entries.append(entry)
+            continue
+
+        # Check content length limit
+        content = entry.get('excerpt', '') or entry.get('content_html', '')
+        if len(content) > MAX_CONTENT_LENGTH_FOR_QA:
+            logging.info(f"Skipping {entry['title']}: content too long ({len(content)} > {MAX_CONTENT_LENGTH_FOR_QA})")
+            entry['topics'] = []
+            entry['qna'] = []
+            enriched_entries.append(entry)
+            continue
+
+        # Check cache first
+        content_hash = hash_content(content)
+        cached = load_from_cache(content_hash)
+
+        if cached:
+            topics = cached.get('topics', [])
+            qna = cached.get('qna', [])
+            cache_hits += 1
+            logging.info(f"Cache hit for: {entry['title']}")
+        else:
+            # Extract topics if enabled
+            if ENABLE_TOPIC_EXTRACTION:
+                topics = extract_topics_with_llm(content, entry['title'])
+                if ANTHROPIC_API_KEY:
+                    api_calls_made += 1  # Count API call for topics
+            else:
+                topics = extract_topics_fallback(content, entry['title'])
+
+            # Generate Q&A if enabled and article is from Conrad
+            qna = []
+            if ENABLE_QA_GENERATION and entry.get('is_conrad', False):
+                qna = generate_qna_with_llm(content, entry['title'], entry.get('author', ''))
+                if ANTHROPIC_API_KEY and qna:
+                    api_calls_made += 1  # Count API call for Q&A
+
+            # Cache results
+            cache_data = {
+                'content_hash': content_hash,
+                'topics': topics,
+                'qna': qna,
+                'processed_at': json.dumps(os.popen('date -Iseconds').read().strip())
+            }
+            save_to_cache(content_hash, cache_data)
 
         # Add to entry
         entry['topics'] = topics
         entry['qna'] = qna
-
         enriched_entries.append(entry)
 
         if qna:
@@ -369,9 +432,13 @@ def build_all_qa(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
         'total_qna_pairs': total_qna_pairs,
         'total_topics': total_topics,
         'avg_topics_per_article': total_topics / len(entries) if entries else 0,
+        'api_calls_made': api_calls_made,
+        'cache_hits': cache_hits,
+        'cost_controls_active': bool(MAX_API_CALLS_PER_RUN),
     }
 
     logging.info(f"Q&A processing complete: {articles_with_qna} articles with Q&A, {total_qna_pairs} total Q&A pairs")
+    logging.info(f"API calls: {api_calls_made}, Cache hits: {cache_hits}")
 
     return stats, enriched_entries
 
