@@ -13,7 +13,7 @@
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://substackcdn.com/image/fetch/$s_!YK3a!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2a4798e-9468-4132-9aa3-cf025ae379c8_806x939.png",
+    "url": "https://substackcdn.com/image/fetch/$s_!DEZM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb07c8832-daa2-4774-a816-f8e9e3d661d3_806x569.png",
     "width": 1456,
     "height": 1456
   },
@@ -28,6 +28,7 @@
     "name": "Conrad T. Hannon",
     "url": "https://cogitating-ceviche.com/about/"
   },
+  "keywords": "general",
   "wordCount": 231,
   "isBasedOn": {
     "@type": "CreativeWork",
