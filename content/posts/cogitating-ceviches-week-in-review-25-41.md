@@ -8,6 +8,7 @@ slug = "cogitating-ceviches-week-in-review-25-41"
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!SAWZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3b7c3b98-1698-4767-8544-9c28b9f9d2a5_1024x1024.png"
+tags = ["philosophy", "technology", "history"]
 description = "The Cogitating Ceviché is a . , .Discussion via NotebookLMEditorial SummaryThis week’s writing moved across sacred texts, digital reflections, and the moral challenges of history. From Calista Freiheit’s meditation on the Psalms as the foundation of..."
 +++
 

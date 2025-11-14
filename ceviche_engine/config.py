@@ -98,6 +98,39 @@ RSS_RETRY_DELAY = 2  # seconds
 RSS_RETRY_BACKOFF = 2  # exponential backoff multiplier
 
 # Request timeout (seconds)
+REQUEST_TIMEOUT = 30
+
+# ============================================================================
+# Phase 2: Q&A and Topic Extraction Settings
+# ============================================================================
+
+# LLM Provider for Q&A Generation
+QA_GENERATION_PROVIDER = "anthropic"  # anthropic, openai, or local
+QA_MODEL = "claude-3-5-haiku-20241022"  # Latest Haiku model
+
+# Anthropic API configuration
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+
+# Q&A Generation Settings
+QA_MIN_QUESTIONS = 3
+QA_MAX_QUESTIONS = 5
+QA_TEMPERATURE = 0.3  # Lower = more focused/deterministic
+
+# Topic Extraction Settings
+TOPIC_MIN_COUNT = 3
+TOPIC_MAX_COUNT = 8
+
+# Cache directory for Q&A results
+QA_CACHE_DIR = BASE_DIR / "data" / "qa_cache"
+
+# ============================================================================
+# Content Requirements
+# ============================================================================
+
+# Minimum content length for Q&A generation (characters)
+MIN_CONTENT_LENGTH_FOR_QA = 500
+
+# Request timeout (seconds)
 RSS_TIMEOUT = 30
 
 # User agent for RSS requests

@@ -16,6 +16,7 @@ from typing import Dict, Any
 from config import LOGS_DIR, ensure_directories
 from utils import setup_logging
 from ingest_substack import ingest_all_feeds, get_ingestion_stats
+from build_qa import build_all_qa  # Phase 2
 from build_articles import build_all_articles
 from build_schema import build_all_schemas
 
@@ -47,7 +48,7 @@ def run_full_pipeline(dry_run: bool = False) -> Dict[str, Any]:
 
     try:
         # Step 1: Ingest RSS Feeds
-        logging.info("\n[1/3] Ingesting RSS Feeds...")
+        logging.info("\n[1/4] Ingesting RSS Feeds...")
         entries = ingest_all_feeds()
 
         if not entries:
@@ -70,16 +71,28 @@ def run_full_pipeline(dry_run: bool = False) -> Dict[str, Any]:
             pipeline_stats["success"] = True
             return pipeline_stats
 
-        # Step 2: Build Hugo Articles
-        logging.info("\n[2/3] Building Hugo Articles...")
+        # Step 2: Extract Topics and Q&A (Phase 2)
+        logging.info("\n[2/4] Extracting Topics and Q&A...")
+        qa_stats, enriched_entries = build_all_qa(entries)
+        pipeline_stats["qa"] = qa_stats
+
+        logging.info(f"Articles with Q&A: {qa_stats['articles_with_qna']}")
+        logging.info(f"Total Q&A pairs: {qa_stats['total_qna_pairs']}")
+        logging.info(f"Avg topics/article: {qa_stats['avg_topics_per_article']:.1f}")
+
+        # Use enriched entries for remaining steps
+        entries = enriched_entries
+
+        # Step 3: Build Hugo Articles
+        logging.info("\n[3/4] Building Hugo Articles...")
         article_stats = build_all_articles(entries)
         pipeline_stats["articles"] = article_stats
 
         logging.info(f"Created {article_stats['hugo_files_created']} Hugo files")
         logging.info(f"Generated posts.json: {article_stats['posts_json_created']}")
 
-        # Step 3: Build JSON-LD Schemas
-        logging.info("\n[3/3] Building JSON-LD Schemas...")
+        # Step 4: Build JSON-LD Schemas
+        logging.info("\n[4/4] Building JSON-LD Schemas...")
         schema_stats = build_all_schemas(entries)
         pipeline_stats["schemas"] = schema_stats
 

@@ -8,6 +8,7 @@ slug = "the-open-faced-cyborg"
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!pXE-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F97c7f230-b75e-44be-a6bb-a42e7ea00492_2048x2048.png"
+tags = ["AI"]
 description = "Read more"
 +++
 

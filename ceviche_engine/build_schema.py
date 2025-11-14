@@ -179,6 +179,50 @@ def build_article_schema(entry: Dict[str, Any]) -> Dict[str, Any]:
     return schema
 
 # ============================================================================
+# FAQPage Schema (Phase 2)
+# ============================================================================
+
+def build_faqpage_schema(entry: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    """
+    Build Schema.org FAQPage schema for articles with Q&A pairs.
+    Phase 2 feature for Answer Engine Optimization.
+
+    Args:
+        entry: Processed entry dict with 'qna' field
+
+    Returns:
+        FAQPage schema dict or None if no Q&A
+    """
+    # Only generate if Q&A exists
+    if not entry.get('qna') or len(entry.get('qna', [])) == 0:
+        return None
+
+    article_url = f"{SITE_URL}/posts/{entry['slug']}/"
+
+    # Build FAQ schema
+    main_entity = []
+    for qa in entry['qna']:
+        question_entity = {
+            "@type": "Question",
+            "name": qa['question'],
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": qa['answer']
+            }
+        }
+        main_entity.append(question_entity)
+
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": f"{article_url}#faq",
+        "url": article_url,
+        "mainEntity": main_entity
+    }
+
+    return schema
+
+# ============================================================================
 # Schema File Writing
 # ============================================================================
 
@@ -232,12 +276,22 @@ def build_all_schemas(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
 
     # Build and write Article schemas
     article_files = []
+    faqpage_files = []
     for entry in entries:
         try:
             article_schema = build_article_schema(entry)
             filename = f"article_{entry['slug']}.json"
             article_path = write_schema_file(article_schema, filename, SCHEMA_DIR)
             article_files.append(article_path)
+
+            # Phase 2: Build FAQPage schema if Q&A exists
+            faqpage_schema = build_faqpage_schema(entry)
+            if faqpage_schema:
+                faqpage_filename = f"faqpage_{entry['slug']}.json"
+                faqpage_path = write_schema_file(faqpage_schema, faqpage_filename, SCHEMA_DIR)
+                faqpage_files.append(faqpage_path)
+                logging.info(f"Generated FAQPage schema for: {entry['title']}")
+
         except Exception as e:
             logging.error(f"Failed to build schema for {entry['title']}: {e}")
 
@@ -247,7 +301,9 @@ def build_all_schemas(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
         "person_schema": "person.json",
         "website_schema": "website.json",
         "article_schemas": [f"article_{entry['slug']}.json" for entry in entries],
+        "faqpage_schemas": [f"faqpage_{entry['slug']}.json" for entry in entries if entry.get('qna')],
         "total_articles": len(entries),
+        "total_faqpages": len(faqpage_files),
     }
 
     manifest_path = write_schema_file(manifest, "manifest.json", SCHEMA_DIR)

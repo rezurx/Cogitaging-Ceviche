@@ -8,6 +8,7 @@ slug = "the-poisoned-well"
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!dQGD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90c6c69a-a495-4967-a762-f231168940c1_1024x1024.png"
+tags = ["technology"]
 description = "The Cybernetic Ceviché is a . , . nowThe internet was supposed to democratize information. Instead, it industrialized noise. News cycles now run on narrative flooding, pushing so many takes, counter-takes, and pre-packaged outrages that truth gets..."
 +++
 

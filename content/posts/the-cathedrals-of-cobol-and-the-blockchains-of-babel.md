@@ -8,6 +8,7 @@ slug = "the-cathedrals-of-cobol-and-the-blockchains-of-babel"
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!44qD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbebd170d-7316-4962-92f7-e038b16555d7_2048x2048.png"
+tags = ["AI"]
 description = "Read more"
 +++
 

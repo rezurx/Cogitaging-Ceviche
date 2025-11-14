@@ -8,6 +8,7 @@ slug = "the-age-of-the-amateur-prophet"
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!g_Qv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F830d16c8-576a-4710-987f-892328b159d9_1024x1024.png"
+tags = ["AI"]
 description = "Read more"
 +++
 

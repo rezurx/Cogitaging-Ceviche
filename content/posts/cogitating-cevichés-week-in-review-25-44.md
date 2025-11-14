@@ -8,6 +8,7 @@ slug = "cogitating-cevichés-week-in-review-25-44"
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!tngW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4aef01a4-1a98-4903-a5d7-e4c9810da512_1024x1024.jpeg"
+tags = ["technology", "culture"]
 description = "The Cogitating Ceviché is a . , .Discussion via NotebookLMEditorial SummaryThis week’s pieces hold a reflective mirror to the cultures we inhabit—religious, digital, domestic and literary—and ask whether allegiance to those spaces means adaptation,..."
 +++
 

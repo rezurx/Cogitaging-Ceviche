@@ -8,6 +8,7 @@ slug = "the-paradox-of-progress"
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!iWze!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1294a97e-5ce0-48a9-9452-347a7ebfb2fc_1024x1024.webp"
+tags = ["AI"]
 description = "Read more"
 +++
 

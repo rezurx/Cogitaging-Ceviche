@@ -13,7 +13,7 @@
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://substackcdn.com/image/fetch/$s_!IsRN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F329eac8d-d784-4409-bfe0-9ed61ead196a_1024x1536.png",
+    "url": "https://substackcdn.com/image/fetch/$s_!x7Nl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02e2cc44-4f3a-42a1-bbc0-e51cb86a2833_1024x848.png",
     "width": 1456,
     "height": 1456
   },
@@ -28,6 +28,7 @@
     "name": "Conrad T. Hannon",
     "url": "https://cogitating-ceviche.com/about/"
   },
+  "keywords": "AI, technology, cognition, history",
   "wordCount": 354,
   "isBasedOn": {
     "@type": "CreativeWork",

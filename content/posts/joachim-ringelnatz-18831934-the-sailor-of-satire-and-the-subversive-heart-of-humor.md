@@ -8,6 +8,7 @@ slug = "joachim-ringelnatz-18831934-the-sailor-of-satire-and-the-subversive-hear
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!MD2Z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcbf1162a-02a3-4b27-b0af-1ad59515e77b_1024x1536.png"
+tags = ["AI", "satire"]
 description = "The Cogitating Ceviché is a . , . nowJoachim Ringelnatz remains one of Germany’s most distinctive humorists, an anarchic poet whose salty, unrefined wit carried the scent of the sea and the sting of truth. Known for his drunken, lovable alter ego..."
 +++
 
