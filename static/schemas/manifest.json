@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-11-14T06:17:00.980141",
+  "generatedAt": "2025-11-15T06:15:12.339083",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-convention-on-the-rights-of-truman-burbank.json",
     "article_the-elephant-island-chronicles.json",
     "article_robert-hooke-the-invisible-architect-of-the-modern-world.json",
     "article_valor-and-recognition.json",
@@ -26,7 +27,6 @@
     "article_when-a-nation-forgets.json",
     "article_cogitating-ceviches-week-in-review-25-41.json",
     "article_aligned-hearts.json",
-    "article_john-brown-the-morally-complex-revolutionary.json",
     "article_when-you-start-to-look-like-your-chatbot.json",
     "article_the-algorithm-has-no-taste-only-hunger.json",
     "article_the-poisoned-well.json",
