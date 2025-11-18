@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-11-17T06:18:07.035574",
+  "generatedAt": "2025-11-18T06:17:09.017063",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-new-puritans.json",
     "article_cogitating-ceviches-week-in-review-25-45.json",
     "article_the-convention-on-the-rights-of-truman-burbank.json",
     "article_the-elephant-island-chronicles.json",
@@ -26,7 +27,6 @@
     "article_tobias-smollett-17211771-the-surgeon-of-satire.json",
     "article_reciprocal-determinism-in-your-kitchen.json",
     "article_when-a-nation-forgets.json",
-    "article_cogitating-ceviches-week-in-review-25-41.json",
     "article_when-you-start-to-look-like-your-chatbot.json",
     "article_the-algorithm-has-no-taste-only-hunger.json",
     "article_the-poisoned-well.json",
