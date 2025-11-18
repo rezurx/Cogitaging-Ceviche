@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-new-puritans/",
+  "headline": "The New Puritans:",
+  "url": "https://cogitating-ceviche.com/posts/the-new-puritans/",
+  "datePublished": "2025-11-17T07:00:47+00:00",
+  "dateModified": "2025-11-17T07:00:47+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowThe term “Puritan” once conjured images of somber-clothed colonists, Bibles in hand, frowning at any hint of joy or dissent. But today’s neo-Puritanism does not wear black hats or cite scripture. Instead, it...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-new-puritans/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!lVHs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70cf08ae-b246-4828-a697-dd2f8704bd2c_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 647,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-new-puritans"
+  }
+}
