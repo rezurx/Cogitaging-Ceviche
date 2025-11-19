@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-11-18T06:17:09.002473",
+  "generatedAt": "2025-11-19T06:16:56.325922",
   "items": [
+    {
+      "title": "Machine Faith",
+      "subtitle": "",
+      "url": "https://thecyberneticceviche.substack.com/p/machine-faith",
+      "published": "Tue, 18 Nov 2025 07:00:43 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!SBv3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7915da78-154c-4f6d-8795-507bab9203ad_1024x1024.png",
+      "excerpt": "The Church of the AlgorithmThe new gods do not speak in riddles. They speak in recommended products.Every morning, 4.9 billion people rise and consult the feed. We scroll for meaning, swipe for purpose, and refresh for reassurance that the universe...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
     {
       "title": "The New Puritans",
       "subtitle": "",
@@ -150,7 +161,7 @@
       "url": "https://thecogitatingceviche.substack.com/p/the-church-as-counterculture",
       "published": "Mon, 03 Nov 2025 07:01:17 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!7Quv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff2ec022-a3d4-419c-b880-39c4997f46a0_1024x1024.png",
-      "excerpt": "The Cogitating Ceviché is a . , . nowIn every generation, the Church faces a choice between being admired and being faithful. The temptation to blend in, to seem approachable and relevant, is as old as the faith itself. In the modern age of...",
+      "excerpt": "Read more",
       "source": "substack",
       "author": "Calista F. Freiheit",
       "is_conrad": false
@@ -429,17 +440,6 @@
       "source": "substack",
       "author": "John W Brown",
       "is_conrad": false
-    },
-    {
-      "title": "The Paradox of Progress",
-      "subtitle": "",
-      "url": "https://thecyberneticceviche.substack.com/p/the-paradox-of-progress",
-      "published": "Thu, 16 May 2024 11:02:56 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!iWze!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1294a97e-5ce0-48a9-9452-347a7ebfb2fc_1024x1024.webp",
-      "excerpt": "Read more",
-      "source": "substack",
-      "author": "Conrad T. Hannon",
-      "is_conrad": true
     }
   ]
 }
