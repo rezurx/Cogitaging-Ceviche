@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/heinrich-heine-17971856-the-poet-of-exile-and-the-irony-of-belonging/",
+  "headline": "Heinrich Heine (1797–1856): The Poet of Exile and the Irony of Belonging",
+  "url": "https://cogitating-ceviche.com/posts/heinrich-heine-17971856-the-poet-of-exile-and-the-irony-of-belonging/",
+  "datePublished": "2025-11-19T07:00:10+00:00",
+  "dateModified": "2025-11-19T07:00:10+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowPrefaceHeinrich Heine occupies a rare position in European letters: a poet whose lyric beauty masked a blade of satire sharp enough to wound monarchs and unsettle ideologues. A Romantic by form and temperament,...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/heinrich-heine-17971856-the-poet-of-exile-and-the-irony-of-belonging/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!mO4_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c44f4f8-c8db-4974-83b7-b2268acfb006_1024x1003.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "satire",
+  "wordCount": 595,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/heinrich-heine-17971856-the-poet"
+  }
+}
