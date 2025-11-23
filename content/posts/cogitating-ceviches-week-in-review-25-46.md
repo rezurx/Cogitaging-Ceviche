@@ -1,0 +1,17 @@
++++
+title = "Cogitating Ceviche’s Week in Review (25-46)"
+date = "2025-11-23T06:00:48+00:00"
+draft = false
+canonicalUrl = "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-b2c"
+source = "Cogitating-Ceviche"
+slug = "cogitating-ceviches-week-in-review-25-46"
+author = "Conrad T. Hannon"
+is_conrad = true
+featured_image = "https://substackcdn.com/image/fetch/$s_!jCxQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07feeba6-fac7-41c7-b52e-054f7e23ccc7_1024x1024.jpeg"
+tags = ["general"]
+description = "The Cogitating Ceviché is a . , .Discussion via NotebookLMCogitating Ceviche’s Week in Review (Nov 17–22)Editorial SummaryA sharpened edge marked this week’s reflections as our contributors turned their gaze toward the tensions at the heart of..."
++++
+
+The Cogitating Ceviché is a . , .Discussion via NotebookLMCogitating Ceviche’s Week in Review (Nov 17–22)Editorial SummaryA sharpened edge marked this week’s reflections as our contributors turned their gaze toward the tensions at the heart of...
+
+[Read the full article on Substack](https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-b2c)
