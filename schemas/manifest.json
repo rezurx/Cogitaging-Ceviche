@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-11-24T06:18:21.097541",
+  "generatedAt": "2025-11-25T06:17:52.370073",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-end-of-expertise.json",
     "article_cogitating-ceviches-week-in-review-25-46.json",
     "article_if-anyone-uses-it-everyone-dies.json",
     "article_heinrich-heine-17971856-the-poet-of-exile-and-the-irony-of-belonging.json",
@@ -26,7 +27,6 @@
     "article_hannibal-barca-and-the-algorithmic-battlefield-ancient-strategy-in-the-age-of-ai-war.json",
     "article_the-ai-therapist-will-see-you-now.json",
     "article_through-the-founders-eyes.json",
-    "article_cogitating-cevichés-week-in-review-25-42.json",
     "article_reciprocal-determinism-in-your-kitchen.json",
     "article_when-you-start-to-look-like-your-chatbot.json",
     "article_the-algorithm-has-no-taste-only-hunger.json",
