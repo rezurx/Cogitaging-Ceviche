@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-end-of-expertise/",
+  "headline": "The End of Expertise:",
+  "url": "https://cogitating-ceviche.com/posts/the-end-of-expertise/",
+  "datePublished": "2025-11-24T07:00:41+00:00",
+  "dateModified": "2025-11-24T07:00:41+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowThe modern age celebrates disruption as a virtue. Every tradition is questioned, every institution mocked, and every authority figure dismantled. What was once considered a mark of wisdom (deference to experience...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-end-of-expertise/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!KMsK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F684a67ca-3558-4f1e-985f-4356192f4321_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 661,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-end-of-expertise"
+  }
+}
