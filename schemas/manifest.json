@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-11-25T06:17:52.370073",
+  "generatedAt": "2025-11-26T06:17:47.033985",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json",
     "article_the-end-of-expertise.json",
     "article_cogitating-ceviches-week-in-review-25-46.json",
     "article_if-anyone-uses-it-everyone-dies.json",
@@ -41,8 +42,7 @@
     "article_nfts-the-emperors-new-clothes-finally-got-tailored.json",
     "article_remember-when-i-told-you-blockchain-will-power-everything-well.json",
     "article_the-future-is-trustless.json",
-    "article_transhuman-uplifting.json",
-    "article_the-quest-for-conscious-ai.json"
+    "article_transhuman-uplifting.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,

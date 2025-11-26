@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-11-25T06:17:52.358133",
+  "generatedAt": "2025-11-26T06:17:47.022669",
   "items": [
+    {
+      "title": "Why Your Content Needs a Chaperone in the Age of AI",
+      "subtitle": "",
+      "url": "https://thecyberneticceviche.substack.com/p/why-your-content-needs-a-chaperone",
+      "published": "Tue, 25 Nov 2025 07:01:15 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!4K0q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02c96db1-702c-46eb-8385-f9b6b63ff1a2_1024x1024.png",
+      "excerpt": "There was a time when information traveled with some dignity. It wore a jacket. It took the stairs. It cited sources. Then we handed the keys to generative models, and suddenly half the internet is being summarized, reinterpreted, or hallucinated by...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
     {
       "title": "The End of Expertise",
       "subtitle": "",
@@ -139,7 +150,7 @@
       "url": "https://thecogitatingceviche.substack.com/p/the-christian-legacy-of-chivalry",
       "published": "Mon, 10 Nov 2025 07:01:06 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!ZhLm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a7d98df-f2d9-4ffd-90c7-34ae95134c3a_1024x1024.png",
-      "excerpt": "The Cogitating Ceviché is a . , . nowThere was a time when the word chivalry carried the weight of holiness. It called to mind knights kneeling in candlelit chapels, swords laid on altars, and vows spoken in reverence to God. Strength was...",
+      "excerpt": "Read more",
       "source": "substack",
       "author": "Calista F. Freiheit",
       "is_conrad": false
@@ -429,17 +440,6 @@
       "source": "substack",
       "author": "Conrad T. Hannon",
       "is_conrad": true
-    },
-    {
-      "title": "The Quest for Conscious AI",
-      "subtitle": "",
-      "url": "https://thecyberneticceviche.substack.com/p/the-quest-for-conscious-ai",
-      "published": "Mon, 27 May 2024 11:01:40 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!eLJE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffbbc1589-f289-4750-a644-ddaccd34e83d_1024x1024.webp",
-      "excerpt": "Read more",
-      "source": "substack",
-      "author": "John W Brown",
-      "is_conrad": false
     }
   ]
 }
