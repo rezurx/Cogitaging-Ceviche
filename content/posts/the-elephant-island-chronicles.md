@@ -8,10 +8,10 @@ slug = "the-elephant-island-chronicles"
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!DEZM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb07c8832-daa2-4774-a816-f8e9e3d661d3_806x569.png"
-tags = ["general"]
-description = "The Fish, Oops I Mean Elephant, Tells Stories NowEvery thinker eventually starts telling stories. It is how ideas stretch their legs and see what they can do when no one is watching.Readers of The Cogitating Ceviche sometimes ask if all this..."
+tags = ["AI"]
+description = "Read more"
 +++
 
-The Fish, Oops I Mean Elephant, Tells Stories NowEvery thinker eventually starts telling stories. It is how ideas stretch their legs and see what they can do when no one is watching.Readers of The Cogitating Ceviche sometimes ask if all this...
+Read more
 
 [Read the full article on Substack](https://thecogitatingceviche.substack.com/p/the-elephant-island-chronicles)
