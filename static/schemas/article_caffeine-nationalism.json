@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/caffeine-nationalism/",
+  "headline": "Caffeine Nationalism:",
+  "url": "https://cogitating-ceviche.com/posts/caffeine-nationalism/",
+  "datePublished": "2025-11-28T07:00:55+00:00",
+  "dateModified": "2025-11-28T07:00:55+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowThe Steam-Roasted FlagEvery nation has its founding myth, and most of them can be poured into a mug. Coffee is not a beverage. It is theology with crema. Turks claim they invented sophistication one demitasse at...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/caffeine-nationalism/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!E4l8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8763c603-6f98-43fb-96b8-b267b856c585_1024x970.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "National Identity, Cultural Symbolism, Beverage Mythology, Culinary Nationalism",
+  "wordCount": 407,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/caffeine-nationalism"
+  }
+}
