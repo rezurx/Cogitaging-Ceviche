@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-11-28T06:17:50.505082",
+  "generatedAt": "2025-11-29T06:15:49.885075",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_caffeine-nationalism.json",
     "article_paracelsus-alchemy-medicine-and-the-new-frontier-of-life.json",
     "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json",
     "article_the-end-of-expertise.json",
@@ -26,7 +27,6 @@
     "article_the-church-as-counterculture.json",
     "article_cogitating-cevichés-week-in-review-25-43.json",
     "article_the-republic-of-comments.json",
-    "article_hannibal-barca-and-the-algorithmic-battlefield-ancient-strategy-in-the-age-of-ai-war.json",
     "article_the-ai-therapist-will-see-you-now.json",
     "article_reciprocal-determinism-in-your-kitchen.json",
     "article_when-you-start-to-look-like-your-chatbot.json",
