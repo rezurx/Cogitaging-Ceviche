@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-12-01T06:19:03.737311",
+  "generatedAt": "2025-12-02T06:18:28.066104",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_marriage-as-covenant-not-contract.json",
     "article_cogitating-ceviches-week-in-review-25-47.json",
     "article_caffeine-nationalism.json",
     "article_paracelsus-alchemy-medicine-and-the-new-frontier-of-life.json",
@@ -26,7 +27,6 @@
     "article_joachim-ringelnatz-18831934-the-sailor-of-satire-and-the-subversive-heart-of-humor.json",
     "article_terms-of-endearment.json",
     "article_the-church-as-counterculture.json",
-    "article_cogitating-cevichés-week-in-review-25-43.json",
     "article_the-ai-therapist-will-see-you-now.json",
     "article_reciprocal-determinism-in-your-kitchen.json",
     "article_when-you-start-to-look-like-your-chatbot.json",
