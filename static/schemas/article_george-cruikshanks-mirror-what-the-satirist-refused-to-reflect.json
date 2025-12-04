@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/george-cruikshanks-mirror-what-the-satirist-refused-to-reflect/",
+  "headline": "George Cruikshank's Mirror: What the Satirist Refused to Reflect",
+  "url": "https://cogitating-ceviche.com/posts/george-cruikshanks-mirror-what-the-satirist-refused-to-reflect/",
+  "datePublished": "2025-12-03T07:00:16+00:00",
+  "dateModified": "2025-12-03T07:00:16+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowPrefaceGeorge Cruikshank was one of the most influential visual satirists of nineteenth-century Britain. Through thousands of engravings, caricatures, and book illustrations, he mapped the contradictions of a...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/george-cruikshanks-mirror-what-the-satirist-refused-to-reflect/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!pnA0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef039173-2a82-47b2-a3a1-0b54151076fc_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 713,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/george-cruikshanks-mirror-what-the"
+  }
+}
