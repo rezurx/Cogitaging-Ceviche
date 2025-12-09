@@ -8,10 +8,10 @@ slug = "the-end-of-expertise"
 author = "Calista F. Freiheit"
 is_conrad = false
 featured_image = "https://substackcdn.com/image/fetch/$s_!KMsK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F684a67ca-3558-4f1e-985f-4356192f4321_1024x1024.png"
-tags = ["general"]
-description = "The Cogitating Ceviché is a . , . nowThe modern age celebrates disruption as a virtue. Every tradition is questioned, every institution mocked, and every authority figure dismantled. What was once considered a mark of wisdom (deference to experience..."
+tags = ["AI"]
+description = "Read more"
 +++
 
-The Cogitating Ceviché is a . , . nowThe modern age celebrates disruption as a virtue. Every tradition is questioned, every institution mocked, and every authority figure dismantled. What was once considered a mark of wisdom (deference to experience...
+Read more
 
 [Read the full article on Substack](https://thecogitatingceviche.substack.com/p/the-end-of-expertise)

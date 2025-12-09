@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/christian-astronomy-and-the-maps-of-heaven/",
+  "headline": "Christian Astronomy and the Maps of Heaven",
+  "url": "https://cogitating-ceviche.com/posts/christian-astronomy-and-the-maps-of-heaven/",
+  "datePublished": "2025-12-08T07:01:54+00:00",
+  "dateModified": "2025-12-08T07:01:54+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowThere was a time when people looked up at night and felt the nearness of God. The stars stretched across the sky like a cathedral ceiling. Sailors navigated by constellations, farmers planted by the heavens, and...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/christian-astronomy-and-the-maps-of-heaven/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!WHQz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcea42d82-3602-441c-a6b4-84388db336b0_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 778,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/christian-astronomy-and-the-maps"
+  }
+}
