@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2025-12-09T06:18:27.360446",
+  "generatedAt": "2025-12-10T06:18:52.846644",
   "items": [
+    {
+      "title": "Why Silicon Valley Is Afraid of Death",
+      "subtitle": "",
+      "url": "https://thecyberneticceviche.substack.com/p/why-silicon-valley-is-afraid-of-death",
+      "published": "Tue, 09 Dec 2025 07:01:36 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!RSr8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb9684426-bc4a-40ca-bb0f-63c335d87877_1024x1024.png",
+      "excerpt": "The Undying StartupIn Silicon Valley, mortality is treated not as a fact of nature but as a bug in the code. Death is inefficiency. Aging is poor design. Eternity is just another feature to be launched next quarter. The valley’s founding myth is not...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
     {
       "title": "Christian Astronomy and the Maps of Heaven",
       "subtitle": "",
@@ -426,17 +437,6 @@
       "published": "Tue, 29 Jul 2025 12:49:07 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!1eAL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffed339e3-cf59-4ed8-b96f-ef2235e1ef4f_2048x2048.png",
       "excerpt": "nowIntroduction: In Which I Admit I Was Being a Bit DramaticA while back, I wrote an article boldly proclaiming that \"Blockchain Will Power Everything.\" I was about as right as someone predicting the horse-and-buggy would dominate transportation...",
-      "source": "substack",
-      "author": "Conrad T. Hannon",
-      "is_conrad": true
-    },
-    {
-      "title": "The Future Is Trustless",
-      "subtitle": "",
-      "url": "https://thecyberneticceviche.substack.com/p/the-future-is-trustless",
-      "published": "Fri, 25 Jul 2025 12:58:07 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!IKPM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4905caaf-44fd-4b7b-bc04-a93c6e67b1c5_1024x1024.png",
-      "excerpt": "nowDiscussion provided by NotebookLMLet's talk about trust. Specifically, let's talk about how spectacularly bad humans are at deserving it.Every time you swipe your card, send an email, or buy something online, you're essentially playing a massive...",
       "source": "substack",
       "author": "Conrad T. Hannon",
       "is_conrad": true
