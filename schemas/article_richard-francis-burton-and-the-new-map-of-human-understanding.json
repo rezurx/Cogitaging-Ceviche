@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/richard-francis-burton-and-the-new-map-of-human-understanding/",
+  "headline": "Richard Francis Burton and the New Map of Human Understanding",
+  "url": "https://cogitating-ceviche.com/posts/richard-francis-burton-and-the-new-map-of-human-understanding/",
+  "datePublished": "2025-12-10T07:01:13+00:00",
+  "dateModified": "2025-12-10T07:01:13+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowPrefaceRichard Francis Burton stands as one of history’s most complex figures. Soldier, linguist, explorer, cultural theorist, translator of sacred and forbidden texts, he moved across continents with a...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/richard-francis-burton-and-the-new-map-of-human-understanding/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!ZTCD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5631029e-966d-44d6-beb1-9b565922fdcb_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "culture, history",
+  "wordCount": 514,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/richard-francis-burton-and-the-new"
+  }
+}
