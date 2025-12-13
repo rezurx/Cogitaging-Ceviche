@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-12-12T06:18:48.285688",
+  "generatedAt": "2025-12-13T06:16:26.893890",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_when-reality-becomes-the-better-satirist.json",
     "article_richard-francis-burton-and-the-new-map-of-human-understanding.json",
     "article_why-silicon-valley-is-afraid-of-death.json",
     "article_christian-astronomy-and-the-maps-of-heaven.json",
@@ -27,7 +28,6 @@
     "article_robert-hooke-the-invisible-architect-of-the-modern-world.json",
     "article_valor-and-recognition.json",
     "article_the-internet-of-beings.json",
-    "article_the-christian-legacy-of-chivalry.json",
     "article_terms-of-endearment.json",
     "article_the-ai-therapist-will-see-you-now.json",
     "article_reciprocal-determinism-in-your-kitchen.json",

@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/when-reality-becomes-the-better-satirist/",
+  "headline": "When Reality Becomes the Better Satirist",
+  "url": "https://cogitating-ceviche.com/posts/when-reality-becomes-the-better-satirist/",
+  "datePublished": "2025-12-12T07:00:48+00:00",
+  "dateModified": "2025-12-12T07:00:48+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowThere was a time when satire had the courtesy to exaggerate. A time when lampooning required effort, imagination, and at least the minimal athleticism of stretching truth beyond its natural range. The satirist...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/when-reality-becomes-the-better-satirist/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!qT4y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F865533df-1cad-4f1f-9aa9-ecbf35db19d1_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "satire",
+  "wordCount": 473,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/when-reality-becomes-the-better-satirist"
+  }
+}
