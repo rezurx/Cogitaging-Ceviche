@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-12-14T06:16:23.137059",
+  "generatedAt": "2025-12-15T06:20:37.025113",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-ceviches-week-in-review-25-49.json",
     "article_when-reality-becomes-the-better-satirist.json",
     "article_richard-francis-burton-and-the-new-map-of-human-understanding.json",
     "article_why-silicon-valley-is-afraid-of-death.json",
@@ -26,7 +27,6 @@
     "article_the-convention-on-the-rights-of-truman-burbank.json",
     "article_the-elephant-island-chronicles.json",
     "article_robert-hooke-the-invisible-architect-of-the-modern-world.json",
-    "article_valor-and-recognition.json",
     "article_the-internet-of-beings.json",
     "article_terms-of-endearment.json",
     "article_the-ai-therapist-will-see-you-now.json",
