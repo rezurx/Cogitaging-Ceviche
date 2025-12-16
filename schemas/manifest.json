@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-12-15T06:20:37.025113",
+  "generatedAt": "2025-12-16T06:19:16.331817",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-christian-imagination.json",
     "article_cogitating-ceviches-week-in-review-25-49.json",
     "article_when-reality-becomes-the-better-satirist.json",
     "article_richard-francis-burton-and-the-new-map-of-human-understanding.json",
@@ -26,7 +27,6 @@
     "article_cogitating-ceviches-week-in-review-25-45.json",
     "article_the-convention-on-the-rights-of-truman-burbank.json",
     "article_the-elephant-island-chronicles.json",
-    "article_robert-hooke-the-invisible-architect-of-the-modern-world.json",
     "article_the-internet-of-beings.json",
     "article_terms-of-endearment.json",
     "article_the-ai-therapist-will-see-you-now.json",
