@@ -9,9 +9,9 @@ author = "Calista F. Freiheit"
 is_conrad = false
 featured_image = "https://substackcdn.com/image/fetch/$s_!hlWn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2f2d576-9f59-4060-b6cb-3e4b7c0e7b09_1536x1024.png"
 tags = ["AI"]
-description = "The Cogitating Ceviché is a . , . nowWe live in a world that treats permanence as a flaw and stability as a limitation. Phones are traded before they malfunction. Homes are abandoned when repairs require patience. Jobs are discarded when they stop..."
+description = "Read more"
 +++
 
-The Cogitating Ceviché is a . , . nowWe live in a world that treats permanence as a flaw and stability as a limitation. Phones are traded before they malfunction. Homes are abandoned when repairs require patience. Jobs are discarded when they stop...
+Read more
 
 [Read the full article on Substack](https://thecogitatingceviche.substack.com/p/marriage-as-covenant-not-contract)
