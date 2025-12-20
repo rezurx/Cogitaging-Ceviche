@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-decline-of-the-eulogy/",
+  "headline": "The Decline of the Eulogy:",
+  "url": "https://cogitating-ceviche.com/posts/the-decline-of-the-eulogy/",
+  "datePublished": "2025-12-19T07:01:46+00:00",
+  "dateModified": "2025-12-19T07:01:46+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowThe Professional AfterlifeOnce, the eulogy was an act of grace. A final act of translation: life into meaning. Today, it reads like a performance review written by a PR intern. “He was a dedicated team player who...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-decline-of-the-eulogy/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!hbaM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5842ef1-a603-401a-ad5c-a23eb18eefce_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "Memorialization Practices, Personal Legacy, Narrative Transformation, Professional Discourse",
+  "wordCount": 364,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-decline-of-the-eulogy"
+  }
+}

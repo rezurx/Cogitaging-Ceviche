@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-12-19T06:18:30.702521",
+  "generatedAt": "2025-12-20T06:17:09.873739",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-decline-of-the-eulogy.json",
     "article_seymour-cray-and-the-architecture-of-speed.json",
     "article_the-cognitive-glasses-we-didnt-know-we-needed.json",
     "article_the-christian-imagination.json",
@@ -27,7 +28,6 @@
     "article_machine-faith.json",
     "article_the-new-puritans.json",
     "article_cogitating-ceviches-week-in-review-25-45.json",
-    "article_the-convention-on-the-rights-of-truman-burbank.json",
     "article_the-internet-of-beings.json",
     "article_terms-of-endearment.json",
     "article_the-ai-therapist-will-see-you-now.json",
