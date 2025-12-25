@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-12-24T06:19:18.711450",
+  "generatedAt": "2025-12-25T06:18:48.494890",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_joachim-ringelnatz-18831934-german-poet-humorist-and-the-art-of-earnest-absurdity.json",
     "article_the-spreadsheet-as-sacred-text.json",
     "article_why-christians-need-stories-not-algorithms.json",
     "article_cogitating-ceviches-week-in-review-25-50.json",
@@ -27,7 +28,6 @@
     "article_the-end-of-expertise.json",
     "article_cogitating-ceviches-week-in-review-25-46.json",
     "article_if-anyone-uses-it-everyone-dies.json",
-    "article_heinrich-heine-17971856-the-poet-of-exile-and-the-irony-of-belonging.json",
     "article_machine-faith.json",
     "article_the-internet-of-beings.json",
     "article_terms-of-endearment.json",
