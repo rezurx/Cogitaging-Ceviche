@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/platos-cave-with-wi-fi/",
+  "headline": "Plato’s Cave with Wi-Fi:",
+  "url": "https://cogitating-ceviche.com/posts/platos-cave-with-wi-fi/",
+  "datePublished": "2025-12-26T07:01:19+00:00",
+  "dateModified": "2025-12-26T07:01:19+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowWelcome to the CaveImagine a dark room filled with people staring at flickering images projected on a wall. They eat, laugh, argue, and believe these moving shapes are reality. They never question what lies...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/platos-cave-with-wi-fi/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!pfpN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa08ee55-cf46-43be-8a35-375d7dc3dd2e_1024x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "Digital Perception, Media Illusion, Virtual Reality, Technological Consciousness",
+  "wordCount": 201,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/platos-cave-with-wi-fi"
+  }
+}
