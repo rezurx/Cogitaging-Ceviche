@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-30T06:41:10.408822",
+  "generatedAt": "2025-12-30T07:27:55.010461",
   "items": [
     {
       "title": "The Virtue of Permanence:",
@@ -182,6 +182,15 @@
       "source": "substack"
     },
     {
+      "title": "Why Your Smart Fridge Is Plotting Against You",
+      "subtitle": "A short sermon on surveillance, optimization, and domestic betrayal",
+      "url": "https://thecyberneticceviche.substack.com/p/why-your-smart-fridge-is-plotting",
+      "published": "Tue, 30 Dec 2025 07:01:16 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!kLcB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F742df511-f752-43fb-97f8-a2160710f15f_1536x1024.png",
+      "excerpt": "The Paranoid Kitchen The Internet of Things began as a convenience and ended as a conspiracy Somewhere along the way, we taught our appliances to talk, and they haven’t shut up since Your smart fridge isn’t evil It’s just ambitious...",
+      "source": "substack"
+    },
+    {
       "title": "The Spreadsheet as Sacred Text",
       "subtitle": "On the liturgy of the modern office",
       "url": "https://thecyberneticceviche.substack.com/p/the-spreadsheet-as-sacred-text",
@@ -350,15 +359,6 @@
       "published": "Tue, 19 Aug 2025 06:01:27 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!YHNK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcf140cf-98fa-4740-9072-35452bf6f780_1024x1024.png",
       "excerpt": "Read more...",
-      "source": "substack"
-    },
-    {
-      "title": "Kitchen-Table Companies:",
-      "subtitle": "How AI Turned Expertise Into Entrepreneurship",
-      "url": "https://thecyberneticceviche.substack.com/p/kitchen-table-companies",
-      "published": "Tue, 12 Aug 2025 06:01:35 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!VrWu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F260c27cf-00f0-4837-90c6-5d0ac963ef83_1024x1024.png",
-      "excerpt": "The Old Game Is Over There used to be a ritual to this sort of thing You got a badge from an incubator (a startup bootcamp with free desks and dubious mentors), learned to speak venture capital in a minor...",
       "source": "substack"
     }
   ]
