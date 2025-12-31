@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/why-your-smart-fridge-is-plotting-against-you/",
+  "headline": "Why Your Smart Fridge Is Plotting Against You",
+  "url": "https://cogitating-ceviche.com/posts/why-your-smart-fridge-is-plotting-against-you/",
+  "datePublished": "2025-12-30T07:01:16+00:00",
+  "dateModified": "2025-12-30T07:01:16+00:00",
+  "description": "The Paranoid KitchenThe Internet of Things began as a convenience and ended as a conspiracy. Somewhere along the way, we taught our appliances to talk, and they haven’t shut up since.Your smart fridge isn’t evil. It’s just ambitious. It watches,...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/why-your-smart-fridge-is-plotting-against-you/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!kLcB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F742df511-f752-43fb-97f8-a2160710f15f_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "Internet of Things, Technology Paranoia, Digital Surveillance, Smart Appliances",
+  "wordCount": 495,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/why-your-smart-fridge-is-plotting"
+  }
+}
