@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2025-12-31T06:19:19.690639",
+  "generatedAt": "2026-01-01T06:19:25.953560",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_adolphe-quetelet-inventing-the-average-man.json",
     "article_why-your-smart-fridge-is-plotting-against-you.json",
     "article_the-virtue-of-permanence.json",
     "article_cogitating-cevichés-week-in-review-25-51.json",
@@ -27,7 +28,6 @@
     "article_marriage-as-covenant-not-contract.json",
     "article_cogitating-ceviches-week-in-review-25-47.json",
     "article_caffeine-nationalism.json",
-    "article_paracelsus-alchemy-medicine-and-the-new-frontier-of-life.json",
     "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json",
     "article_machine-faith.json",
     "article_the-internet-of-beings.json",
