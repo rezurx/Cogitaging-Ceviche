@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-01-04T06:17:50.283226",
+  "generatedAt": "2026-01-05T06:24:45.309775",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-ceviches-week-in-review-25-52.json",
     "article_pamphleteers-substacks-and-the-long-war-over-attention.json",
     "article_adolphe-quetelet-inventing-the-average-man.json",
     "article_why-your-smart-fridge-is-plotting-against-you.json",
@@ -27,7 +28,6 @@
     "article_george-cruikshanks-mirror-what-the-satirist-refused-to-reflect.json",
     "article_artificial-ignorance.json",
     "article_marriage-as-covenant-not-contract.json",
-    "article_cogitating-ceviches-week-in-review-25-47.json",
     "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json",
     "article_machine-faith.json",
     "article_the-internet-of-beings.json",
