@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-01-06T06:19:29.777575",
+  "generatedAt": "2026-01-07T06:19:25.208184",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-automation-trap-when-tools-make-you-worse.json",
     "article_the-christian-sense-of-humor.json",
     "article_cogitating-ceviches-week-in-review-25-52.json",
     "article_pamphleteers-substacks-and-the-long-war-over-attention.json",
@@ -41,8 +42,7 @@
     "article_can-ghosts-get-pregnant.json",
     "article_the-open-faced-cyborg.json",
     "article_wired-without-wires.json",
-    "article_the-cathedrals-of-cobol-and-the-blockchains-of-babel.json",
-    "article_the-sidekick-paradox.json"
+    "article_the-cathedrals-of-cobol-and-the-blockchains-of-babel.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
