@@ -8,10 +8,10 @@ slug = "joachim-ringelnatz-18831934-german-poet-humorist-and-the-art-of-earnest-
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!9_GC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f391084-6183-4cde-b6c1-1342fb7ae2e4_1024x1536.png"
-tags = ["history", "satire"]
-description = "The Cogitating Ceviché is a . , . nowPrefaceJoachim Ringelnatz occupies a curious and instructive place in the history of satire. At first glance, he appears unserious: a writer of nonsense verse, bawdy jokes, nautical oddities, and grotesque..."
+tags = ["AI"]
+description = "Read more"
 +++
 
-The Cogitating Ceviché is a . , . nowPrefaceJoachim Ringelnatz occupies a curious and instructive place in the history of satire. At first glance, he appears unserious: a writer of nonsense verse, bawdy jokes, nautical oddities, and grotesque...
+Read more
 
 [Read the full article on Substack](https://thecogitatingceviche.substack.com/p/joachim-ringelnatz-18831934-german)
