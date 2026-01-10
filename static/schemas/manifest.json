@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-01-09T06:19:12.383706",
+  "generatedAt": "2026-01-10T06:17:09.108326",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-gentleman-dissenter-is-extinct.json",
     "article_cassiodorus-saving-rome-without-defending-it.json",
     "article_the-automation-trap-when-tools-make-you-worse.json",
     "article_the-christian-sense-of-humor.json",
@@ -27,7 +28,6 @@
     "article_why-silicon-valley-is-afraid-of-death.json",
     "article_christian-astronomy-and-the-maps-of-heaven.json",
     "article_cogitating-ceviches-week-in-review-25-48.json",
-    "article_public-life-private-brand.json",
     "article_artificial-ignorance.json",
     "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json",
     "article_machine-faith.json",
