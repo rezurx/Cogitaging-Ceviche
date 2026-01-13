@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-01-12T06:21:58.730312",
+  "generatedAt": "2026-01-13T06:19:17.807931",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_why-christianity-is-inherently-unfashionable.json",
     "article_cogitating-ceviches-week-in-review-26-1.json",
     "article_the-gentleman-dissenter-is-extinct.json",
     "article_cassiodorus-saving-rome-without-defending-it.json",
@@ -27,7 +28,6 @@
     "article_when-reality-becomes-the-better-satirist.json",
     "article_richard-francis-burton-and-the-new-map-of-human-understanding.json",
     "article_why-silicon-valley-is-afraid-of-death.json",
-    "article_christian-astronomy-and-the-maps-of-heaven.json",
     "article_artificial-ignorance.json",
     "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json",
     "article_machine-faith.json",

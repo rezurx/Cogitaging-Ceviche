@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/why-christianity-is-inherently-unfashionable/",
+  "headline": "Why Christianity Is Inherently Unfashionable",
+  "url": "https://cogitating-ceviche.com/posts/why-christianity-is-inherently-unfashionable/",
+  "datePublished": "2026-01-12T07:01:17+00:00",
+  "dateModified": "2026-01-12T07:01:17+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowWhy Christianity Is Inherently UnfashionableChristianity has never been good at keeping up with the times.That is not a failure of imagination or marketing. It is a feature of the faith itself.Every generation is...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/why-christianity-is-inherently-unfashionable/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!TYOC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2473078f-effb-46f2-a75e-41b96eab722e_1024x1014.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 422,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/why-christianity-is-inherently-unfashionable"
+  }
+}
