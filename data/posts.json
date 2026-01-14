@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-13T06:19:17.797566",
+  "generatedAt": "2026-01-14T06:19:56.034962",
   "items": [
+    {
+      "title": "The Ghost in the Server Farm",
+      "subtitle": "",
+      "url": "https://thecyberneticceviche.substack.com/p/the-ghost-in-the-server-farm",
+      "published": "Tue, 13 Jan 2026 07:02:55 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!CghL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde4501cd-946b-4cd9-a967-f1f4c1136226_1536x1024.png",
+      "excerpt": "The Haunted Hard DriveGhosts used to haunt castles. Now they haunt databases.Every forgotten account, every abandoned project, every dead startup still lingers in the cloud, untouched, unarchived, and quietly consuming electricity. Somewhere in a...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
     {
       "title": "Why Christianity Is Inherently Unfashionable",
       "subtitle": "",
@@ -426,17 +437,6 @@
       "published": "Tue, 02 Sep 2025 06:02:31 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!hR0A!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a1588b1-280a-4699-b5b8-eb3ea96fd472_1024x1024.png",
       "excerpt": "The Opening Gambit: Neuralink Gets the Headlines, But It's Not the StoryWhen Elon Musk straps a coin-sized chip into someone's skull, it's front-page news. It's also a kind of theatre: futurist circus for the age of livestreamed neurosurgery. We...",
-      "source": "substack",
-      "author": "Conrad T. Hannon",
-      "is_conrad": true
-    },
-    {
-      "title": "The Cathedrals of COBOL and the Blockchains of Babel",
-      "subtitle": "",
-      "url": "https://thecyberneticceviche.substack.com/p/the-cathedrals-of-cobol-and-the-blockchains",
-      "published": "Tue, 26 Aug 2025 06:01:10 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!44qD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbebd170d-7316-4962-92f7-e038b16555d7_2048x2048.png",
-      "excerpt": "Read more",
       "source": "substack",
       "author": "Conrad T. Hannon",
       "is_conrad": true

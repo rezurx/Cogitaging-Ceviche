@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-01-13T06:19:17.807931",
+  "generatedAt": "2026-01-14T06:19:56.046189",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-ghost-in-the-server-farm.json",
     "article_why-christianity-is-inherently-unfashionable.json",
     "article_cogitating-ceviches-week-in-review-26-1.json",
     "article_the-gentleman-dissenter-is-extinct.json",
@@ -41,8 +42,7 @@
     "article_the-future-of-culinary-science.json",
     "article_can-ghosts-get-pregnant.json",
     "article_the-open-faced-cyborg.json",
-    "article_wired-without-wires.json",
-    "article_the-cathedrals-of-cobol-and-the-blockchains-of-babel.json"
+    "article_wired-without-wires.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
