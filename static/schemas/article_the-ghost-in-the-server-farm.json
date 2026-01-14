@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-ghost-in-the-server-farm/",
+  "headline": "The Ghost in the Server Farm:",
+  "url": "https://cogitating-ceviche.com/posts/the-ghost-in-the-server-farm/",
+  "datePublished": "2026-01-13T07:02:55+00:00",
+  "dateModified": "2026-01-13T07:02:55+00:00",
+  "description": "The Haunted Hard DriveGhosts used to haunt castles. Now they haunt databases.Every forgotten account, every abandoned project, every dead startup still lingers in the cloud, untouched, unarchived, and quietly consuming electricity. Somewhere in a...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-ghost-in-the-server-farm/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!CghL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde4501cd-946b-4cd9-a967-f1f4c1136226_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "Digital Afterlife, Technological Remnants, Cloud Memory, Abandoned Data",
+  "wordCount": 456,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/the-ghost-in-the-server-farm"
+  }
+}
