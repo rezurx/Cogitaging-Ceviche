@@ -8,10 +8,10 @@ slug = "adolphe-quetelet-inventing-the-average-man"
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!kkQA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F476a1a83-5716-4758-ad2e-1aab78362923_1536x1024.png"
-tags = ["history", "politics"]
-description = "The Cogitating Ceviché is a . , . nowPrefaceHistory remembers those who spoke loudly, conquered openly, or broke the world in visible ways. This series is concerned with a different kind of power.The Architects of the Invisible examines the people..."
+tags = ["AI"]
+description = "Read more"
 +++
 
-The Cogitating Ceviché is a . , . nowPrefaceHistory remembers those who spoke loudly, conquered openly, or broke the world in visible ways. This series is concerned with a different kind of power.The Architects of the Invisible examines the people...
+Read more
 
 [Read the full article on Substack](https://thecogitatingceviche.substack.com/p/adolphe-quetelet-inventing-the-average)
