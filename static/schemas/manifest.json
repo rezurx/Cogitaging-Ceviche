@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-01-18T06:17:23.043364",
+  "generatedAt": "2026-01-19T06:24:00.583872",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-ceviches-week-in-review-26-2.json",
     "article_the-last-great-american-roadside-attraction.json",
     "article_william-blake-when-genius-was-not-enough.json",
     "article_the-ghost-in-the-server-farm.json",
@@ -27,7 +28,6 @@
     "article_seymour-cray-and-the-architecture-of-speed.json",
     "article_the-cognitive-glasses-we-didnt-know-we-needed.json",
     "article_the-christian-imagination.json",
-    "article_cogitating-ceviches-week-in-review-25-49.json",
     "article_why-silicon-valley-is-afraid-of-death.json",
     "article_artificial-ignorance.json",
     "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json",
