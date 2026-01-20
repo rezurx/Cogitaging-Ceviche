@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/what-it-means-to-be-a-steward-not-an-owner/",
+  "headline": "What It Means to Be a Steward, Not an Owner",
+  "url": "https://cogitating-ceviche.com/posts/what-it-means-to-be-a-steward-not-an-owner/",
+  "datePublished": "2026-01-19T07:02:13+00:00",
+  "dateModified": "2026-01-19T07:02:13+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowWhat It Means to Be a Steward, Not an OwnerModern life teaches ownership.We speak of “my time,” “my truth,” “my body,” “my success.” Possession is assumed. Control is expected. Obligation is treated as...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/what-it-means-to-be-a-steward-not-an-owner/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!W1lQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F017bc3e0-2526-4c48-b410-a5284bdabdca_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 598,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/what-it-means-to-be-a-steward-not"
+  }
+}
