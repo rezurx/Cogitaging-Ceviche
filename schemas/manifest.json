@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-01-20T06:21:14.983599",
+  "generatedAt": "2026-01-21T06:21:13.710114",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-tyranny-of-the-update.json",
     "article_what-it-means-to-be-a-steward-not-an-owner.json",
     "article_cogitating-ceviches-week-in-review-26-2.json",
     "article_the-last-great-american-roadside-attraction.json",
@@ -41,8 +42,7 @@
     "article_the-poisoned-well.json",
     "article_the-future-of-culinary-science.json",
     "article_can-ghosts-get-pregnant.json",
-    "article_the-open-faced-cyborg.json",
-    "article_wired-without-wires.json"
+    "article_the-open-faced-cyborg.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
