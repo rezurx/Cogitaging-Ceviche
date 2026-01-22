@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-01-21T06:21:13.699426",
+  "generatedAt": "2026-01-22T06:20:10.518012",
   "items": [
+    {
+      "title": "Søren Kierkegaard",
+      "subtitle": "Writing Against the Crowd",
+      "url": "https://thecogitatingceviche.substack.com/p/sren-kierkegaard-writing-against",
+      "published": "Wed, 21 Jan 2026 07:02:35 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!qAGA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e9638b8-bae9-4c18-967d-1a7e39c271c1_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowSøren Kierkegaard: Writing Against the CrowdSubtitle He limited his audience by multiplying his voices.The Opportunity to ExpandNineteenth century Copenhagen was small enough to hear everything and loud enough to...",
+      "source": "substack",
+      "author": "Unknown",
+      "is_conrad": false
+    },
     {
       "title": "The Tyranny of the Update",
       "subtitle": "",
@@ -260,17 +271,6 @@
       "url": "https://thecogitatingceviche.substack.com/p/the-decline-of-the-eulogy",
       "published": "Fri, 19 Dec 2025 07:01:46 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!hbaM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5842ef1-a603-401a-ad5c-a23eb18eefce_1024x1024.png",
-      "excerpt": "Read more",
-      "source": "substack",
-      "author": "Conrad T. Hannon",
-      "is_conrad": true
-    },
-    {
-      "title": "Seymour Cray and the Architecture of Speed",
-      "subtitle": "",
-      "url": "https://thecogitatingceviche.substack.com/p/seymour-cray-and-the-architecture",
-      "published": "Wed, 17 Dec 2025 07:01:13 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!CqTB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25029dfe-c241-410e-b307-0ee78d073ad5_1024x1088.png",
       "excerpt": "Read more",
       "source": "substack",
       "author": "Conrad T. Hannon",
