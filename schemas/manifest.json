@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-01-23T06:19:36.643445",
+  "generatedAt": "2026-01-24T06:17:48.546604",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_why-irony-is-a-poor-substitute-for-faith.json",
     "article_søren-kierkegaard-writing-against-the-crowd.json",
     "article_the-tyranny-of-the-update.json",
     "article_what-it-means-to-be-a-steward-not-an-owner.json",
@@ -27,7 +28,6 @@
     "article_the-spreadsheet-as-sacred-text.json",
     "article_why-christians-need-stories-not-algorithms.json",
     "article_cogitating-ceviches-week-in-review-25-50.json",
-    "article_the-decline-of-the-eulogy.json",
     "article_the-cognitive-glasses-we-didnt-know-we-needed.json",
     "article_why-silicon-valley-is-afraid-of-death.json",
     "article_artificial-ignorance.json",
