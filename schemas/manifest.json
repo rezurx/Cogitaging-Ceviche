@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-01-26T06:22:45.990830",
+  "generatedAt": "2026-01-27T06:20:49.668592",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-moral-education-of-children-happens-before-instruction.json",
     "article_cogitating-ceviches-week-in-review-26-3.json",
     "article_why-irony-is-a-poor-substitute-for-faith.json",
     "article_søren-kierkegaard-writing-against-the-crowd.json",
@@ -27,7 +28,6 @@
     "article_platos-cave-with-wi-fi.json",
     "article_joachim-ringelnatz-18831934-german-poet-humorist-and-the-art-of-earnest-absurdity.json",
     "article_the-spreadsheet-as-sacred-text.json",
-    "article_why-christians-need-stories-not-algorithms.json",
     "article_the-cognitive-glasses-we-didnt-know-we-needed.json",
     "article_why-silicon-valley-is-afraid-of-death.json",
     "article_artificial-ignorance.json",
