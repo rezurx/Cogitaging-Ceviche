@@ -8,10 +8,10 @@ slug = "william-blake-when-genius-was-not-enough"
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!Uk5z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c4d064a-5232-49b4-ac70-80f22230b2a8_1536x1024.png"
-tags = ["general"]
-description = "The Cogitating Ceviché is a . , . nowThe InsightWilliam Blake’s intelligence announced itself early, not through polish or conformity, but through coherence. As a child in London, he reported visions with a consistency that did not fluctuate with..."
+tags = ["AI"]
+description = "Read more"
 +++
 
-The Cogitating Ceviché is a . , . nowThe InsightWilliam Blake’s intelligence announced itself early, not through polish or conformity, but through coherence. As a child in London, he reported visions with a consistency that did not fluctuate with...
+Read more
 
 [Read the full article on Substack](https://thecogitatingceviche.substack.com/p/william-blake-when-genius-was-not)
