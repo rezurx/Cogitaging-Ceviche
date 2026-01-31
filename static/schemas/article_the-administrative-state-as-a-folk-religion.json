@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-administrative-state-as-a-folk-religion/",
+  "headline": "The Administrative State as a Folk Religion",
+  "url": "https://cogitating-ceviche.com/posts/the-administrative-state-as-a-folk-religion/",
+  "datePublished": "2026-01-30T07:02:43+00:00",
+  "dateModified": "2026-01-30T07:02:43+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowModern governance presents itself as rational, secular, and procedural. It speaks the language of efficiency, neutrality, and expertise. Walk into any government office, any compliance training session, any...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-administrative-state-as-a-folk-religion/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!n-XU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3437291a-8a30-45db-bf8b-2e4122a56bde_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI, politics",
+  "wordCount": 544,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-administrative-state-as-a-folk"
+  }
+}

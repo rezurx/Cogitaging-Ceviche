@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-01-30T06:34:37.806722",
+  "generatedAt": "2026-01-31T06:24:52.946990",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-administrative-state-as-a-folk-religion.json",
     "article_giuseppe-parini-satirist-of-courtesy-critic-of-privilege.json",
     "article_we-dont-use-systems-we-live-inside-them.json",
     "article_the-moral-education-of-children-happens-before-instruction.json",
@@ -27,7 +28,6 @@
     "article_why-your-smart-fridge-is-plotting-against-you.json",
     "article_the-virtue-of-permanence.json",
     "article_cogitating-cevichés-week-in-review-25-51.json",
-    "article_platos-cave-with-wi-fi.json",
     "article_the-spreadsheet-as-sacred-text.json",
     "article_the-cognitive-glasses-we-didnt-know-we-needed.json",
     "article_why-silicon-valley-is-afraid-of-death.json",
