@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/cogitating-ceviché-week-in-review-26-4/",
+  "headline": "🗞️ Cogitating Ceviché - Week in Review (26-4)",
+  "url": "https://cogitating-ceviche.com/posts/cogitating-ceviché-week-in-review-26-4/",
+  "datePublished": "2026-02-01T07:02:07+00:00",
+  "dateModified": "2026-02-01T07:02:07+00:00",
+  "description": "The Cogitating Ceviché is a . , .Discussion via NotebookLM🗞️ Cogitating Ceviché - Week in ReviewJanuary 26–31, 2026🧭 Editorial NoteThis week circles a single, persistent question:How much of our lives are chosen and how much are inherited?Across...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/cogitating-ceviché-week-in-review-26-4/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!7JPs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F394b1742-f20e-4f3d-a903-1576a002993c_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 208,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviche-week-in-review"
+  }
+}
