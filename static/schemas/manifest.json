@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-03T06:36:59.050794",
+  "generatedAt": "2026-02-04T06:37:15.811280",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_why-we-trust-systems-more-than-people.json",
     "article_the-christian-case-against-spectacle.json",
     "article_cogitating-ceviché-week-in-review-26-4.json",
     "article_the-administrative-state-as-a-folk-religion.json",
@@ -41,8 +42,7 @@
     "article_when-you-start-to-look-like-your-chatbot.json",
     "article_the-algorithm-has-no-taste-only-hunger.json",
     "article_the-poisoned-well.json",
-    "article_the-future-of-culinary-science.json",
-    "article_can-ghosts-get-pregnant.json"
+    "article_the-future-of-culinary-science.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,

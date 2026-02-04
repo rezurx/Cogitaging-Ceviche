@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/why-we-trust-systems-more-than-people/",
+  "headline": "Why We Trust Systems More Than People",
+  "url": "https://cogitating-ceviche.com/posts/why-we-trust-systems-more-than-people/",
+  "datePublished": "2026-02-03T07:02:25+00:00",
+  "dateModified": "2026-02-03T07:02:25+00:00",
+  "description": "nowThere is a moment, familiar to anyone who has worked in an organization, when a decision is made and no one has made it. A policy is applied. A candidate is rejected. A loan is denied. The people in the room exchange glances, shrug, and point to...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/why-we-trust-systems-more-than-people/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!YjR2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7149245-f936-40ad-ab2f-65e3aa8a92a9_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "Organizational Decision-Making, Systemic Impersonality, Institutional Accountability, Bureaucratic Mechanisms",
+  "wordCount": 494,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/why-we-trust-systems-more-than-people"
+  }
+}
