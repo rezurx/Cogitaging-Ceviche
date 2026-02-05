@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-04T06:37:15.811280",
+  "generatedAt": "2026-02-05T06:43:55.388785",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_herbert-a-simon-progress-at-a-price.json",
     "article_why-we-trust-systems-more-than-people.json",
     "article_the-christian-case-against-spectacle.json",
     "article_cogitating-ceviché-week-in-review-26-4.json",
@@ -27,7 +28,6 @@
     "article_the-christian-sense-of-humor.json",
     "article_cogitating-ceviches-week-in-review-25-52.json",
     "article_pamphleteers-substacks-and-the-long-war-over-attention.json",
-    "article_adolphe-quetelet-inventing-the-average-man.json",
     "article_why-your-smart-fridge-is-plotting-against-you.json",
     "article_the-spreadsheet-as-sacred-text.json",
     "article_the-cognitive-glasses-we-didnt-know-we-needed.json",
