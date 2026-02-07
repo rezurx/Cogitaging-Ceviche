@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-cathedral-without-a-god/",
+  "headline": "The Cathedral Without a God",
+  "url": "https://cogitating-ceviche.com/posts/the-cathedral-without-a-god/",
+  "datePublished": "2026-02-06T07:02:43+00:00",
+  "dateModified": "2026-02-06T07:02:43+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowModern institutions insist they are value-neutral. They deny theology while enforcing morality. They reject faith while demanding obedience.What they have built instead is a cathedral without a god.Walk into any...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-cathedral-without-a-god/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!qdb3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72260bd7-2c60-4b17-b48e-5c73d8501e18_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "Institutional Ideology, Secular Morality, Hidden Theology",
+  "wordCount": 505,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-cathedral-without-a-god"
+  }
+}
