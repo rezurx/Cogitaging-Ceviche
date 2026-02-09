@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/cogitating-cevichés-week-in-review-2605/",
+  "headline": "Cogitating Ceviché’s Week in Review (26–05)",
+  "url": "https://cogitating-ceviche.com/posts/cogitating-cevichés-week-in-review-2605/",
+  "datePublished": "2026-02-08T07:01:34+00:00",
+  "dateModified": "2026-02-08T07:01:34+00:00",
+  "description": "The Cogitating Ceviché is a . , .Discussion via NotebookLMImage created with NotebookLMEditorial SummaryThis week’s writing circles a shared concern: the quiet replacement of judgment with systems, procedures, and spectacle. Across theology,...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/cogitating-cevichés-week-in-review-2605/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!9_0-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd0923c05-d588-4f2f-b6a5-c29fda004467_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 205,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-ad8"
+  }
+}
