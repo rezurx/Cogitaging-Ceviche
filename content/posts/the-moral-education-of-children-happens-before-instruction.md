@@ -8,10 +8,10 @@ slug = "the-moral-education-of-children-happens-before-instruction"
 author = "Calista F. Freiheit"
 is_conrad = false
 featured_image = "https://substackcdn.com/image/fetch/$s_!3n_A!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8df07740-d054-4e0b-bc7f-e88bad4e5215_1536x1024.png"
-tags = ["Moral Development", "Child Psychology", "Early Learning"]
-description = "The Cogitating Ceviché is a . , . nowBy the time children can articulate right and wrong, most of the work has already been done.We tend to think of moral education as something that happens through teaching. Lessons. Rules. Conversations. Scripture..."
+tags = ["AI"]
+description = "Read more"
 +++
 
-The Cogitating Ceviché is a . , . nowBy the time children can articulate right and wrong, most of the work has already been done.We tend to think of moral education as something that happens through teaching. Lessons. Rules. Conversations. Scripture...
+Read more
 
 [Read the full article on Substack](https://thecogitatingceviche.substack.com/p/the-moral-education-of-children-happens)

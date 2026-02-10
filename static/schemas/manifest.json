@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-09T06:53:31.344014",
+  "generatedAt": "2026-02-10T06:53:46.316081",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_why-christianity-assumes-you-will-be-misunderstood.json",
     "article_cogitating-cevichés-week-in-review-2605.json",
     "article_the-cathedral-without-a-god.json",
     "article_herbert-a-simon-progress-at-a-price.json",
@@ -27,7 +28,6 @@
     "article_the-gentleman-dissenter-is-extinct.json",
     "article_cassiodorus-saving-rome-without-defending-it.json",
     "article_the-automation-trap-when-tools-make-you-worse.json",
-    "article_the-christian-sense-of-humor.json",
     "article_why-your-smart-fridge-is-plotting-against-you.json",
     "article_the-spreadsheet-as-sacred-text.json",
     "article_the-cognitive-glasses-we-didnt-know-we-needed.json",
