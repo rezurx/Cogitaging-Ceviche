@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-10T06:53:46.316081",
+  "generatedAt": "2026-02-11T06:50:26.209769",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_perfect-recall-zero-memory.json",
     "article_why-christianity-assumes-you-will-be-misunderstood.json",
     "article_cogitating-cevichés-week-in-review-2605.json",
     "article_the-cathedral-without-a-god.json",
@@ -41,8 +42,7 @@
     "article_reciprocal-determinism-in-your-kitchen.json",
     "article_when-you-start-to-look-like-your-chatbot.json",
     "article_the-algorithm-has-no-taste-only-hunger.json",
-    "article_the-poisoned-well.json",
-    "article_the-future-of-culinary-science.json"
+    "article_the-poisoned-well.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
