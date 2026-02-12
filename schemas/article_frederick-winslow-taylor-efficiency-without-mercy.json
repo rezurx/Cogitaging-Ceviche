@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/frederick-winslow-taylor-efficiency-without-mercy/",
+  "headline": "Frederick Winslow Taylor: Efficiency Without Mercy",
+  "url": "https://cogitating-ceviche.com/posts/frederick-winslow-taylor-efficiency-without-mercy/",
+  "datePublished": "2026-02-11T07:01:46+00:00",
+  "dateModified": "2026-02-11T07:01:46+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowFrederick Winslow Taylor: Efficiency Without MercyHe made work measurable. He made workers interchangeable.The Problem He SolvedBy the late nineteenth century, American industry had outgrown its own...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/frederick-winslow-taylor-efficiency-without-mercy/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!-R1f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F357f29c9-d744-48d7-b315-2ab25fb04699_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Unknown"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "industrial efficiency, labor management, workplace optimization",
+  "wordCount": 484,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/frederick-winslow-taylor-efficiency"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-11T06:50:26.209769",
+  "generatedAt": "2026-02-12T06:49:31.811946",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_frederick-winslow-taylor-efficiency-without-mercy.json",
     "article_perfect-recall-zero-memory.json",
     "article_why-christianity-assumes-you-will-be-misunderstood.json",
     "article_cogitating-cevichés-week-in-review-2605.json",
@@ -27,7 +28,6 @@
     "article_why-christianity-is-inherently-unfashionable.json",
     "article_cogitating-ceviches-week-in-review-26-1.json",
     "article_the-gentleman-dissenter-is-extinct.json",
-    "article_cassiodorus-saving-rome-without-defending-it.json",
     "article_the-automation-trap-when-tools-make-you-worse.json",
     "article_why-your-smart-fridge-is-plotting-against-you.json",
     "article_the-spreadsheet-as-sacred-text.json",
