@@ -8,10 +8,10 @@ slug = "giuseppe-parini-satirist-of-courtesy-critic-of-privilege"
 author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!2KwT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff56e3050-0110-444d-b527-b9085d5e2e54_1536x1024.png"
-tags = ["Social Criticism", "Aristocratic Privilege", "Literary Satire"]
-description = "The Cogitating Ceviché is a . , . nowGiuseppe Parini (1729–1799)Satirist of Courtesy, Critic of PrivilegePrefaceGiuseppe Parini occupies a peculiar and revealing place in the history of satire. He did not rage against the aristocracy with fire and..."
+tags = ["AI"]
+description = "Read more"
 +++
 
-The Cogitating Ceviché is a . , . nowGiuseppe Parini (1729–1799)Satirist of Courtesy, Critic of PrivilegePrefaceGiuseppe Parini occupies a peculiar and revealing place in the history of satire. He did not rage against the aristocracy with fire and...
+Read more
 
 [Read the full article on Substack](https://thecogitatingceviche.substack.com/p/giuseppe-parini-satirist-of-courtesy)
