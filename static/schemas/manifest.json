@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-16T06:52:12.073733",
+  "generatedAt": "2026-02-17T06:44:01.413101",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-hidden-theology-of-household-order.json",
     "article_cogitating-cevichés-week-in-review-26-6.json",
     "article_banned-on-earth-essential-in-orbit.json",
     "article_frederick-winslow-taylor-efficiency-without-mercy.json",
@@ -27,7 +28,6 @@
     "article_the-last-great-american-roadside-attraction.json",
     "article_william-blake-when-genius-was-not-enough.json",
     "article_the-ghost-in-the-server-farm.json",
-    "article_why-christianity-is-inherently-unfashionable.json",
     "article_the-automation-trap-when-tools-make-you-worse.json",
     "article_why-your-smart-fridge-is-plotting-against-you.json",
     "article_the-spreadsheet-as-sacred-text.json",
