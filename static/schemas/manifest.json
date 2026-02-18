@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-17T06:44:01.413101",
+  "generatedAt": "2026-02-18T06:49:16.992439",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_after-the-bubble.json",
     "article_the-hidden-theology-of-household-order.json",
     "article_cogitating-cevichés-week-in-review-26-6.json",
     "article_banned-on-earth-essential-in-orbit.json",
@@ -41,8 +42,7 @@
     "article_the-ai-therapist-will-see-you-now.json",
     "article_reciprocal-determinism-in-your-kitchen.json",
     "article_when-you-start-to-look-like-your-chatbot.json",
-    "article_the-algorithm-has-no-taste-only-hunger.json",
-    "article_the-poisoned-well.json"
+    "article_the-algorithm-has-no-taste-only-hunger.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,

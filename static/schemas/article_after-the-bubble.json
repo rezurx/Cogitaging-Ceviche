@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/after-the-bubble/",
+  "headline": "After the Bubble:",
+  "url": "https://cogitating-ceviche.com/posts/after-the-bubble/",
+  "datePublished": "2026-02-17T07:00:38+00:00",
+  "dateModified": "2026-02-17T07:00:38+00:00",
+  "description": "In 2001, Silicon Valley looked less like the future and more like a crime scene after the suspects had fled.Office parks emptied out almost overnight. Hand-painted startup logos still clung to glass doors. Whiteboards remained filled with abandoned...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/after-the-bubble/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!LHbD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8a3823f-57e3-46e9-808d-0c1a9755d1ea_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "Tech Downturn, Startup Collapse, Silicon Valley Decline",
+  "wordCount": 497,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/after-the-bubble"
+  }
+}
