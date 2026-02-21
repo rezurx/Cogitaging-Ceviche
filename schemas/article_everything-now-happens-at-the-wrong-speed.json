@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/everything-now-happens-at-the-wrong-speed/",
+  "headline": "Everything Now Happens at the Wrong Speed",
+  "url": "https://cogitating-ceviche.com/posts/everything-now-happens-at-the-wrong-speed/",
+  "datePublished": "2026-02-20T07:00:59+00:00",
+  "dateModified": "2026-02-20T07:00:59+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowInfographic created with NotebookLMYour phone buzzed fourteen times during the meeting. You know this because you counted, which means you were not listening to the meeting, which means the meeting will need to...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/everything-now-happens-at-the-wrong-speed/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!foyF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd61bab7e-8a11-4e19-8d16-2a0ddb8e22de_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 505,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/everything-now-happens-at-the-wrong"
+  }
+}
