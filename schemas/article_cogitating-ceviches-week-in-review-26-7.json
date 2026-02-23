@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-26-7/",
+  "headline": "Cogitating Ceviche’s Week in Review (26-7)",
+  "url": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-26-7/",
+  "datePublished": "2026-02-22T07:01:53+00:00",
+  "dateModified": "2026-02-22T07:01:53+00:00",
+  "description": "The Cogitating Ceviché is a . , .Discussion via NotebookLMEditorial SummaryThis week traced the moral architecture of modern life—from the order of the household to the disorder of digital speed. Calista F. Freiheit examined how domestic habits form...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-26-7/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!28mI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fbe6474-db3e-4a89-9da0-d9cbe56eb63b_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "philosophy, technology",
+  "wordCount": 234,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-b5a"
+  }
+}
