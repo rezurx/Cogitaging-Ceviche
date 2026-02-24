@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-23T06:52:52.444353",
+  "generatedAt": "2026-02-24T06:46:21.146814",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_why-modesty-is-about-others-not-ourselves.json",
     "article_cogitating-ceviches-week-in-review-26-7.json",
     "article_everything-now-happens-at-the-wrong-speed.json",
     "article_theo-van-gogh-standing-second-to-history.json",
@@ -27,7 +28,6 @@
     "article_why-irony-is-a-poor-substitute-for-faith.json",
     "article_søren-kierkegaard-writing-against-the-crowd.json",
     "article_the-tyranny-of-the-update.json",
-    "article_what-it-means-to-be-a-steward-not-an-owner.json",
     "article_the-ghost-in-the-server-farm.json",
     "article_the-automation-trap-when-tools-make-you-worse.json",
     "article_why-your-smart-fridge-is-plotting-against-you.json",
