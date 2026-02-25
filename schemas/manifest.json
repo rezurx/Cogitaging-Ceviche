@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-24T06:46:21.146814",
+  "generatedAt": "2026-02-25T06:50:27.429148",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_nothing-exists-until-it-is-logged.json",
     "article_why-modesty-is-about-others-not-ourselves.json",
     "article_cogitating-ceviches-week-in-review-26-7.json",
     "article_everything-now-happens-at-the-wrong-speed.json",
@@ -41,8 +42,7 @@
     "article_terms-of-endearment.json",
     "article_the-ai-therapist-will-see-you-now.json",
     "article_reciprocal-determinism-in-your-kitchen.json",
-    "article_when-you-start-to-look-like-your-chatbot.json",
-    "article_the-algorithm-has-no-taste-only-hunger.json"
+    "article_when-you-start-to-look-like-your-chatbot.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
