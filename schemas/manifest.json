@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-25T06:50:27.429148",
+  "generatedAt": "2026-02-26T06:45:43.903067",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_a-e-housman-precision-without-expansion.json",
     "article_nothing-exists-until-it-is-logged.json",
     "article_why-modesty-is-about-others-not-ourselves.json",
     "article_cogitating-ceviches-week-in-review-26-7.json",
@@ -27,7 +28,6 @@
     "article_the-moral-education-of-children-happens-before-instruction.json",
     "article_cogitating-ceviches-week-in-review-26-3.json",
     "article_why-irony-is-a-poor-substitute-for-faith.json",
-    "article_søren-kierkegaard-writing-against-the-crowd.json",
     "article_the-tyranny-of-the-update.json",
     "article_the-ghost-in-the-server-farm.json",
     "article_the-automation-trap-when-tools-make-you-worse.json",
