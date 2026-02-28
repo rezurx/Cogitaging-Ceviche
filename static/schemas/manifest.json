@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-02-27T06:38:40.461457",
+  "generatedAt": "2026-02-28T06:23:43.871433",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_rule-by-nobody.json",
     "article_a-e-housman-precision-without-expansion.json",
     "article_nothing-exists-until-it-is-logged.json",
     "article_why-modesty-is-about-others-not-ourselves.json",
@@ -27,7 +28,6 @@
     "article_we-dont-use-systems-we-live-inside-them.json",
     "article_the-moral-education-of-children-happens-before-instruction.json",
     "article_cogitating-ceviches-week-in-review-26-3.json",
-    "article_why-irony-is-a-poor-substitute-for-faith.json",
     "article_the-tyranny-of-the-update.json",
     "article_the-ghost-in-the-server-farm.json",
     "article_the-automation-trap-when-tools-make-you-worse.json",
