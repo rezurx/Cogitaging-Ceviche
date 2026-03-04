@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-03T06:37:03.989291",
+  "generatedAt": "2026-03-04T06:33:47.541381",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-ui-of-authority.json",
     "article_the-problem-with-outsourcing-moral-formation.json",
     "article_cogitating-ceviches-week-in-review-25-8.json",
     "article_rule-by-nobody.json",
@@ -41,8 +42,7 @@
     "article_the-internet-of-beings.json",
     "article_terms-of-endearment.json",
     "article_the-ai-therapist-will-see-you-now.json",
-    "article_reciprocal-determinism-in-your-kitchen.json",
-    "article_when-you-start-to-look-like-your-chatbot.json"
+    "article_reciprocal-determinism-in-your-kitchen.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
