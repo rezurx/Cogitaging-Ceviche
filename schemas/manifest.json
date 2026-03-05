@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-04T06:33:47.541381",
+  "generatedAt": "2026-03-05T06:36:41.396615",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_avicenna-and-the-algorithmic-soul.json",
     "article_the-ui-of-authority.json",
     "article_the-problem-with-outsourcing-moral-formation.json",
     "article_cogitating-ceviches-week-in-review-25-8.json",
@@ -27,7 +28,6 @@
     "article_the-christian-case-against-spectacle.json",
     "article_cogitating-ceviché-week-in-review-26-4.json",
     "article_the-administrative-state-as-a-folk-religion.json",
-    "article_giuseppe-parini-satirist-of-courtesy-critic-of-privilege.json",
     "article_we-dont-use-systems-we-live-inside-them.json",
     "article_the-tyranny-of-the-update.json",
     "article_the-ghost-in-the-server-farm.json",
