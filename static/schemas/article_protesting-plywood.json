@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/protesting-plywood/",
+  "headline": "Protesting Plywood:",
+  "url": "https://cogitating-ceviche.com/posts/protesting-plywood/",
+  "datePublished": "2026-03-06T07:00:37+00:00",
+  "dateModified": "2026-03-06T07:00:37+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowOriginally posted on x.com/@ConradHannon Protesting Plywood: On Demanding a World That Has Already Moved OnA small crowd has gathered outside a boarded-up K-Mart.The red sign still clings to the facade like a...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/protesting-plywood/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!Rl-H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82e15818-10a3-40d4-a1ca-0f48228c8e3f_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 487,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/protesting-plywood"
+  }
+}
