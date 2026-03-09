@@ -1,8 +1,10 @@
 {
-  "generatedAt": "2026-03-08T06:29:49.860144",
+  "generatedAt": "2026-03-09T06:48:27.182276",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-loss-of-adult-authority-and-why-children-feel-it-first.json",
+    "article_cogitating-ceviches-week-in-review-26-9.json",
     "article_protesting-plywood.json",
     "article_avicenna-and-the-algorithmic-soul.json",
     "article_the-ui-of-authority.json",
@@ -26,8 +28,6 @@
     "article_the-cathedral-without-a-god.json",
     "article_herbert-a-simon-progress-at-a-price.json",
     "article_why-we-trust-systems-more-than-people.json",
-    "article_the-christian-case-against-spectacle.json",
-    "article_cogitating-ceviché-week-in-review-26-4.json",
     "article_we-dont-use-systems-we-live-inside-them.json",
     "article_the-tyranny-of-the-update.json",
     "article_the-ghost-in-the-server-farm.json",

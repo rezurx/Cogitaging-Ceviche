@@ -6,7 +6,7 @@
   "url": "https://cogitating-ceviche.com/posts/the-automation-trap-when-tools-make-you-worse/",
   "datePublished": "2026-01-06T07:01:09+00:00",
   "dateModified": "2026-01-06T07:01:09+00:00",
-  "description": "Consider a familiar liturgy. You open the application. You enter the inputs. You accept the recommendation. You move on. You do this dozens of times a day, hundreds of times a week, until the ritual becomes invisible. The system handles it. You...",
+  "description": "Read more",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://cogitating-ceviche.com/posts/the-automation-trap-when-tools-make-you-worse/"
@@ -28,8 +28,8 @@
     "name": "Conrad T. Hannon",
     "url": "https://cogitating-ceviche.com/about/"
   },
-  "keywords": "Automation Bias, Cognitive Automation, Decision Ritual, Tool Dependency",
-  "wordCount": 446,
+  "keywords": "AI",
+  "wordCount": 26,
   "isBasedOn": {
     "@type": "CreativeWork",
     "url": "https://thecyberneticceviche.substack.com/p/the-automation-trap-when-tools-make"
