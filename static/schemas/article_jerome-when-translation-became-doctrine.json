@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/jerome-when-translation-became-doctrine/",
+  "headline": "Jerome: When Translation Became Doctrine",
+  "url": "https://cogitating-ceviche.com/posts/jerome-when-translation-became-doctrine/",
+  "datePublished": "2026-03-11T06:01:04+00:00",
+  "dateModified": "2026-03-11T06:01:04+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowJerome: When Translation Became DoctrineHe gave the Latin West a Bible whose wording would outlast empires.The Man and the Disorder He InheritedEusebius Hieronymus, whom the Latin tradition would call Jerome, was...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/jerome-when-translation-became-doctrine/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!GOch!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf231451-8562-422d-b3e5-f83bd1ca7ee5_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 385,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/jerome-when-translation-became-doctrine"
+  }
+}

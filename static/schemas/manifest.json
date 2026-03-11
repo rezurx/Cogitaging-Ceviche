@@ -1,8 +1,10 @@
 {
-  "generatedAt": "2026-03-10T06:35:23.479815",
+  "generatedAt": "2026-03-11T06:38:05.953932",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_jerome-when-translation-became-doctrine.json",
+    "article_technical-debt-as-cultural-debt.json",
     "article_the-loss-of-adult-authority-and-why-children-feel-it-first.json",
     "article_cogitating-ceviches-week-in-review-26-9.json",
     "article_protesting-plywood.json",
@@ -26,7 +28,6 @@
     "article_why-christianity-assumes-you-will-be-misunderstood.json",
     "article_cogitating-cevichés-week-in-review-2605.json",
     "article_the-cathedral-without-a-god.json",
-    "article_herbert-a-simon-progress-at-a-price.json",
     "article_why-we-trust-systems-more-than-people.json",
     "article_we-dont-use-systems-we-live-inside-them.json",
     "article_the-tyranny-of-the-update.json",
@@ -41,8 +42,7 @@
     "article_machine-faith.json",
     "article_the-internet-of-beings.json",
     "article_terms-of-endearment.json",
-    "article_the-ai-therapist-will-see-you-now.json",
-    "article_reciprocal-determinism-in-your-kitchen.json"
+    "article_the-ai-therapist-will-see-you-now.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
