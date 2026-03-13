@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-12T06:40:13.547038",
+  "generatedAt": "2026-03-13T06:38:12.532878",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-disappearance-of-amateurism.json",
     "article_jerome-when-translation-became-doctrine.json",
     "article_technical-debt-as-cultural-debt.json",
     "article_the-loss-of-adult-authority-and-why-children-feel-it-first.json",
@@ -27,7 +28,6 @@
     "article_perfect-recall-zero-memory.json",
     "article_why-christianity-assumes-you-will-be-misunderstood.json",
     "article_cogitating-cevichés-week-in-review-2605.json",
-    "article_the-cathedral-without-a-god.json",
     "article_why-we-trust-systems-more-than-people.json",
     "article_we-dont-use-systems-we-live-inside-them.json",
     "article_the-tyranny-of-the-update.json",
