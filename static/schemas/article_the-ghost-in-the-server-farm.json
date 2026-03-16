@@ -6,7 +6,7 @@
   "url": "https://cogitating-ceviche.com/posts/the-ghost-in-the-server-farm/",
   "datePublished": "2026-01-13T07:02:55+00:00",
   "dateModified": "2026-01-13T07:02:55+00:00",
-  "description": "The Haunted Hard DriveGhosts used to haunt castles. Now they haunt databases.Every forgotten account, every abandoned project, every dead startup still lingers in the cloud, untouched, unarchived, and quietly consuming electricity. Somewhere in a...",
+  "description": "Read more",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://cogitating-ceviche.com/posts/the-ghost-in-the-server-farm/"
@@ -28,8 +28,8 @@
     "name": "Conrad T. Hannon",
     "url": "https://cogitating-ceviche.com/about/"
   },
-  "keywords": "Digital Afterlife, Technological Remnants, Cloud Memory, Abandoned Data",
-  "wordCount": 456,
+  "keywords": "AI",
+  "wordCount": 26,
   "isBasedOn": {
     "@type": "CreativeWork",
     "url": "https://thecyberneticceviche.substack.com/p/the-ghost-in-the-server-farm"
