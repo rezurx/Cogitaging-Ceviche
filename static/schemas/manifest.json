@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-16T07:04:14.063906",
+  "generatedAt": "2026-03-17T06:51:37.281251",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-world-as-a-feed.json",
     "article_the-difference-between-confidence-and-conviction.json",
     "article_cogitating-ceviches-week-in-review-26-10.json",
     "article_the-disappearance-of-amateurism.json",
@@ -41,8 +42,7 @@
     "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json",
     "article_machine-faith.json",
     "article_the-internet-of-beings.json",
-    "article_terms-of-endearment.json",
-    "article_the-ai-therapist-will-see-you-now.json"
+    "article_terms-of-endearment.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,

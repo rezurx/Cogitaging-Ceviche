@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-world-as-a-feed/",
+  "headline": "The World as a Feed",
+  "url": "https://cogitating-ceviche.com/posts/the-world-as-a-feed/",
+  "datePublished": "2026-03-17T06:00:43+00:00",
+  "dateModified": "2026-03-17T06:00:43+00:00",
+  "description": "There is a specific moment that happens to most people now, and most people do not register it as remarkable.You are sitting with someone. A conversation is occurring. You are, by most definitions, paying attention. And then something shifts. The...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-world-as-a-feed/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!kXOv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F892398cb-cead-4e27-ba40-4b377110eaec_1280x720.jpeg",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 488,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/the-world-as-a-feed"
+  }
+}
