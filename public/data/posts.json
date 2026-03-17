@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T04:57:23.363715",
+  "generatedAt": "2026-03-17T06:05:31.215710",
   "items": [
     {
       "title": "The Difference Between Confidence and Conviction",
@@ -182,6 +182,15 @@
       "source": "substack"
     },
     {
+      "title": "The World as a Feed",
+      "subtitle": "On the architecture that replaced reality with a ranked list of items, and what we lost when we stop...",
+      "url": "https://thecyberneticceviche.substack.com/p/the-world-as-a-feed",
+      "published": "Tue, 17 Mar 2026 06:00:43 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!kXOv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F892398cb-cead-4e27-ba40-4b377110eaec_1280x720.jpeg",
+      "excerpt": "There is a specific moment that happens to most people now, and most people do not register it as remarkable You are sitting with someone A conversation is occurring You are, by most definitions, paying attention And then something shifts...",
+      "source": "substack"
+    },
+    {
       "title": "Technical Debt as Cultural Debt",
       "subtitle": "When organizations stop repairing what is broken, the broken thing becomes the culture",
       "url": "https://thecyberneticceviche.substack.com/p/technical-debt-as-cultural-debt",
@@ -350,15 +359,6 @@
       "published": "Tue, 04 Nov 2025 07:00:53 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!mIHh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9610189a-3673-4441-8f54-099c2adc43bc_1024x1024.png",
       "excerpt": "Read more...",
-      "source": "substack"
-    },
-    {
-      "title": "The AI Therapist Will See You Now",
-      "subtitle": "The Couch Has Gone Digital",
-      "url": "https://thecyberneticceviche.substack.com/p/the-ai-therapist-will-see-you-now",
-      "published": "Tue, 28 Oct 2025 06:00:59 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!xX8R!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e5bcfec-7186-4042-84eb-5a4dfc997ec6_1024x1024.png",
-      "excerpt": "Image created by generative AI Read more...",
       "source": "substack"
     }
   ]
