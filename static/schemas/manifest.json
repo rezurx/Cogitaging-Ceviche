@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-21T06:30:07.500540",
+  "generatedAt": "2026-03-22T06:37:20.915956",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-ceviches-week-in-review-26-11.json",
     "article_the-borrowed-tune.json",
     "article_sandford-fleming-when-time-became-law.json",
     "article_the-world-as-a-feed.json",
@@ -27,7 +28,6 @@
     "article_theo-van-gogh-standing-second-to-history.json",
     "article_after-the-bubble.json",
     "article_the-hidden-theology-of-household-order.json",
-    "article_cogitating-cevichés-week-in-review-26-6.json",
     "article_perfect-recall-zero-memory.json",
     "article_why-we-trust-systems-more-than-people.json",
     "article_we-dont-use-systems-we-live-inside-them.json",
