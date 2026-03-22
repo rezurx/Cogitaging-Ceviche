@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-26-11/",
+  "headline": "Cogitating Ceviche’s Week in Review (26-11)",
+  "url": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-26-11/",
+  "datePublished": "2026-03-22T06:01:45+00:00",
+  "dateModified": "2026-03-22T06:01:45+00:00",
+  "description": "Image created by generative AIThe Cogitating Ceviché is a . , .Discussion via NotebookLMImage created with NotebookLMCogitating Ceviche’s Week in Review (26-11)March 16–21, 2026This week’s essays and serials circled a common question from different...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-26-11/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!Da8U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7522c2fa-7814-426b-81cd-7dec7676360b_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 286,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-185"
+  }
+}
