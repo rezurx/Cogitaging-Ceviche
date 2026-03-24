@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-23T06:57:10.408863",
+  "generatedAt": "2026-03-24T06:51:20.661513",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-comfort-of-the-dashboard.json",
     "article_why-gratitude-is-more-demanding-than-outrage.json",
     "article_cogitating-ceviches-week-in-review-26-11.json",
     "article_the-borrowed-tune.json",
@@ -41,8 +42,7 @@
     "article_artificial-ignorance.json",
     "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json",
     "article_machine-faith.json",
-    "article_the-internet-of-beings.json",
-    "article_terms-of-endearment.json"
+    "article_the-internet-of-beings.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,

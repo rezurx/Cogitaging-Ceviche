@@ -9,9 +9,9 @@ author = "Calista F. Freiheit"
 is_conrad = false
 featured_image = "https://substackcdn.com/image/fetch/$s_!4p2r!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F143d2411-a4a8-40cf-a6bb-1088d0d7700f_1536x1024.png"
 tags = ["AI"]
-description = "The Cogitating Ceviché is a . , . nowThe Loss of Adult Authority and Why Children Feel It FirstChildren are remarkably perceptive.They sense instability long before they can name it. They feel uncertainty before they understand its cause. When..."
+description = "Read more"
 +++
 
-The Cogitating Ceviché is a . , . nowThe Loss of Adult Authority and Why Children Feel It FirstChildren are remarkably perceptive.They sense instability long before they can name it. They feel uncertainty before they understand its cause. When...
+Read more
 
 [Read the full article on Substack](https://thecogitatingceviche.substack.com/p/the-loss-of-adult-authority-and-why)
