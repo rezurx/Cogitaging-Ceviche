@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/james-watt-power-without-season/",
+  "headline": "James Watt: Power Without Season",
+  "url": "https://cogitating-ceviche.com/posts/james-watt-power-without-season/",
+  "datePublished": "2026-03-25T06:00:42+00:00",
+  "dateModified": "2026-03-25T06:00:42+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowHe did not invent steam. He solved the problem that kept it from becoming general, and in doing so, helped reorganize the conditions of human work in ways that have not stopped compounding.On a Sunday afternoon...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/james-watt-power-without-season/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!lukb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61ef6585-e76b-452d-a42a-0ee92f516ac7_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "politics",
+  "wordCount": 427,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/james-watt-power-without-season"
+  }
+}

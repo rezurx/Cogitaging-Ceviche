@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-24T06:51:20.661513",
+  "generatedAt": "2026-03-25T06:50:15.907185",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_james-watt-power-without-season.json",
     "article_the-comfort-of-the-dashboard.json",
     "article_why-gratitude-is-more-demanding-than-outrage.json",
     "article_cogitating-ceviches-week-in-review-26-11.json",
@@ -27,7 +28,6 @@
     "article_why-modesty-is-about-others-not-ourselves.json",
     "article_cogitating-ceviches-week-in-review-26-7.json",
     "article_everything-now-happens-at-the-wrong-speed.json",
-    "article_theo-van-gogh-standing-second-to-history.json",
     "article_after-the-bubble.json",
     "article_perfect-recall-zero-memory.json",
     "article_why-we-trust-systems-more-than-people.json",
