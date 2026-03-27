@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-26T06:55:59.936574",
+  "generatedAt": "2026-03-27T06:55:51.397073",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-day-hollywood-realized-the-camera-was-no-longer-the-scarce-resource.json",
     "article_james-watt-power-without-season.json",
     "article_the-comfort-of-the-dashboard.json",
     "article_why-gratitude-is-more-demanding-than-outrage.json",
@@ -27,7 +28,6 @@
     "article_nothing-exists-until-it-is-logged.json",
     "article_why-modesty-is-about-others-not-ourselves.json",
     "article_cogitating-ceviches-week-in-review-26-7.json",
-    "article_everything-now-happens-at-the-wrong-speed.json",
     "article_after-the-bubble.json",
     "article_perfect-recall-zero-memory.json",
     "article_why-we-trust-systems-more-than-people.json",
