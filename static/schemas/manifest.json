@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-28T06:44:27.344236",
+  "generatedAt": "2026-03-29T06:52:16.829488",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-ceviches-week-in-review-26-12.json",
     "article_the-day-hollywood-realized-the-camera-was-no-longer-the-scarce-resource.json",
     "article_james-watt-power-without-season.json",
     "article_the-comfort-of-the-dashboard.json",
@@ -27,7 +28,6 @@
     "article_a-e-housman-precision-without-expansion.json",
     "article_nothing-exists-until-it-is-logged.json",
     "article_why-modesty-is-about-others-not-ourselves.json",
-    "article_cogitating-ceviches-week-in-review-26-7.json",
     "article_after-the-bubble.json",
     "article_perfect-recall-zero-memory.json",
     "article_why-we-trust-systems-more-than-people.json",
