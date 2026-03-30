@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-spiritual-cost-of-living-without-ancestors/",
+  "headline": "The Spiritual Cost of Living Without Ancestors",
+  "url": "https://cogitating-ceviche.com/posts/the-spiritual-cost-of-living-without-ancestors/",
+  "datePublished": "2026-03-30T06:02:37+00:00",
+  "dateModified": "2026-03-30T06:02:37+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowWe live surrounded by information and largely detached from inheritance. We know what is happening everywhere, in real time, across every continent, but many of us have little sense of where we come from. The...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-spiritual-cost-of-living-without-ancestors/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!HfRB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd07a86e5-9277-4479-9a40-c22097e9065e_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 411,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-spiritual-cost-of-living-without"
+  }
+}
