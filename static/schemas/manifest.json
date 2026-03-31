@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-30T07:14:24.222826",
+  "generatedAt": "2026-03-31T07:00:42.358905",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-death-of-waiting.json",
     "article_the-spiritual-cost-of-living-without-ancestors.json",
     "article_cogitating-ceviches-week-in-review-26-12.json",
     "article_the-day-hollywood-realized-the-camera-was-no-longer-the-scarce-resource.json",
@@ -41,8 +42,7 @@
     "article_why-silicon-valley-is-afraid-of-death.json",
     "article_artificial-ignorance.json",
     "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json",
-    "article_machine-faith.json",
-    "article_the-internet-of-beings.json"
+    "article_machine-faith.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
