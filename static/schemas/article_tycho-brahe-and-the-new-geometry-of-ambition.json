@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/tycho-brahe-and-the-new-geometry-of-ambition/",
+  "headline": "Tycho Brahe and the New Geometry of Ambition",
+  "url": "https://cogitating-ceviche.com/posts/tycho-brahe-and-the-new-geometry-of-ambition/",
+  "datePublished": "2026-04-01T06:02:49+00:00",
+  "dateModified": "2026-04-01T06:02:49+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowPrefaceWelcome to the seventy-ninth entry in Past Forward: Historical Icons in the Digital Frontier. This series imagines how major historical figures might respond to the structures, technologies, and moral...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/tycho-brahe-and-the-new-geometry-of-ambition/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!iYwc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a907d9c-8c96-47c5-bbc2-e0f520c5b13a_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "philosophy, technology, history",
+  "wordCount": 628,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/tycho-brahe-and-the-new-geometry"
+  }
+}

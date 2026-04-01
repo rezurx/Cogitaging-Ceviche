@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-03-31T07:00:42.358905",
+  "generatedAt": "2026-04-01T07:07:19.754568",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_tycho-brahe-and-the-new-geometry-of-ambition.json",
     "article_the-death-of-waiting.json",
     "article_the-spiritual-cost-of-living-without-ancestors.json",
     "article_cogitating-ceviches-week-in-review-26-12.json",
@@ -27,7 +28,6 @@
     "article_the-problem-with-outsourcing-moral-formation.json",
     "article_cogitating-ceviches-week-in-review-25-8.json",
     "article_rule-by-nobody.json",
-    "article_a-e-housman-precision-without-expansion.json",
     "article_nothing-exists-until-it-is-logged.json",
     "article_after-the-bubble.json",
     "article_perfect-recall-zero-memory.json",
