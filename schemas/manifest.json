@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-04T06:46:23.275634",
+  "generatedAt": "2026-04-05T06:54:00.487649",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-ceviches-week-in-review-26-13.json",
     "article_utility-to-symbolism.json",
     "article_tycho-brahe-and-the-new-geometry-of-ambition.json",
     "article_the-death-of-waiting.json",
@@ -27,7 +28,6 @@
     "article_avicenna-and-the-algorithmic-soul.json",
     "article_the-ui-of-authority.json",
     "article_the-problem-with-outsourcing-moral-formation.json",
-    "article_cogitating-ceviches-week-in-review-25-8.json",
     "article_nothing-exists-until-it-is-logged.json",
     "article_after-the-bubble.json",
     "article_perfect-recall-zero-memory.json",
