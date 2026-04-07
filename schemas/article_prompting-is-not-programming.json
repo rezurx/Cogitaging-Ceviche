@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/prompting-is-not-programming/",
+  "headline": "Prompting Is Not Programming",
+  "url": "https://cogitating-ceviche.com/posts/prompting-is-not-programming/",
+  "datePublished": "2026-04-07T06:03:02+00:00",
+  "dateModified": "2026-04-07T06:03:02+00:00",
+  "description": "A man sits at his desk, composing instructions for a machine he believes is listening.He types carefully. He uses semicolons. He capitalizes “IMPORTANT” because he has been told the machine responds to emphasis, and he has no way to verify this but...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/prompting-is-not-programming/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!GcvZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd3abced-a04e-4c59-a57a-bc39a01ad83b_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 489,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/prompting-is-not-programming"
+  }
+}
