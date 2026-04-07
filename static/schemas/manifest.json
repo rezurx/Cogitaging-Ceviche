@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-06T07:16:21.376787",
+  "generatedAt": "2026-04-07T07:03:27.491614",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_prompting-is-not-programming.json",
     "article_why-christianity-treats-waiting-as-a-discipline.json",
     "article_cogitating-ceviches-week-in-review-26-13.json",
     "article_utility-to-symbolism.json",
@@ -41,8 +42,7 @@
     "article_the-cognitive-glasses-we-didnt-know-we-needed.json",
     "article_why-silicon-valley-is-afraid-of-death.json",
     "article_artificial-ignorance.json",
-    "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json",
-    "article_machine-faith.json"
+    "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
