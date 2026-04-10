@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-09T07:09:18.924470",
+  "generatedAt": "2026-04-10T07:14:16.806278",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-professionalization-of-outrage.json",
     "article_gladys-ingle-changing-wheels-at-altitude.json",
     "article_prompting-is-not-programming.json",
     "article_why-christianity-treats-waiting-as-a-discipline.json",
@@ -27,7 +28,6 @@
     "article_technical-debt-as-cultural-debt.json",
     "article_the-loss-of-adult-authority-and-why-children-feel-it-first.json",
     "article_cogitating-ceviches-week-in-review-26-9.json",
-    "article_protesting-plywood.json",
     "article_the-ui-of-authority.json",
     "article_nothing-exists-until-it-is-logged.json",
     "article_after-the-bubble.json",
