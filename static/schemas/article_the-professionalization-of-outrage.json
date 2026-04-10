@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-professionalization-of-outrage/",
+  "headline": "The Professionalization of Outrage",
+  "url": "https://cogitating-ceviche.com/posts/the-professionalization-of-outrage/",
+  "datePublished": "2026-04-10T06:00:53+00:00",
+  "dateModified": "2026-04-10T06:00:53+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowSomewhere, right now, someone is angry on your behalf.You may not have asked them to be. You may not know what they are angry about. You may not, upon reflection, be particularly angry yourself. This does not...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-professionalization-of-outrage/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!T2_g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18dd06a5-249e-4656-8da8-d2f89981c301_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 498,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-professionalization-of-outrage"
+  }
+}
