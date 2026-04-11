@@ -9,9 +9,9 @@ author = "Conrad T. Hannon"
 is_conrad = true
 featured_image = "https://substackcdn.com/image/fetch/$s_!CMPo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd12b8835-427a-4ef6-919c-7bf5769b3ac3_1536x1024.png"
 tags = ["AI"]
-description = "Read more"
+description = "The Cogitating Ceviché is a . , . nowA practical solution to railway confusion became a global structure that taught societies to live by the same clockIn the middle of the nineteenth century, every town in the industrializing world kept its own..."
 +++
 
-Read more
+The Cogitating Ceviché is a . , . nowA practical solution to railway confusion became a global structure that taught societies to live by the same clockIn the middle of the nineteenth century, every town in the industrializing world kept its own...
 
 [Read the full article on Substack](https://thecogitatingceviche.substack.com/p/sandford-fleming-when-time-became)
