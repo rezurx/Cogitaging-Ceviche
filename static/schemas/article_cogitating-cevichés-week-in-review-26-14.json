@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/cogitating-cevichés-week-in-review-26-14/",
+  "headline": "Cogitating Ceviché’s Week in Review (26-14)",
+  "url": "https://cogitating-ceviche.com/posts/cogitating-cevichés-week-in-review-26-14/",
+  "datePublished": "2026-04-12T06:01:06+00:00",
+  "dateModified": "2026-04-12T06:01:06+00:00",
+  "description": "The Cogitating Ceviché is a . , .Discussion via NotebookLMInfographic created with NotebookLMCogitating Ceviché’s Week in Review (26-14)April 6–11, 2026Editorial SummaryThis week’s essays and stories circle a hard truth from several directions: a...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/cogitating-cevichés-week-in-review-26-14/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!Kk6E!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff34049d8-6a3b-45be-a3c2-9e1d5e6fc257_930x566.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 267,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-daf"
+  }
+}
