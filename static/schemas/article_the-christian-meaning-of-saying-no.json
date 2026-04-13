@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-christian-meaning-of-saying-no/",
+  "headline": "The Christian Meaning of Saying No",
+  "url": "https://cogitating-ceviche.com/posts/the-christian-meaning-of-saying-no/",
+  "datePublished": "2026-04-13T06:01:31+00:00",
+  "dateModified": "2026-04-13T06:01:31+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowThe Christian Meaning of Saying NoModern culture treats “no” as a problem to be solved.Refusal is framed as obstruction, negativity, or a small failure of compassion. We are taught to affirm, to accommodate, to...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-christian-meaning-of-saying-no/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!Trnr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7856ece2-eede-4d49-95ef-f113c054c9b8_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI, culture",
+  "wordCount": 495,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-christian-meaning-of-saying-no"
+  }
+}
