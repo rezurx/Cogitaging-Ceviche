@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-confessional-box/",
+  "headline": "The Confessional Box:",
+  "url": "https://cogitating-ceviche.com/posts/the-confessional-box/",
+  "datePublished": "2026-04-14T06:00:24+00:00",
+  "dateModified": "2026-04-14T06:00:24+00:00",
+  "description": "The Confessional Box: On the New Sacrament of the QueryYou step into a clean little room.There is nothing on the walls. There is nothing on the desk. There is a single rectangle waiting for you to speak, and a cursor blinking with the patience of...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-confessional-box/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!KlQG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faca98c8c-fd80-4a8e-b833-90876e21f620_1254x1254.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 475,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/the-confessional-box"
+  }
+}

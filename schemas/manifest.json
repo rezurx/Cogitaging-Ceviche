@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-13T07:46:51.756482",
+  "generatedAt": "2026-04-14T07:16:09.682170",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-confessional-box.json",
     "article_the-christian-meaning-of-saying-no.json",
     "article_cogitating-cevichés-week-in-review-26-14.json",
     "article_the-professionalization-of-outrage.json",
@@ -41,8 +42,7 @@
     "article_the-spreadsheet-as-sacred-text.json",
     "article_the-cognitive-glasses-we-didnt-know-we-needed.json",
     "article_why-silicon-valley-is-afraid-of-death.json",
-    "article_artificial-ignorance.json",
-    "article_why-your-content-needs-a-chaperone-in-the-age-of-ai.json"
+    "article_artificial-ignorance.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
