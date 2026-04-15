@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-14T07:16:09.682170",
+  "generatedAt": "2026-04-15T07:16:36.088730",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_hanawa-hokiichi-gathering-japan-before-it-scattered.json",
     "article_the-confessional-box.json",
     "article_the-christian-meaning-of-saying-no.json",
     "article_cogitating-cevichés-week-in-review-26-14.json",
@@ -27,7 +28,6 @@
     "article_the-difference-between-confidence-and-conviction.json",
     "article_cogitating-ceviches-week-in-review-26-10.json",
     "article_the-disappearance-of-amateurism.json",
-    "article_jerome-when-translation-became-doctrine.json",
     "article_technical-debt-as-cultural-debt.json",
     "article_the-ui-of-authority.json",
     "article_nothing-exists-until-it-is-logged.json",
