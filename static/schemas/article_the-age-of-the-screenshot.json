@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-age-of-the-screenshot/",
+  "headline": "The Age of the Screenshot",
+  "url": "https://cogitating-ceviche.com/posts/the-age-of-the-screenshot/",
+  "datePublished": "2026-04-17T06:01:27+00:00",
+  "dateModified": "2026-04-17T06:01:27+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowThe text is four years old.Someone has found it. They have cropped it carefully, preserving the timestamp and the name, trimming away the surrounding conversation that might have softened it. They have posted it...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-age-of-the-screenshot/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!9SGQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc64ddda-239c-4c37-ab8a-9e72fd1b5b60_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 475,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-age-of-the-screenshot"
+  }
+}
