@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-19T07:05:36.843314",
+  "generatedAt": "2026-04-20T07:49:00.878855",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_why-christian-formation-requires-boredom.json",
     "article_cogitating-ceviches-week-in-review-26-15.json",
     "article_the-age-of-the-screenshot.json",
     "article_hanawa-hokiichi-gathering-japan-before-it-scattered.json",
@@ -27,7 +28,6 @@
     "article_the-borrowed-tune.json",
     "article_sandford-fleming-when-time-became-law.json",
     "article_the-world-as-a-feed.json",
-    "article_the-difference-between-confidence-and-conviction.json",
     "article_technical-debt-as-cultural-debt.json",
     "article_the-ui-of-authority.json",
     "article_nothing-exists-until-it-is-logged.json",
