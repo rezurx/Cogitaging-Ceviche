@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-illusion-of-ai-understanding/",
+  "headline": "The Illusion of AI Understanding",
+  "url": "https://cogitating-ceviche.com/posts/the-illusion-of-ai-understanding/",
+  "datePublished": "2026-04-21T06:02:18+00:00",
+  "dateModified": "2026-04-21T06:02:18+00:00",
+  "description": "Picture the scene.A user types a question into a glowing rectangle. The rectangle responds. Fluently. Confidently. With the measured cadence of something that has read the relevant literature and arrived at a considered position.The answer is...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-illusion-of-ai-understanding/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!AM1V!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F282f854b-a76d-427b-a2b5-f84d4b2a8bbc_2048x1448.jpeg",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 411,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/the-illusion-of-ai-understanding"
+  }
+}
