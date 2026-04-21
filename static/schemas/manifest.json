@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-20T07:49:00.878855",
+  "generatedAt": "2026-04-21T07:20:25.756746",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-illusion-of-ai-understanding.json",
     "article_why-christian-formation-requires-boredom.json",
     "article_cogitating-ceviches-week-in-review-26-15.json",
     "article_the-age-of-the-screenshot.json",
@@ -41,8 +42,7 @@
     "article_why-your-smart-fridge-is-plotting-against-you.json",
     "article_the-spreadsheet-as-sacred-text.json",
     "article_the-cognitive-glasses-we-didnt-know-we-needed.json",
-    "article_why-silicon-valley-is-afraid-of-death.json",
-    "article_artificial-ignorance.json"
+    "article_why-silicon-valley-is-afraid-of-death.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
