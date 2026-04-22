@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-21T07:20:25.756746",
+  "generatedAt": "2026-04-22T07:18:41.754518",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_john-locke-and-the-ownership-of-the-self-in-a-digital-republic.json",
     "article_the-illusion-of-ai-understanding.json",
     "article_why-christian-formation-requires-boredom.json",
     "article_cogitating-ceviches-week-in-review-26-15.json",
@@ -27,7 +28,6 @@
     "article_why-gratitude-is-more-demanding-than-outrage.json",
     "article_cogitating-ceviches-week-in-review-26-11.json",
     "article_the-borrowed-tune.json",
-    "article_sandford-fleming-when-time-became-law.json",
     "article_the-world-as-a-feed.json",
     "article_technical-debt-as-cultural-debt.json",
     "article_the-ui-of-authority.json",
