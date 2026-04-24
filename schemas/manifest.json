@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-23T07:20:44.381530",
+  "generatedAt": "2026-04-24T07:47:02.881303",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_competence-without-glory.json",
     "article_john-locke-and-the-ownership-of-the-self-in-a-digital-republic.json",
     "article_the-illusion-of-ai-understanding.json",
     "article_why-christian-formation-requires-boredom.json",
@@ -27,7 +28,6 @@
     "article_the-comfort-of-the-dashboard.json",
     "article_why-gratitude-is-more-demanding-than-outrage.json",
     "article_cogitating-ceviches-week-in-review-26-11.json",
-    "article_the-borrowed-tune.json",
     "article_the-world-as-a-feed.json",
     "article_technical-debt-as-cultural-debt.json",
     "article_the-ui-of-authority.json",
