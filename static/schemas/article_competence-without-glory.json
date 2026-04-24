@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/competence-without-glory/",
+  "headline": "Competence Without Glory",
+  "url": "https://cogitating-ceviche.com/posts/competence-without-glory/",
+  "datePublished": "2026-04-24T06:01:07+00:00",
+  "dateModified": "2026-04-24T06:01:07+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowPicture a man we can call Ray.At 3:47 on a Tuesday morning, somewhere in central Ohio, Ray is standing in front of a panel of blinking lights older than his marriage. A pump has failed. He knew it would. He has...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/competence-without-glory/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!UucA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb241de1-e663-4ed5-88aa-c087b33a7e5f_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 489,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/competence-without-glory"
+  }
+}
