@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-25T07:01:28.395567",
+  "generatedAt": "2026-04-26T07:15:54.883257",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-cevichés-week-in-review-26-16.json",
     "article_competence-without-glory.json",
     "article_john-locke-and-the-ownership-of-the-self-in-a-digital-republic.json",
     "article_the-illusion-of-ai-understanding.json",
@@ -27,7 +28,6 @@
     "article_james-watt-power-without-season.json",
     "article_the-comfort-of-the-dashboard.json",
     "article_why-gratitude-is-more-demanding-than-outrage.json",
-    "article_cogitating-ceviches-week-in-review-26-11.json",
     "article_the-world-as-a-feed.json",
     "article_technical-debt-as-cultural-debt.json",
     "article_the-ui-of-authority.json",
