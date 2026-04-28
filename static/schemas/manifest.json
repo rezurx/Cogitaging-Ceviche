@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-27T08:03:24.057722",
+  "generatedAt": "2026-04-28T08:04:32.014237",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_decentralization-is-a-narrative-gravity-is-a-law.json",
     "article_why-reverence-cannot-be-programmed.json",
     "article_cogitating-cevichés-week-in-review-26-16.json",
     "article_competence-without-glory.json",
@@ -41,8 +42,7 @@
     "article_the-automation-trap-when-tools-make-you-worse.json",
     "article_why-your-smart-fridge-is-plotting-against-you.json",
     "article_the-spreadsheet-as-sacred-text.json",
-    "article_the-cognitive-glasses-we-didnt-know-we-needed.json",
-    "article_why-silicon-valley-is-afraid-of-death.json"
+    "article_the-cognitive-glasses-we-didnt-know-we-needed.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
