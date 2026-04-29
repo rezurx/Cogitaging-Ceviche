@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-04-28T08:04:32.014237",
+  "generatedAt": "2026-04-29T07:58:09.951740",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_simone-weil-refusing-the-movement.json",
     "article_decentralization-is-a-narrative-gravity-is-a-law.json",
     "article_why-reverence-cannot-be-programmed.json",
     "article_cogitating-cevichés-week-in-review-26-16.json",
@@ -27,7 +28,6 @@
     "article_the-spiritual-cost-of-living-without-ancestors.json",
     "article_cogitating-ceviches-week-in-review-26-12.json",
     "article_the-day-hollywood-realized-the-camera-was-no-longer-the-scarce-resource.json",
-    "article_james-watt-power-without-season.json",
     "article_the-comfort-of-the-dashboard.json",
     "article_the-world-as-a-feed.json",
     "article_technical-debt-as-cultural-debt.json",
