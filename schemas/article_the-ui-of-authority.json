@@ -6,7 +6,7 @@
   "url": "https://cogitating-ceviche.com/posts/the-ui-of-authority/",
   "datePublished": "2026-03-03T07:02:03+00:00",
   "dateModified": "2026-03-03T07:02:03+00:00",
-  "description": "The UI of AuthorityConrad T. Hannon | Cybernetic CevicheThere is a moment, familiar to anyone who has used a computer in the last twenty years, when you click a button and nothing happens. Not nothing as in failure. Nothing as in: that option is not...",
+  "description": "Read more",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://cogitating-ceviche.com/posts/the-ui-of-authority/"
@@ -28,8 +28,8 @@
     "name": "Conrad T. Hannon",
     "url": "https://cogitating-ceviche.com/about/"
   },
-  "keywords": "AI, technology",
-  "wordCount": 416,
+  "keywords": "AI",
+  "wordCount": 26,
   "isBasedOn": {
     "@type": "CreativeWork",
     "url": "https://thecyberneticceviche.substack.com/p/the-ui-of-authority"

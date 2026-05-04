@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-weight-of-a-word/",
+  "headline": "The Weight of a Word",
+  "url": "https://cogitating-ceviche.com/posts/the-weight-of-a-word/",
+  "datePublished": "2026-05-04T06:01:21+00:00",
+  "dateModified": "2026-05-04T06:01:21+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowSpeech has become weather: constant, ambient, and rarely consequential. The Christian tradition does not treat what we say this way at all.It treats it as an act.The opening pages of Genesis tell us that creation...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-weight-of-a-word/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!EO-H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7511702-50ba-4140-abd2-b67da7fce344_1448x1086.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 471,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-weight-of-a-word"
+  }
+}
