@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-03T07:45:40.539402",
+  "generatedAt": "2026-05-04T08:14:49.886388",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-weight-of-a-word.json",
     "article_cogitating-cevichés-week-in-review-26-17.json",
     "article_the-revenge-of-vocabulary.json",
     "article_simone-weil-refusing-the-movement.json",
@@ -27,7 +28,6 @@
     "article_utility-to-symbolism.json",
     "article_tycho-brahe-and-the-new-geometry-of-ambition.json",
     "article_the-death-of-waiting.json",
-    "article_the-spiritual-cost-of-living-without-ancestors.json",
     "article_the-comfort-of-the-dashboard.json",
     "article_the-world-as-a-feed.json",
     "article_technical-debt-as-cultural-debt.json",
