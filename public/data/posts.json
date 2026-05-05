@@ -1,365 +1,445 @@
 {
-  "generatedAt": "2026-05-05T06:23:08.733807",
+  "generatedAt": "2026-05-05T07:52:11.573664",
   "items": [
     {
+      "title": "Plausible, Polished, Probably Wrong",
+      "subtitle": "",
+      "url": "https://thecyberneticceviche.substack.com/p/plausible-polished-probably-wrong",
+      "published": "Tue, 05 May 2026 06:01:10 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!lrVj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc7bf7d5-7b26-457c-93d8-999d8dce4c62_1536x1024.png",
+      "excerpt": "Sermons in Plain TypeThe pulpit is small. Rectangular. About the size of a paperback held at reading distance.The congregation is one person. They are usually alone. Often at a desk, sometimes on a couch, occasionally in a hospital corridor, with...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
       "title": "The Weight of a Word",
-      "subtitle": "On the discipline of speaking less and meaning more",
+      "subtitle": "",
       "url": "https://thecogitatingceviche.substack.com/p/the-weight-of-a-word",
       "published": "Mon, 04 May 2026 06:01:21 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!EO-H!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7511702-50ba-4140-abd2-b67da7fce344_1448x1086.png",
-      "excerpt": "Speech has become weather: constant, ambient, and rarely consequential The Christian tradition does not treat what we say this way at all It treats it as an act The opening pages of Genesis tell us that creation itself begins in...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!EO-H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7511702-50ba-4140-abd2-b67da7fce344_1448x1086.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowSpeech has become weather: constant, ambient, and rarely consequential. The Christian tradition does not treat what we say this way at all.It treats it as an act.The opening pages of Genesis tell us that creation...",
+      "source": "substack",
+      "author": "Calista F. Freiheit",
+      "is_conrad": false
     },
     {
       "title": "Cogitating Ceviché’s Week in Review (26-17)",
-      "subtitle": "April 27–May 2, 2026",
+      "subtitle": "",
       "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-083",
       "published": "Sun, 03 May 2026 06:01:48 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!vJhc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facd160d7-35fe-42d4-bca8-c30b6df2a6d3_1672x941.png",
-      "excerpt": "Cogitating Ceviché’s Week in Review (26-17) This week moved between reverence and refusal, vocabulary and voltage, orphaned children and lost worlds Calista Freiheit opened with the ancient posture modern systems cannot teach Conrad Hannon pressed hard on the false promises...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!vJhc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facd160d7-35fe-42d4-bca8-c30b6df2a6d3_1672x941.png",
+      "excerpt": "The Cogitating Ceviché is a . , .Discussion via NotebookLMCogitating Ceviché’s Week in Review (26-17)This week moved between reverence and refusal, vocabulary and voltage, orphaned children and lost worlds. Calista Freiheit opened with the ancient...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "The Revenge of Vocabulary",
-      "subtitle": "The hidden skill the prompt-engineering industry won't advertise",
+      "subtitle": "",
       "url": "https://thecogitatingceviche.substack.com/p/the-revenge-of-vocabulary",
       "published": "Fri, 01 May 2026 06:00:41 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!ocE5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F884f14f1-8e84-4b89-bcee-dba58a266daa_1536x1024.png",
-      "excerpt": "For the last two years, the world has been treated to a strange little pageant in which people who once regarded language as an ambient utility have suddenly become amateur priests of phrasing Every week produces another crop of prompt...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!ocE5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F884f14f1-8e84-4b89-bcee-dba58a266daa_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowFor the last two years, the world has been treated to a strange little pageant in which people who once regarded language as an ambient utility have suddenly become amateur priests of phrasing. Every week...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
-      "title": "Simone Weil: Refusing the Movement",
-      "subtitle": "She limited the institutions, parties, and churches that might have turned conscience into influence...",
+      "title": "Simone Weil",
+      "subtitle": "Refusing the Movement",
       "url": "https://thecogitatingceviche.substack.com/p/simone-weil-refusing-the-movement",
       "published": "Wed, 29 Apr 2026 06:01:31 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!53kC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe18dca21-9ff4-4fb1-a4be-0ebed54204df_1672x941.png",
-      "excerpt": "Simone Weil: Refusing the Movement Voices That Refused to Scale, #3 The Opportunity to Expand Simone Weil had many doors available to her She was born in Paris in 1909, intellectually brilliant early, trained in philosophy, and moved through the...",
-      "source": "substack"
-    },
-    {
-      "title": "Why Reverence Cannot Be Programmed",
-      "subtitle": "On the ancient posture the modern world no longer knows how to teach",
-      "url": "https://thecogitatingceviche.substack.com/p/why-reverence-cannot-be-programmed",
-      "published": "Mon, 27 Apr 2026 06:02:47 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!0qqj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22af3e2b-3559-4822-ac60-024abe64dc97_1672x941.png",
-      "excerpt": "Image created as generative AI is a now A person steps into an old church Something shifts before thought catches up The voice lowers The step slows The hands fold without being told Whatever was said in the parking lot...",
-      "source": "substack"
-    },
-    {
-      "title": "Cogitating Ceviché’s Week in Review (26-16)",
-      "subtitle": "April 20–25, 2026",
-      "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-8ba",
-      "published": "Sun, 26 Apr 2026 06:02:10 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!1JnD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F698ec93a-db19-44d7-8e25-b62074455415_1672x941.png",
-      "excerpt": "Image creeated with generative AI is a Discussion via NotebookLM Infographic generated by NotebookLM Editorial Summary This week moved between stillness and machinery, between the soul that needs silence and the systems that demand constant input Calista Freiheit opened with...",
-      "source": "substack"
-    },
-    {
-      "title": "Competence Without Glory",
-      "subtitle": "A Defense of the Maintainers",
-      "url": "https://thecogitatingceviche.substack.com/p/competence-without-glory",
-      "published": "Fri, 24 Apr 2026 06:01:07 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!UucA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb241de1-e663-4ed5-88aa-c087b33a7e5f_1536x1024.png",
-      "excerpt": "Picture a man we can call Ray At 3:47 on a Tuesday morning, somewhere in central Ohio, Ray is standing in front of a panel of blinking lights older than his marriage A pump has failed He knew it would...",
-      "source": "substack"
-    },
-    {
-      "title": "John Locke and the Ownership of the Self in a Digital Republic",
-      "subtitle": "Past Forward: Historical Icons in the Digital Frontier #80",
-      "url": "https://thecogitatingceviche.substack.com/p/john-locke-and-the-ownership-of-the",
-      "published": "Wed, 22 Apr 2026 06:01:59 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!GL25!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F614dc862-66a4-4b5c-b560-67888dfdff61_1448x1086.png",
-      "excerpt": "Preface Few thinkers have shaped the modern political imagination more deeply than John Locke His arguments about natural rights, government by consent, private property, education, and the limits of political authority helped furnish the architecture of liberal society Statesmen borrowed...",
-      "source": "substack"
-    },
-    {
-      "title": "Why Christian Formation Requires Boredom",
-      "subtitle": "On silence, stability, and the lost art of staying put",
-      "url": "https://thecogitatingceviche.substack.com/p/why-christian-formation-requires",
-      "published": "Mon, 20 Apr 2026 06:01:09 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!PYNl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4d12fdf-e192-4b6f-aa3e-616c78c91bc0_1536x1024.png",
-      "excerpt": "Boredom has become a problem to be solved Children are entertained from the moment their eyes open Adults fill every pause with noise Silence is treated as inefficiency, waiting as failure, stillness as a condition to be medicated or distracted...",
-      "source": "substack"
-    },
-    {
-      "title": "Cogitating Ceviche’s Week in Review (26-15)",
-      "subtitle": "April 13–18, 2026",
-      "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-203",
-      "published": "Sun, 19 Apr 2026 06:01:30 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!jJwF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ad1937f-f6bf-48ac-a578-74c2acbb6b8b_1672x941.png",
-      "excerpt": "Infographic created with NotebookLM Cogitating Ceviche’s Week in Review (April 13–18) April 13–18, 2026 This week’s run of pieces circles one hard question from several sides: what must be kept, and what must be refused Calista Freiheit writes from the...",
-      "source": "substack"
-    },
-    {
-      "title": "The Age of the Screenshot",
-      "subtitle": "When Memory Became Infrastructure",
-      "url": "https://thecogitatingceviche.substack.com/p/the-age-of-the-screenshot",
-      "published": "Fri, 17 Apr 2026 06:01:27 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!9SGQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc64ddda-239c-4c37-ab8a-9e72fd1b5b60_1536x1024.png",
-      "excerpt": "The text is four years old Someone has found it They have cropped it carefully, preserving the timestamp and the name, trimming away the surrounding conversation that might have softened it They have posted it to a feed where context...",
-      "source": "substack"
-    },
-    {
-      "title": "Hanawa Hokiichi: Gathering Japan Before It Scattered",
-      "subtitle": "#3 - Custodians of Meaning",
-      "url": "https://thecogitatingceviche.substack.com/p/hanawa-hokiichi-gathering-japan-before",
-      "published": "Wed, 15 Apr 2026 06:01:48 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!5lA8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6982007b-5f47-4d99-9d76-a9d05d6f9584_1536x1024.png",
-      "excerpt": "Hanawa Hokiichi: Gathering Japan Before It Scattered He preserved dispersed texts of history, ritual, poetry, and record before fragmentation could harden into permanent absence What Was at Risk Not all losses arrive as catastrophe Some come quietly, by dispersal In...",
-      "source": "substack"
-    },
-    {
-      "title": "The Christian Meaning of Saying No",
-      "subtitle": "Modern culture treats “no” as a problem",
-      "url": "https://thecogitatingceviche.substack.com/p/the-christian-meaning-of-saying-no",
-      "published": "Mon, 13 Apr 2026 06:01:31 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!Trnr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7856ece2-eede-4d49-95ef-f113c054c9b8_1536x1024.png",
-      "excerpt": "The Christian Meaning of Saying No Modern culture treats “no” as a problem to be solved Refusal is framed as obstruction, negativity, or a small failure of compassion We are taught to affirm, to accommodate, to validate, to keep the...",
-      "source": "substack"
-    },
-    {
-      "title": "Cogitating Ceviché’s Week in Review (26-14)",
-      "subtitle": "April 6–11, 2026",
-      "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-daf",
-      "published": "Sun, 12 Apr 2026 06:01:06 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!Kk6E!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff34049d8-6a3b-45be-a3c2-9e1d5e6fc257_930x566.png",
-      "excerpt": "Infographic created with NotebookLM Cogitating Ceviché’s Week in Review (26-14) April 6–11, 2026 Editorial Summary This week’s essays and stories circle a hard truth from several directions: a person is often tested less by crisis than by posture Calista F...",
-      "source": "substack"
-    },
-    {
-      "title": "The Professionalization of Outrage",
-      "subtitle": "Indignation as an Industry",
-      "url": "https://thecogitatingceviche.substack.com/p/the-professionalization-of-outrage",
-      "published": "Fri, 10 Apr 2026 06:00:53 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!T2_g!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18dd06a5-249e-4656-8da8-d2f89981c301_1536x1024.png",
-      "excerpt": "Somewhere, right now, someone is angry on your behalf You may not have asked them to be You may not know what they are angry about You may not, upon reflection, be particularly angry yourself This does not matter The...",
-      "source": "substack"
-    },
-    {
-      "title": "Gladys Ingle: Changing Wheels at Altitude",
-      "subtitle": "How Gladys Ingle earned her credentials three hundred feet above anyone who might have denied them.",
-      "url": "https://thecogitatingceviche.substack.com/p/gladys-ingle-changing-wheels-at-altitude",
-      "published": "Wed, 08 Apr 2026 06:01:07 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!MQw2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85f59acd-0d7f-415f-840a-15c80145d376_1536x1024.png",
-      "excerpt": "Changing Wheels at Altitude In January 1926, somewhere over Southern California, a woman climbed out of one airplane and onto another Both were in flight She was carrying a wheel The pilot of the second aircraft, Art Goebel, had lost...",
-      "source": "substack"
-    },
-    {
-      "title": "Why Christianity Treats Waiting as a Discipline",
-      "subtitle": "Waiting is usually framed as an inconvenience",
-      "url": "https://thecogitatingceviche.substack.com/p/why-christianity-treats-waiting-as",
-      "published": "Mon, 06 Apr 2026 06:01:40 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!Fkm4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b83eb71-d676-44d9-892a-b47644a8cfd6_1536x1024.png",
-      "excerpt": "We are not patient people, and we have built a world that confirms the instinct Nearly anything can be summoned in minutes A meal, a car, an answer to a question that once would have required a library and an...",
-      "source": "substack"
-    },
-    {
-      "title": "Cogitating Ceviche’s Week in Review (26-13)",
-      "subtitle": "March 30–April 4, 2026",
-      "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-a0a",
-      "published": "Sun, 05 Apr 2026 06:02:16 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!ToJ9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F898720c0-c015-4707-977d-06f0cd723003_1536x1024.png",
-      "excerpt": "Cogitating Ceviche’s Week in Review (03/30–04/04) March 30–April 4, 2026 This week moved through inheritance, time, ambition, shelter, meaning, and style Calista Freiheit opened with a meditation on what modern life loses when it cuts itself off from ancestry Conrad...",
-      "source": "substack"
-    },
-    {
-      "title": "Utility to Symbolism",
-      "subtitle": "Why Tools Become Identity",
-      "url": "https://thecogitatingceviche.substack.com/p/utility-to-symbolism",
-      "published": "Fri, 03 Apr 2026 06:01:43 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!B1qG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ee15f51-47e4-468a-be52-b25fc1e177e6_1536x1024.png",
-      "excerpt": "There is a man at every coffee shop in America who writes exclusively with a fountain pen He is not writing a novel He is not drafting legislation He is writing a to-do list, possibly in a Leuchtturm1917 notebook, because...",
-      "source": "substack"
-    },
-    {
-      "title": "Tycho Brahe and the New Geometry of Ambition",
-      "subtitle": "Past Forward: Historical Icons in the Digital Frontier #79",
-      "url": "https://thecogitatingceviche.substack.com/p/tycho-brahe-and-the-new-geometry",
-      "published": "Wed, 01 Apr 2026 06:02:49 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!iYwc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a907d9c-8c96-47c5-bbc2-e0f520c5b13a_1536x1024.png",
-      "excerpt": "Preface Welcome to the seventy-ninth entry in Past Forward: Historical Icons in the Digital Frontier This series imagines how major historical figures might respond to the structures, technologies, and moral pressures of the present world In this installment, Tycho Brahe...",
-      "source": "substack"
-    },
-    {
-      "title": "Plausible, Polished, Probably Wrong",
-      "subtitle": "The hidden design failure behind every confident AI reply",
-      "url": "https://thecyberneticceviche.substack.com/p/plausible-polished-probably-wrong",
-      "published": "Tue, 05 May 2026 06:01:10 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!lrVj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc7bf7d5-7b26-457c-93d8-999d8dce4c62_1536x1024.png",
-      "excerpt": "Sermons in Plain Type The pulpit is small Rectangular About the size of a paperback held at reading distance The congregation is one person They are usually alone Often at a desk, sometimes on a couch, occasionally in a hospital...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!53kC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe18dca21-9ff4-4fb1-a4be-0ebed54204df_1672x941.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowSimone Weil: Refusing the MovementVoices That Refused to Scale, #3The Opportunity to ExpandSimone Weil had many doors available to her.She was born in Paris in 1909, intellectually brilliant early, trained in...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "Decentralization Is a Narrative. Gravity Is a Law.",
-      "subtitle": "Why does every promise of distributed AI keep reassembling itself around the same substation?",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/decentralization-is-a-narrative-gravity",
       "published": "Tue, 28 Apr 2026 06:01:25 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!nd8U!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a45d08c-487d-4172-b3d0-e7028c71ff73_1536x1024.png",
-      "excerpt": "Drive east out of Portland on I-84, follow the Columbia River until the land flattens and the wind picks up, and somewhere near The Dalles , you will find them Long, low, windowless buildings ringed by chain-link and security cameras...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!nd8U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a45d08c-487d-4172-b3d0-e7028c71ff73_1536x1024.png",
+      "excerpt": "Drive east out of Portland on I-84, follow the Columbia River until the land flattens and the wind picks up, and somewhere near The Dalles, you will find them. Long, low, windowless buildings ringed by chain-link and security cameras and the...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "Why Reverence Cannot Be Programmed",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/why-reverence-cannot-be-programmed",
+      "published": "Mon, 27 Apr 2026 06:02:47 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!0qqj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22af3e2b-3559-4822-ac60-024abe64dc97_1672x941.png",
+      "excerpt": "Image created as generative AIThe Cogitating Ceviché is a . , . nowA person steps into an old church. Something shifts before thought catches up. The voice lowers. The step slows. The hands fold without being told. Whatever was said in the parking...",
+      "source": "substack",
+      "author": "Calista F. Freiheit",
+      "is_conrad": false
+    },
+    {
+      "title": "Cogitating Ceviché’s Week in Review (26-16)",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-8ba",
+      "published": "Sun, 26 Apr 2026 06:02:10 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!1JnD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F698ec93a-db19-44d7-8e25-b62074455415_1672x941.png",
+      "excerpt": "Image creeated with generative AIThe Cogitating Ceviché is a . , .Discussion via NotebookLMInfographic generated by NotebookLMEditorial SummaryThis week moved between stillness and machinery, between the soul that needs silence and the systems that...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "Competence Without Glory",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/competence-without-glory",
+      "published": "Fri, 24 Apr 2026 06:01:07 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!UucA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb241de1-e663-4ed5-88aa-c087b33a7e5f_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowPicture a man we can call Ray.At 3:47 on a Tuesday morning, somewhere in central Ohio, Ray is standing in front of a panel of blinking lights older than his marriage. A pump has failed. He knew it would. He has...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "John Locke and the Ownership of the Self in a Digital Republic",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/john-locke-and-the-ownership-of-the",
+      "published": "Wed, 22 Apr 2026 06:01:59 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!GL25!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F614dc862-66a4-4b5c-b560-67888dfdff61_1448x1086.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowPrefaceFew thinkers have shaped the modern political imagination more deeply than John Locke. His arguments about natural rights, government by consent, private property, education, and the limits of political...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "The Illusion of AI Understanding",
-      "subtitle": "On fluency, prediction, and the congregation that mistook autocomplete for a catechism",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/the-illusion-of-ai-understanding",
       "published": "Tue, 21 Apr 2026 06:02:18 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!AM1V!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F282f854b-a76d-427b-a2b5-f84d4b2a8bbc_2048x1448.jpeg",
-      "excerpt": "Picture the scene A user types a question into a glowing rectangle The rectangle responds Fluently Confidently With the measured cadence of something that has read the relevant literature and arrived at a considered position The answer is wrong Not...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!AM1V!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F282f854b-a76d-427b-a2b5-f84d4b2a8bbc_2048x1448.jpeg",
+      "excerpt": "Picture the scene.A user types a question into a glowing rectangle. The rectangle responds. Fluently. Confidently. With the measured cadence of something that has read the relevant literature and arrived at a considered position.The answer is...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
-      "title": "The Confessional Box:",
-      "subtitle": "On the New Sacrament of the Query",
+      "title": "Why Christian Formation Requires Boredom",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/why-christian-formation-requires",
+      "published": "Mon, 20 Apr 2026 06:01:09 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!PYNl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4d12fdf-e192-4b6f-aa3e-616c78c91bc0_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowBoredom has become a problem to be solved.Children are entertained from the moment their eyes open. Adults fill every pause with noise. Silence is treated as inefficiency, waiting as failure, stillness as a...",
+      "source": "substack",
+      "author": "Calista F. Freiheit",
+      "is_conrad": false
+    },
+    {
+      "title": "Cogitating Ceviche’s Week in Review (26-15)",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-203",
+      "published": "Sun, 19 Apr 2026 06:01:30 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!jJwF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ad1937f-f6bf-48ac-a578-74c2acbb6b8b_1672x941.png",
+      "excerpt": "The Cogitating Ceviché is a . , .Discussion via NotebookLMInfographic created with NotebookLMCogitating Ceviche’s Week in Review (April 13–18)April 13–18, 2026This week’s run of pieces circles one hard question from several sides: what must be kept,...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "The Age of the Screenshot",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/the-age-of-the-screenshot",
+      "published": "Fri, 17 Apr 2026 06:01:27 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!9SGQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc64ddda-239c-4c37-ab8a-9e72fd1b5b60_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowThe text is four years old.Someone has found it. They have cropped it carefully, preserving the timestamp and the name, trimming away the surrounding conversation that might have softened it. They have posted it...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "Hanawa Hokiichi",
+      "subtitle": "Gathering Japan Before It Scattered",
+      "url": "https://thecogitatingceviche.substack.com/p/hanawa-hokiichi-gathering-japan-before",
+      "published": "Wed, 15 Apr 2026 06:01:48 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!5lA8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6982007b-5f47-4d99-9d76-a9d05d6f9584_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowHanawa Hokiichi: Gathering Japan Before It ScatteredHe preserved dispersed texts of history, ritual, poetry, and record before fragmentation could harden into permanent absence.What Was at RiskNot all losses...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "The Confessional Box",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/the-confessional-box",
       "published": "Tue, 14 Apr 2026 06:00:24 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!KlQG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faca98c8c-fd80-4a8e-b833-90876e21f620_1254x1254.png",
-      "excerpt": "The Confessional Box: On the New Sacrament of the Query You step into a clean little room There is nothing on the walls There is nothing on the desk There is a single rectangle waiting for you to speak, and...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!KlQG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faca98c8c-fd80-4a8e-b833-90876e21f620_1254x1254.png",
+      "excerpt": "The Confessional Box: On the New Sacrament of the QueryYou step into a clean little room.There is nothing on the walls. There is nothing on the desk. There is a single rectangle waiting for you to speak, and a cursor blinking with the patience of...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "The Christian Meaning of Saying No",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/the-christian-meaning-of-saying-no",
+      "published": "Mon, 13 Apr 2026 06:01:31 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!Trnr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7856ece2-eede-4d49-95ef-f113c054c9b8_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowThe Christian Meaning of Saying NoModern culture treats “no” as a problem to be solved.Refusal is framed as obstruction, negativity, or a small failure of compassion. We are taught to affirm, to accommodate, to...",
+      "source": "substack",
+      "author": "Calista F. Freiheit",
+      "is_conrad": false
+    },
+    {
+      "title": "Cogitating Ceviché’s Week in Review (26-14)",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-daf",
+      "published": "Sun, 12 Apr 2026 06:01:06 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!Kk6E!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff34049d8-6a3b-45be-a3c2-9e1d5e6fc257_930x566.png",
+      "excerpt": "The Cogitating Ceviché is a . , .Discussion via NotebookLMInfographic created with NotebookLMCogitating Ceviché’s Week in Review (26-14)April 6–11, 2026Editorial SummaryThis week’s essays and stories circle a hard truth from several directions: a...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "The Professionalization of Outrage",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/the-professionalization-of-outrage",
+      "published": "Fri, 10 Apr 2026 06:00:53 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!T2_g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18dd06a5-249e-4656-8da8-d2f89981c301_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowSomewhere, right now, someone is angry on your behalf.You may not have asked them to be. You may not know what they are angry about. You may not, upon reflection, be particularly angry yourself. This does not...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "Gladys Ingle",
+      "subtitle": "Changing Wheels at Altitude",
+      "url": "https://thecogitatingceviche.substack.com/p/gladys-ingle-changing-wheels-at-altitude",
+      "published": "Wed, 08 Apr 2026 06:01:07 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!MQw2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85f59acd-0d7f-415f-840a-15c80145d376_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowChanging Wheels at AltitudeIn January 1926, somewhere over Southern California, a woman climbed out of one airplane and onto another. Both were in flight. She was carrying a wheel.The pilot of the second...",
+      "source": "substack",
+      "author": "Mauve Sanger",
+      "is_conrad": false
     },
     {
       "title": "Prompting Is Not Programming",
-      "subtitle": "On the Dangerous Comfort of the Blinking Cursor",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/prompting-is-not-programming",
       "published": "Tue, 07 Apr 2026 06:03:02 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!GcvZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd3abced-a04e-4c59-a57a-bc39a01ad83b_1536x1024.png",
-      "excerpt": "A man sits at his desk, composing instructions for a machine he believes is listening He types carefully He uses semicolons He capitalizes “IMPORTANT” because he has been told the machine responds to emphasis, and he has no way to...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!GcvZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd3abced-a04e-4c59-a57a-bc39a01ad83b_1536x1024.png",
+      "excerpt": "A man sits at his desk, composing instructions for a machine he believes is listening.He types carefully. He uses semicolons. He capitalizes “IMPORTANT” because he has been told the machine responds to emphasis, and he has no way to verify this but...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "Why Christianity Treats Waiting as a Discipline",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/why-christianity-treats-waiting-as",
+      "published": "Mon, 06 Apr 2026 06:01:40 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!Fkm4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b83eb71-d676-44d9-892a-b47644a8cfd6_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowWe are not patient people, and we have built a world that confirms the instinct. Nearly anything can be summoned in minutes. A meal, a car, an answer to a question that once would have required a library and an...",
+      "source": "substack",
+      "author": "Calista F. Freiheit",
+      "is_conrad": false
+    },
+    {
+      "title": "Cogitating Ceviche’s Week in Review (26-13)",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-a0a",
+      "published": "Sun, 05 Apr 2026 06:02:16 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!ToJ9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F898720c0-c015-4707-977d-06f0cd723003_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , .Discussion via NotebookLMCogitating Ceviche’s Week in Review (03/30–04/04)March 30–April 4, 2026This week moved through inheritance, time, ambition, shelter, meaning, and style. Calista Freiheit opened with a...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "Utility to Symbolism",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/utility-to-symbolism",
+      "published": "Fri, 03 Apr 2026 06:01:43 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!B1qG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ee15f51-47e4-468a-be52-b25fc1e177e6_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowThere is a man at every coffee shop in America who writes exclusively with a fountain pen.He is not writing a novel. He is not drafting legislation. He is writing a to-do list, possibly in a Leuchtturm1917...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
+    {
+      "title": "Tycho Brahe and the New Geometry of Ambition",
+      "subtitle": "",
+      "url": "https://thecogitatingceviche.substack.com/p/tycho-brahe-and-the-new-geometry",
+      "published": "Wed, 01 Apr 2026 06:02:49 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!iYwc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a907d9c-8c96-47c5-bbc2-e0f520c5b13a_1536x1024.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowPrefaceWelcome to the seventy-ninth entry in Past Forward: Historical Icons in the Digital Frontier. This series imagines how major historical figures might respond to the structures, technologies, and moral...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "The Death of Waiting",
-      "subtitle": "There used to be a sound.",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/the-death-of-waiting",
       "published": "Tue, 31 Mar 2026 06:00:34 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!HpVd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe432497e-581e-4b1a-bfe7-189face0bf97_1536x1024.png",
-      "excerpt": "If you were online in the 1990s, you know the one The wheeze and screech of a modem negotiating terms with the world Static that resolved into something almost musical, a rising handshake between your machine and the void It...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!HpVd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe432497e-581e-4b1a-bfe7-189face0bf97_1536x1024.png",
+      "excerpt": "If you were online in the 1990s, you know the one. The wheeze and screech of a modem negotiating terms with the world. Static that resolved into something almost musical, a rising handshake between your machine and the void. It told you: this costs...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "The Comfort of the Dashboard",
-      "subtitle": "On Mistaking the Map for the Territory",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/the-comfort-of-the-dashboard",
       "published": "Tue, 24 Mar 2026 06:01:06 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!2TWG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8960a045-b48c-4c99-ad2b-968a4bed22d2_1536x1024.png",
-      "excerpt": "The Comfort of the Dashboard On Mistaking the Map for the Territory The word comes from horse-drawn carriages A dashboard was a protective plank mounted at the front of the carriage to deflect the mud and debris kicked up by...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!2TWG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8960a045-b48c-4c99-ad2b-968a4bed22d2_1536x1024.png",
+      "excerpt": "The Comfort of the DashboardOn Mistaking the Map for the TerritoryThe word comes from horse-drawn carriages.A dashboard was a protective plank mounted at the front of the carriage to deflect the mud and debris kicked up by hooves. Not a display. Not...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "The World as a Feed",
-      "subtitle": "On the architecture that replaced reality with a ranked list of items, and what we lost when we stop...",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/the-world-as-a-feed",
       "published": "Tue, 17 Mar 2026 06:00:43 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!kXOv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F892398cb-cead-4e27-ba40-4b377110eaec_1280x720.jpeg",
-      "excerpt": "There is a specific moment that happens to most people now, and most people do not register it as remarkable You are sitting with someone A conversation is occurring You are, by most definitions, paying attention And then something shifts...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!kXOv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F892398cb-cead-4e27-ba40-4b377110eaec_1280x720.jpeg",
+      "excerpt": "There is a specific moment that happens to most people now, and most people do not register it as remarkable.You are sitting with someone. A conversation is occurring. You are, by most definitions, paying attention. And then something shifts. The...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "Technical Debt as Cultural Debt",
-      "subtitle": "When organizations stop repairing what is broken, the broken thing becomes the culture",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/technical-debt-as-cultural-debt",
       "published": "Tue, 10 Mar 2026 06:01:50 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!13vP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa9f56bf-3a3b-4872-a978-a2cba5512ed6_1536x1024.png",
-      "excerpt": "Technical Debt as Cultural Debt There is a button in a hospital that no one is supposed to press It is not labeled “do not press ” It is labeled something innocuous, something functional, something that once described a process...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!13vP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa9f56bf-3a3b-4872-a978-a2cba5512ed6_1536x1024.png",
+      "excerpt": "Technical Debt as Cultural DebtThere is a button in a hospital that no one is supposed to press.It is not labeled “do not press.” It is labeled something innocuous, something functional, something that once described a process that no longer exists...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "The UI of Authority",
-      "subtitle": "How power migrated from the decree to the dropdown menu.",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/the-ui-of-authority",
       "published": "Tue, 03 Mar 2026 07:02:03 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!EtN9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ffa3c25-7ef0-46aa-86a4-ce8899c20094_1536x1024.png",
-      "excerpt": "Read more...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!EtN9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ffa3c25-7ef0-46aa-86a4-ce8899c20094_1536x1024.png",
+      "excerpt": "Read more",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "Nothing Exists Until It Is Logged",
-      "subtitle": "On the quiet theology of documentation, and the sin of leaving no trace",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/nothing-exists-until-it-is-logged",
       "published": "Tue, 24 Feb 2026 07:01:51 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!uPNR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36fec1b8-226e-4673-8939-16670b3446bc_1536x1024.png",
-      "excerpt": "Read more...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!uPNR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36fec1b8-226e-4673-8939-16670b3446bc_1536x1024.png",
+      "excerpt": "Read more",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
-      "title": "After the Bubble:",
-      "subtitle": "Who Gets to Keep the Machines",
+      "title": "After the Bubble",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/after-the-bubble",
       "published": "Tue, 17 Feb 2026 07:00:38 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!LHbD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8a3823f-57e3-46e9-808d-0c1a9755d1ea_1536x1024.png",
-      "excerpt": "Read more...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!LHbD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8a3823f-57e3-46e9-808d-0c1a9755d1ea_1536x1024.png",
+      "excerpt": "Read more",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "Perfect Recall, Zero Memory",
-      "subtitle": "We built systems that never forget and stopped doing the work of remembering.",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/perfect-recall-zero-memory",
       "published": "Tue, 10 Feb 2026 07:01:39 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!fWvD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83edc02a-0029-49bb-a95a-a6644831965c_1536x1024.png",
-      "excerpt": "Image create wih gnerative AI Read more...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!fWvD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83edc02a-0029-49bb-a95a-a6644831965c_1536x1024.png",
+      "excerpt": "Image create wih gnerative AI Read more",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "Why We Trust Systems More Than People",
-      "subtitle": "On the quiet migration of faith from judgment to procedure",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/why-we-trust-systems-more-than-people",
       "published": "Tue, 03 Feb 2026 07:02:25 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!YjR2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7149245-f936-40ad-ab2f-65e3aa8a92a9_1536x1024.png",
-      "excerpt": "Read more...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!YjR2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7149245-f936-40ad-ab2f-65e3aa8a92a9_1536x1024.png",
+      "excerpt": "Read more",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "We Don’t Use Systems. We Live Inside Them",
-      "subtitle": "How convenience became enclosure",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/we-dont-use-systems-we-live-inside",
       "published": "Tue, 27 Jan 2026 07:01:46 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!Z6_t!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0172d921-86e2-4d5e-93c8-c41d548e988b_1536x1024.png",
-      "excerpt": "Read more...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!Z6_t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0172d921-86e2-4d5e-93c8-c41d548e988b_1536x1024.png",
+      "excerpt": "Read more",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
-      "title": "The Tyranny of the Update:",
-      "subtitle": "Life Under Permanent Beta",
+      "title": "The Tyranny of the Update",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/the-tyranny-of-the-update",
       "published": "Tue, 20 Jan 2026 07:00:39 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!VBWj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F37e06466-1128-4d1b-b5b6-3d90e4f17d0e_1536x1024.png",
-      "excerpt": "Read more...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!VBWj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F37e06466-1128-4d1b-b5b6-3d90e4f17d0e_1536x1024.png",
+      "excerpt": "Read more",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
-      "title": "The Ghost in the Server Farm:",
-      "subtitle": "Hauntology in the Cloud",
+      "title": "The Ghost in the Server Farm",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/the-ghost-in-the-server-farm",
       "published": "Tue, 13 Jan 2026 07:02:55 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!CghL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde4501cd-946b-4cd9-a967-f1f4c1136226_1536x1024.png",
-      "excerpt": "Read more...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!CghL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde4501cd-946b-4cd9-a967-f1f4c1136226_1536x1024.png",
+      "excerpt": "Read more",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
-      "title": "The Automation Trap: When Tools Make You Worse",
-      "subtitle": "Skill atrophy disguised as efficiency",
+      "title": "The Automation Trap",
+      "subtitle": "When Tools Make You Worse",
       "url": "https://thecyberneticceviche.substack.com/p/the-automation-trap-when-tools-make",
       "published": "Tue, 06 Jan 2026 07:01:09 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!-5zr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3c8e91d-f49d-43a6-be67-7f1ccda4a751_1536x1024.png",
-      "excerpt": "Read more...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!-5zr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3c8e91d-f49d-43a6-be67-7f1ccda4a751_1536x1024.png",
+      "excerpt": "Read more",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "Why Your Smart Fridge Is Plotting Against You",
-      "subtitle": "A short sermon on surveillance, optimization, and domestic betrayal",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/why-your-smart-fridge-is-plotting",
       "published": "Tue, 30 Dec 2025 07:01:16 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!kLcB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F742df511-f752-43fb-97f8-a2160710f15f_1536x1024.png",
-      "excerpt": "Read more...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!kLcB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F742df511-f752-43fb-97f8-a2160710f15f_1536x1024.png",
+      "excerpt": "Read more",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     },
     {
       "title": "The Spreadsheet as Sacred Text",
-      "subtitle": "On the liturgy of the modern office",
+      "subtitle": "",
       "url": "https://thecyberneticceviche.substack.com/p/the-spreadsheet-as-sacred-text",
       "published": "Tue, 23 Dec 2025 07:01:22 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!cEO_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78a0e303-1be3-4f35-bc98-711767d12109_1408x768.png",
-      "excerpt": "Read more...",
-      "source": "substack"
+      "image": "https://substackcdn.com/image/fetch/$s_!cEO_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78a0e303-1be3-4f35-bc98-711767d12109_1408x768.png",
+      "excerpt": "Read more",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
     }
   ]
 }
