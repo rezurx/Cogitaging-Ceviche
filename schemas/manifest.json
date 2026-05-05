@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-04T08:14:49.886388",
+  "generatedAt": "2026-05-05T07:52:11.584711",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_plausible-polished-probably-wrong.json",
     "article_the-weight-of-a-word.json",
     "article_cogitating-cevichés-week-in-review-26-17.json",
     "article_the-revenge-of-vocabulary.json",
@@ -41,8 +42,7 @@
     "article_the-ghost-in-the-server-farm.json",
     "article_the-automation-trap-when-tools-make-you-worse.json",
     "article_why-your-smart-fridge-is-plotting-against-you.json",
-    "article_the-spreadsheet-as-sacred-text.json",
-    "article_the-cognitive-glasses-we-didnt-know-we-needed.json"
+    "article_the-spreadsheet-as-sacred-text.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
