@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-05T07:52:11.584711",
+  "generatedAt": "2026-05-06T08:05:05.953983",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_alfred-russel-wallace-the-co-discoverer-history-could-not-center.json",
     "article_plausible-polished-probably-wrong.json",
     "article_the-weight-of-a-word.json",
     "article_cogitating-cevichés-week-in-review-26-17.json",
@@ -27,7 +28,6 @@
     "article_why-christianity-treats-waiting-as-a-discipline.json",
     "article_cogitating-ceviches-week-in-review-26-13.json",
     "article_utility-to-symbolism.json",
-    "article_tycho-brahe-and-the-new-geometry-of-ambition.json",
     "article_the-death-of-waiting.json",
     "article_the-comfort-of-the-dashboard.json",
     "article_the-world-as-a-feed.json",
