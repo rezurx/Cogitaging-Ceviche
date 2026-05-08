@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-07T08:12:06.661127",
+  "generatedAt": "2026-05-08T07:13:57.478271",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_decentralization-as-aesthetic.json",
     "article_alfred-russel-wallace-the-co-discoverer-history-could-not-center.json",
     "article_plausible-polished-probably-wrong.json",
     "article_the-weight-of-a-word.json",
@@ -27,7 +28,6 @@
     "article_prompting-is-not-programming.json",
     "article_why-christianity-treats-waiting-as-a-discipline.json",
     "article_cogitating-ceviches-week-in-review-26-13.json",
-    "article_utility-to-symbolism.json",
     "article_the-death-of-waiting.json",
     "article_the-comfort-of-the-dashboard.json",
     "article_the-world-as-a-feed.json",
