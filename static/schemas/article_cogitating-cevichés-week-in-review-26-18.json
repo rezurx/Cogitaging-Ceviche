@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/cogitating-cevichés-week-in-review-26-18/",
+  "headline": "Cogitating Ceviché’s Week in Review (26-18)",
+  "url": "https://cogitating-ceviche.com/posts/cogitating-cevichés-week-in-review-26-18/",
+  "datePublished": "2026-05-10T06:02:15+00:00",
+  "dateModified": "2026-05-10T06:02:15+00:00",
+  "description": "The Cogitating Ceviché is a . , .Discussion via NotebookLMInfographic created with NotebookLMEditorial SummaryThis week turned on the discipline of confidence: when to speak, when to doubt, when to build, and when to remember who first saw what...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/cogitating-cevichés-week-in-review-26-18/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!5xJp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fedfcff6f-4a5a-430d-abcb-e440632b3e91_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 270,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-e76"
+  }
+}
