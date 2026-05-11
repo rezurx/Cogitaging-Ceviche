@@ -6,7 +6,7 @@
   "url": "https://cogitating-ceviche.com/posts/technical-debt-as-cultural-debt/",
   "datePublished": "2026-03-10T06:01:50+00:00",
   "dateModified": "2026-03-10T06:01:50+00:00",
-  "description": "Technical Debt as Cultural DebtThere is a button in a hospital that no one is supposed to press.It is not labeled “do not press.” It is labeled something innocuous, something functional, something that once described a process that no longer exists...",
+  "description": "Read more",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://cogitating-ceviche.com/posts/technical-debt-as-cultural-debt/"
@@ -28,8 +28,8 @@
     "name": "Conrad T. Hannon",
     "url": "https://cogitating-ceviche.com/about/"
   },
-  "keywords": "technology, culture",
-  "wordCount": 419,
+  "keywords": "AI",
+  "wordCount": 27,
   "isBasedOn": {
     "@type": "CreativeWork",
     "url": "https://thecyberneticceviche.substack.com/p/technical-debt-as-cultural-debt"
