@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-11T08:56:16.269881",
+  "generatedAt": "2026-05-12T08:23:10.762306",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_agentic-by-acclamation.json",
     "article_the-christian-case-for-private-life.json",
     "article_cogitating-cevichés-week-in-review-26-18.json",
     "article_decentralization-as-aesthetic.json",
@@ -41,8 +42,7 @@
     "article_the-tyranny-of-the-update.json",
     "article_the-ghost-in-the-server-farm.json",
     "article_the-automation-trap-when-tools-make-you-worse.json",
-    "article_why-your-smart-fridge-is-plotting-against-you.json",
-    "article_the-spreadsheet-as-sacred-text.json"
+    "article_why-your-smart-fridge-is-plotting-against-you.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
