@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-12T08:23:10.762306",
+  "generatedAt": "2026-05-13T08:31:48.268307",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_jeremy-bentham-when-good-became-arithmetic.json",
     "article_agentic-by-acclamation.json",
     "article_the-christian-case-for-private-life.json",
     "article_cogitating-cevichés-week-in-review-26-18.json",
@@ -27,7 +28,6 @@
     "article_the-christian-meaning-of-saying-no.json",
     "article_cogitating-cevichés-week-in-review-26-14.json",
     "article_the-professionalization-of-outrage.json",
-    "article_gladys-ingle-changing-wheels-at-altitude.json",
     "article_prompting-is-not-programming.json",
     "article_the-death-of-waiting.json",
     "article_the-comfort-of-the-dashboard.json",
