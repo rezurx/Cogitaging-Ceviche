@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-05-12T08:23:10.749929",
+  "generatedAt": "2026-05-13T08:31:48.256262",
   "items": [
+    {
+      "title": "Jeremy Bentham",
+      "subtitle": "When Good Became Arithmetic",
+      "url": "https://thecogitatingceviche.substack.com/p/jeremy-bentham-when-good-became-arithmetic",
+      "published": "Wed, 13 May 2026 06:01:59 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!-i3d!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F464ae5ba-281c-4353-88d9-53dbcbe718fe_1672x941.png",
+      "excerpt": "The Cogitating Ceviché is a . , . nowHe sought to make law more humane by measuring happiness, but the habit of measurement turned moral judgment into a ledger.Modern people often imagine moral progress as a widening of sympathy. We like to think...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
     {
       "title": "Agentic by Acclamation",
       "subtitle": "",
@@ -264,17 +275,6 @@
       "source": "substack",
       "author": "Conrad T. Hannon",
       "is_conrad": true
-    },
-    {
-      "title": "Gladys Ingle",
-      "subtitle": "Changing Wheels at Altitude",
-      "url": "https://thecogitatingceviche.substack.com/p/gladys-ingle-changing-wheels-at-altitude",
-      "published": "Wed, 08 Apr 2026 06:01:07 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!MQw2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85f59acd-0d7f-415f-840a-15c80145d376_1536x1024.png",
-      "excerpt": "The Cogitating Ceviché is a . , . nowChanging Wheels at AltitudeIn January 1926, somewhere over Southern California, a woman climbed out of one airplane and onto another. Both were in flight. She was carrying a wheel.The pilot of the second...",
-      "source": "substack",
-      "author": "Mauve Sanger",
-      "is_conrad": false
     },
     {
       "title": "Prompting Is Not Programming",

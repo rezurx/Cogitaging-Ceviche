@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/jeremy-bentham-when-good-became-arithmetic/",
+  "headline": "Jeremy Bentham: When Good Became Arithmetic",
+  "url": "https://cogitating-ceviche.com/posts/jeremy-bentham-when-good-became-arithmetic/",
+  "datePublished": "2026-05-13T06:01:59+00:00",
+  "dateModified": "2026-05-13T06:01:59+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowHe sought to make law more humane by measuring happiness, but the habit of measurement turned moral judgment into a ledger.Modern people often imagine moral progress as a widening of sympathy. We like to think...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/jeremy-bentham-when-good-became-arithmetic/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!-i3d!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F464ae5ba-281c-4353-88d9-53dbcbe718fe_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "philosophy",
+  "wordCount": 587,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/jeremy-bentham-when-good-became-arithmetic"
+  }
+}
