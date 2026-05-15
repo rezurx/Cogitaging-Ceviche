@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-14T08:26:01.555807",
+  "generatedAt": "2026-05-15T08:36:48.210192",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-collapse-of-the-middle-layer.json",
     "article_jeremy-bentham-when-good-became-arithmetic.json",
     "article_agentic-by-acclamation.json",
     "article_the-christian-case-for-private-life.json",
@@ -27,7 +28,6 @@
     "article_the-confessional-box.json",
     "article_the-christian-meaning-of-saying-no.json",
     "article_cogitating-cevichés-week-in-review-26-14.json",
-    "article_the-professionalization-of-outrage.json",
     "article_prompting-is-not-programming.json",
     "article_the-death-of-waiting.json",
     "article_the-comfort-of-the-dashboard.json",
