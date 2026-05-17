@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-16T07:48:00.090096",
+  "generatedAt": "2026-05-17T08:08:24.022743",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-cevichés-week-in-review-26-19.json",
     "article_the-collapse-of-the-middle-layer.json",
     "article_jeremy-bentham-when-good-became-arithmetic.json",
     "article_agentic-by-acclamation.json",
@@ -27,7 +28,6 @@
     "article_hanawa-hokiichi-gathering-japan-before-it-scattered.json",
     "article_the-confessional-box.json",
     "article_the-christian-meaning-of-saying-no.json",
-    "article_cogitating-cevichés-week-in-review-26-14.json",
     "article_prompting-is-not-programming.json",
     "article_the-death-of-waiting.json",
     "article_the-comfort-of-the-dashboard.json",
