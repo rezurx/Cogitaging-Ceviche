@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-small-dominion-of-the-home/",
+  "headline": "The Small Dominion of the Home",
+  "url": "https://cogitating-ceviche.com/posts/the-small-dominion-of-the-home/",
+  "datePublished": "2026-05-18T06:02:23+00:00",
+  "dateModified": "2026-05-18T06:02:23+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowModern politics wants every problem scaled upward.Every discomfort becomes a public crisis. Every failure becomes a legislative demand. Every private wound is translated into the language of systems, programs,...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-small-dominion-of-the-home/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!59gW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c8ef593-fae7-4ddc-beca-5b7b756ef28f_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI, politics",
+  "wordCount": 596,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-small-dominion-of-the-home"
+  }
+}
