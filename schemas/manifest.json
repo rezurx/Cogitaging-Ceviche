@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-18T09:37:08.630190",
+  "generatedAt": "2026-05-19T08:55:51.027458",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-cloud-has-plumbing.json",
     "article_the-small-dominion-of-the-home.json",
     "article_cogitating-cevichés-week-in-review-26-19.json",
     "article_the-collapse-of-the-middle-layer.json",
@@ -41,8 +42,7 @@
     "article_we-dont-use-systems-we-live-inside-them.json",
     "article_the-tyranny-of-the-update.json",
     "article_the-ghost-in-the-server-farm.json",
-    "article_the-automation-trap-when-tools-make-you-worse.json",
-    "article_why-your-smart-fridge-is-plotting-against-you.json"
+    "article_the-automation-trap-when-tools-make-you-worse.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
