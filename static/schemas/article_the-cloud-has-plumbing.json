@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-cloud-has-plumbing/",
+  "headline": "The Cloud Has Plumbing",
+  "url": "https://cogitating-ceviche.com/posts/the-cloud-has-plumbing/",
+  "datePublished": "2026-05-19T06:02:42+00:00",
+  "dateModified": "2026-05-19T06:02:42+00:00",
+  "description": "The cleanest trick in modern technology is that it teaches the user to mistake the interface for the system.A prompt appears in a box. A reply appears beneath it. The ritual has the texture of conversation, not industry. No truck arrives. No boiler...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-cloud-has-plumbing/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!fjxv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0d5dc43-1ea7-4eee-9848-88cf6cf12482_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "technology",
+  "wordCount": 527,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/the-cloud-has-plumbing"
+  }
+}
