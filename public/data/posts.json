@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T04:07:42.638571",
+  "generatedAt": "2026-05-19T08:31:26.063699",
   "items": [
     {
       "title": "The Small Dominion of the Home",
@@ -182,6 +182,15 @@
       "source": "substack"
     },
     {
+      "title": "The Cloud Has Plumbing",
+      "subtitle": "AI water panic, bad accounting, and the physical stack beneath the prompt",
+      "url": "https://thecyberneticceviche.substack.com/p/the-cloud-has-plumbing",
+      "published": "Tue, 19 May 2026 06:02:42 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!fjxv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0d5dc43-1ea7-4eee-9848-88cf6cf12482_1672x941.png",
+      "excerpt": "The cleanest trick in modern technology is that it teaches the user to mistake the interface for the system A prompt appears in a box A reply appears beneath it The ritual has the texture of conversation, not industry No...",
+      "source": "substack"
+    },
+    {
       "title": "Agentic by Acclamation",
       "subtitle": "The Industry Has Discovered a Sacrament",
       "url": "https://thecyberneticceviche.substack.com/p/agentic-by-acclamation",
@@ -349,15 +358,6 @@
       "url": "https://thecyberneticceviche.substack.com/p/the-automation-trap-when-tools-make",
       "published": "Tue, 06 Jan 2026 07:01:09 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!-5zr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3c8e91d-f49d-43a6-be67-7f1ccda4a751_1536x1024.png",
-      "excerpt": "Read more...",
-      "source": "substack"
-    },
-    {
-      "title": "Why Your Smart Fridge Is Plotting Against You",
-      "subtitle": "A short sermon on surveillance, optimization, and domestic betrayal",
-      "url": "https://thecyberneticceviche.substack.com/p/why-your-smart-fridge-is-plotting",
-      "published": "Tue, 30 Dec 2025 07:01:16 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!kLcB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F742df511-f752-43fb-97f8-a2160710f15f_1536x1024.png",
       "excerpt": "Read more...",
       "source": "substack"
     }
