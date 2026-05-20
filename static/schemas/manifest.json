@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-19T08:55:51.027458",
+  "generatedAt": "2026-05-20T08:51:05.398192",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_lillian-gilbreth-the-house-under-measurement.json",
     "article_the-cloud-has-plumbing.json",
     "article_the-small-dominion-of-the-home.json",
     "article_cogitating-cevichés-week-in-review-26-19.json",
@@ -27,7 +28,6 @@
     "article_why-christian-formation-requires-boredom.json",
     "article_cogitating-ceviches-week-in-review-26-15.json",
     "article_the-age-of-the-screenshot.json",
-    "article_hanawa-hokiichi-gathering-japan-before-it-scattered.json",
     "article_the-confessional-box.json",
     "article_prompting-is-not-programming.json",
     "article_the-death-of-waiting.json",
