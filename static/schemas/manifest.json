@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-23T08:04:01.312802",
+  "generatedAt": "2026-05-24T08:14:33.768811",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-cevichés-week-in-review-26-20.json",
     "article_algorithmic-feudalism.json",
     "article_lillian-gilbreth-the-house-under-measurement.json",
     "article_the-cloud-has-plumbing.json",
@@ -27,7 +28,6 @@
     "article_john-locke-and-the-ownership-of-the-self-in-a-digital-republic.json",
     "article_the-illusion-of-ai-understanding.json",
     "article_why-christian-formation-requires-boredom.json",
-    "article_cogitating-ceviches-week-in-review-26-15.json",
     "article_the-confessional-box.json",
     "article_prompting-is-not-programming.json",
     "article_the-death-of-waiting.json",
