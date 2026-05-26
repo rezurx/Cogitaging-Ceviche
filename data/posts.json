@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-05-25T09:45:14.180403",
+  "generatedAt": "2026-05-26T09:33:11.716336",
   "items": [
+    {
+      "title": "The Heat Must Go Somewhere",
+      "subtitle": "",
+      "url": "https://thecyberneticceviche.substack.com/p/the-heat-must-go-somewhere",
+      "published": "Tue, 26 May 2026 06:01:21 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!m47F!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b60ee39-c1ad-4464-a409-0502e57ec423_1672x941.png",
+      "excerpt": "Every serious machine needs a plan for where the heat goes.This is not metaphor. It is not politics. It is not an aesthetic complaint about the soul of modern technology. It is thermodynamics, that impolite branch of reality that keeps showing up...",
+      "source": "substack",
+      "author": "Conrad T. Hannon",
+      "is_conrad": true
+    },
     {
       "title": "The False Gospel of Constant Access",
       "subtitle": "",
@@ -425,17 +436,6 @@
       "url": "https://thecyberneticceviche.substack.com/p/the-ghost-in-the-server-farm",
       "published": "Tue, 13 Jan 2026 07:02:55 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!CghL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde4501cd-946b-4cd9-a967-f1f4c1136226_1536x1024.png",
-      "excerpt": "Read more",
-      "source": "substack",
-      "author": "Conrad T. Hannon",
-      "is_conrad": true
-    },
-    {
-      "title": "The Automation Trap",
-      "subtitle": "When Tools Make You Worse",
-      "url": "https://thecyberneticceviche.substack.com/p/the-automation-trap-when-tools-make",
-      "published": "Tue, 06 Jan 2026 07:01:09 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!-5zr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3c8e91d-f49d-43a6-be67-7f1ccda4a751_1536x1024.png",
       "excerpt": "Read more",
       "source": "substack",
       "author": "Conrad T. Hannon",
