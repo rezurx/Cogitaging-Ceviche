@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-26T09:33:11.728630",
+  "generatedAt": "2026-05-27T08:58:54.681127",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_nikola-tesla-when-vision-could-not-become-institution.json",
     "article_the-heat-must-go-somewhere.json",
     "article_the-false-gospel-of-constant-access.json",
     "article_cogitating-cevichés-week-in-review-26-20.json",
@@ -27,7 +28,6 @@
     "article_why-reverence-cannot-be-programmed.json",
     "article_cogitating-cevichés-week-in-review-26-16.json",
     "article_competence-without-glory.json",
-    "article_john-locke-and-the-ownership-of-the-self-in-a-digital-republic.json",
     "article_the-illusion-of-ai-understanding.json",
     "article_the-confessional-box.json",
     "article_prompting-is-not-programming.json",
