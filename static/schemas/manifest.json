@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-05-28T09:42:37.096614",
+  "generatedAt": "2026-05-29T09:32:27.081916",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-return-of-the-salon.json",
     "article_nikola-tesla-when-vision-could-not-become-institution.json",
     "article_the-heat-must-go-somewhere.json",
     "article_the-false-gospel-of-constant-access.json",
@@ -27,7 +28,6 @@
     "article_decentralization-is-a-narrative-gravity-is-a-law.json",
     "article_why-reverence-cannot-be-programmed.json",
     "article_cogitating-cevichés-week-in-review-26-16.json",
-    "article_competence-without-glory.json",
     "article_the-illusion-of-ai-understanding.json",
     "article_the-confessional-box.json",
     "article_prompting-is-not-programming.json",
