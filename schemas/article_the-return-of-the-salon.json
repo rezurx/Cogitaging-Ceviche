@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-return-of-the-salon/",
+  "headline": "The Return of the Salon",
+  "url": "https://cogitating-ceviche.com/posts/the-return-of-the-salon/",
+  "datePublished": "2026-05-29T06:01:27+00:00",
+  "dateModified": "2026-05-29T06:01:27+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowIn the eighteenth century, thought moved through rooms.Not platforms. Not feeds. Not infinite comment sections populated by anonymous prophets of misreading. Rooms.Salons in Paris. Coffeehouses in London. Drawing...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-return-of-the-salon/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!7qMx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8fe769d-c62f-41a9-8fc8-4bc19c8f6868_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 602,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-return-of-the-salon"
+  }
+}
