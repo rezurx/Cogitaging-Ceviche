@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/children-are-not-lifestyle-accessories/",
+  "headline": "Children Are Not Lifestyle Accessories",
+  "url": "https://cogitating-ceviche.com/posts/children-are-not-lifestyle-accessories/",
+  "datePublished": "2026-06-01T06:01:26+00:00",
+  "dateModified": "2026-06-01T06:01:26+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowA culture can be measured by what it says about children, and by what it actually does for them. By the first measure, ours is doing well. Children appear in campaigns and advertisements, in sermons and policy...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/children-are-not-lifestyle-accessories/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!tStg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91270ee5-b60c-4e93-aa67-97893b970ac9_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI, culture",
+  "wordCount": 428,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/children-are-not-lifestyle-accessories"
+  }
+}
