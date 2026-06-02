@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/infrastructure-is-the-new-ideology/",
+  "headline": "Infrastructure Is the New Ideology",
+  "url": "https://cogitating-ceviche.com/posts/infrastructure-is-the-new-ideology/",
+  "datePublished": "2026-06-02T06:00:39+00:00",
+  "dateModified": "2026-06-02T06:00:39+00:00",
+  "description": "Infrastructure Is the New IdeologyIdeologies used to be courteous enough to introduce themselves.They arrived wearing uniforms, waving banners, printing pamphlets, publishing manifestos, and gathering earnest people in drafty halls to shout about...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/infrastructure-is-the-new-ideology/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!IndV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a4e25d4-4a6d-46ac-b621-a36affd77004_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 645,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/infrastructure-is-the-new-ideology"
+  }
+}
