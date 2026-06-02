@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-01T11:06:42.704272",
+  "generatedAt": "2026-06-02T10:00:17.208649",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_infrastructure-is-the-new-ideology.json",
     "article_children-are-not-lifestyle-accessories.json",
     "article_cogitating-cevichés-week-in-review-26-21.json",
     "article_the-return-of-the-salon.json",
@@ -41,8 +42,7 @@
     "article_perfect-recall-zero-memory.json",
     "article_why-we-trust-systems-more-than-people.json",
     "article_we-dont-use-systems-we-live-inside-them.json",
-    "article_the-tyranny-of-the-update.json",
-    "article_the-ghost-in-the-server-farm.json"
+    "article_the-tyranny-of-the-update.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
