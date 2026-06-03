@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-masoretes-precision-as-devotion/",
+  "headline": "The Masoretes: Precision as Devotion",
+  "url": "https://cogitating-ceviche.com/posts/the-masoretes-precision-as-devotion/",
+  "datePublished": "2026-06-03T06:01:33+00:00",
+  "dateModified": "2026-06-03T06:01:33+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowJewish scribes preserved the Hebrew Bible by fixing not only its words, but the way those words were to be read, sounded, copied, and guarded.What Was at RiskThe Hebrew Bible did not arrive in the Middle Ages as...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-masoretes-precision-as-devotion/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!-1O3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9fc3180-71ab-43ab-a2af-8eee8a5c4990_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 402,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-masoretes-precision-as-devotion"
+  }
+}

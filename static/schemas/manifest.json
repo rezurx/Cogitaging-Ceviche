@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-02T10:00:17.208649",
+  "generatedAt": "2026-06-03T10:40:46.327782",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-masoretes-precision-as-devotion.json",
     "article_infrastructure-is-the-new-ideology.json",
     "article_children-are-not-lifestyle-accessories.json",
     "article_cogitating-cevichés-week-in-review-26-21.json",
@@ -27,7 +28,6 @@
     "article_the-weight-of-a-word.json",
     "article_cogitating-cevichés-week-in-review-26-17.json",
     "article_the-revenge-of-vocabulary.json",
-    "article_simone-weil-refusing-the-movement.json",
     "article_decentralization-is-a-narrative-gravity-is-a-law.json",
     "article_the-illusion-of-ai-understanding.json",
     "article_the-confessional-box.json",
