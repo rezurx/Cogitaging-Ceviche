@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-06T08:22:16.223224",
+  "generatedAt": "2026-06-07T08:43:03.459970",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-ceviches-week-in-review-26-22.json",
     "article_the-age-gate-and-the-panopticon-nursery.json",
     "article_the-masoretes-precision-as-devotion.json",
     "article_infrastructure-is-the-new-ideology.json",
@@ -27,7 +28,6 @@
     "article_alfred-russel-wallace-the-co-discoverer-history-could-not-center.json",
     "article_plausible-polished-probably-wrong.json",
     "article_the-weight-of-a-word.json",
-    "article_cogitating-cevichés-week-in-review-26-17.json",
     "article_decentralization-is-a-narrative-gravity-is-a-law.json",
     "article_the-illusion-of-ai-understanding.json",
     "article_the-confessional-box.json",
