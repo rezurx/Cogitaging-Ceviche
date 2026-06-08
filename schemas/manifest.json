@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-07T08:43:03.459970",
+  "generatedAt": "2026-06-08T10:14:24.367905",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-duty-to-be-unimpressed.json",
     "article_cogitating-ceviches-week-in-review-26-22.json",
     "article_the-age-gate-and-the-panopticon-nursery.json",
     "article_the-masoretes-precision-as-devotion.json",
@@ -27,7 +28,6 @@
     "article_decentralization-as-aesthetic.json",
     "article_alfred-russel-wallace-the-co-discoverer-history-could-not-center.json",
     "article_plausible-polished-probably-wrong.json",
-    "article_the-weight-of-a-word.json",
     "article_decentralization-is-a-narrative-gravity-is-a-law.json",
     "article_the-illusion-of-ai-understanding.json",
     "article_the-confessional-box.json",
