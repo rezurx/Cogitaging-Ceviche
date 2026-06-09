@@ -1,8 +1,10 @@
 {
-  "generatedAt": "2026-06-08T10:14:24.367905",
+  "generatedAt": "2026-06-09T08:57:20.262136",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_richard-brinsley-sheridan-scandal-wit-and-the-theater-of-social-hypocrisy.json",
+    "article_tokenized-everything-and-the-bureaucratization-of-magic-beans.json",
     "article_the-duty-to-be-unimpressed.json",
     "article_cogitating-ceviches-week-in-review-26-22.json",
     "article_the-age-gate-and-the-panopticon-nursery.json",
@@ -26,7 +28,6 @@
     "article_the-christian-case-for-private-life.json",
     "article_cogitating-cevichés-week-in-review-26-18.json",
     "article_decentralization-as-aesthetic.json",
-    "article_alfred-russel-wallace-the-co-discoverer-history-could-not-center.json",
     "article_plausible-polished-probably-wrong.json",
     "article_decentralization-is-a-narrative-gravity-is-a-law.json",
     "article_the-illusion-of-ai-understanding.json",
@@ -41,8 +42,7 @@
     "article_after-the-bubble.json",
     "article_perfect-recall-zero-memory.json",
     "article_why-we-trust-systems-more-than-people.json",
-    "article_we-dont-use-systems-we-live-inside-them.json",
-    "article_the-tyranny-of-the-update.json"
+    "article_we-dont-use-systems-we-live-inside-them.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
