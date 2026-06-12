@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-age-of-performative-competence/",
+  "headline": "The Age of Performative Competence",
+  "url": "https://cogitating-ceviche.com/posts/the-age-of-performative-competence/",
+  "datePublished": "2026-06-12T06:00:41+00:00",
+  "dateModified": "2026-06-12T06:00:41+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowThere was a time when competence had an irritatingly practical quality.A competent person could fix the pipe, balance the books, land the plane, write the memo, repair the engine, calm the customer, read the...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-age-of-performative-competence/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!7QCV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa3b2405-7bfd-4d8c-8d1a-3ea92670d323_1536x1024.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 548,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-age-of-performative-competence"
+  }
+}

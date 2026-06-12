@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-11T10:02:31.683925",
+  "generatedAt": "2026-06-12T09:54:42.363547",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-age-of-performative-competence.json",
     "article_richard-brinsley-sheridan-scandal-wit-and-the-theater-of-social-hypocrisy.json",
     "article_tokenized-everything-and-the-bureaucratization-of-magic-beans.json",
     "article_the-duty-to-be-unimpressed.json",
@@ -27,7 +28,6 @@
     "article_agentic-by-acclamation.json",
     "article_the-christian-case-for-private-life.json",
     "article_cogitating-cevichés-week-in-review-26-18.json",
-    "article_decentralization-as-aesthetic.json",
     "article_plausible-polished-probably-wrong.json",
     "article_decentralization-is-a-narrative-gravity-is-a-law.json",
     "article_the-illusion-of-ai-understanding.json",
