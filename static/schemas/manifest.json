@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-13T08:45:16.963774",
+  "generatedAt": "2026-06-14T08:59:57.850168",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-cevichés-week-in-review-26-23.json",
     "article_the-age-of-performative-competence.json",
     "article_richard-brinsley-sheridan-scandal-wit-and-the-theater-of-social-hypocrisy.json",
     "article_tokenized-everything-and-the-bureaucratization-of-magic-beans.json",
@@ -27,7 +28,6 @@
     "article_jeremy-bentham-when-good-became-arithmetic.json",
     "article_agentic-by-acclamation.json",
     "article_the-christian-case-for-private-life.json",
-    "article_cogitating-cevichés-week-in-review-26-18.json",
     "article_plausible-polished-probably-wrong.json",
     "article_decentralization-is-a-narrative-gravity-is-a-law.json",
     "article_the-illusion-of-ai-understanding.json",
