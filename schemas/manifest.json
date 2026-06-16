@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-15T11:42:59.144092",
+  "generatedAt": "2026-06-16T10:51:14.529841",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-county-commission-owns-the-cloud.json",
     "article_the-feminine-strength-modern-culture-misnames-as-fragility.json",
     "article_cogitating-cevichés-week-in-review-26-23.json",
     "article_the-age-of-performative-competence.json",
@@ -41,8 +42,7 @@
     "article_nothing-exists-until-it-is-logged.json",
     "article_after-the-bubble.json",
     "article_perfect-recall-zero-memory.json",
-    "article_why-we-trust-systems-more-than-people.json",
-    "article_we-dont-use-systems-we-live-inside-them.json"
+    "article_why-we-trust-systems-more-than-people.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
