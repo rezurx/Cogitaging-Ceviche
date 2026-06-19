@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-18T10:02:48.543259",
+  "generatedAt": "2026-06-19T10:09:57.532074",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_slop-as-a-service.json",
     "article_emily-dickinson-a-voice-folded-inward.json",
     "article_the-county-commission-owns-the-cloud.json",
     "article_the-feminine-strength-modern-culture-misnames-as-fragility.json",
@@ -27,7 +28,6 @@
     "article_the-cloud-has-plumbing.json",
     "article_the-small-dominion-of-the-home.json",
     "article_cogitating-cevichés-week-in-review-26-19.json",
-    "article_the-collapse-of-the-middle-layer.json",
     "article_agentic-by-acclamation.json",
     "article_plausible-polished-probably-wrong.json",
     "article_decentralization-is-a-narrative-gravity-is-a-law.json",
