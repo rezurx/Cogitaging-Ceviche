@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-22T11:31:41.377201",
+  "generatedAt": "2026-06-23T08:55:58.019497",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-compliance-watermark.json",
     "article_when-compassion-becomes-control.json",
     "article_cogitating-ceviches-week-in-review-26-24.json",
     "article_slop-as-a-service.json",
@@ -41,8 +42,7 @@
     "article_the-ui-of-authority.json",
     "article_nothing-exists-until-it-is-logged.json",
     "article_after-the-bubble.json",
-    "article_perfect-recall-zero-memory.json",
-    "article_why-we-trust-systems-more-than-people.json"
+    "article_perfect-recall-zero-memory.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
