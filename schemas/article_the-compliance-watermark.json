@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-compliance-watermark/",
+  "headline": "The Compliance Watermark",
+  "url": "https://cogitating-ceviche.com/posts/the-compliance-watermark/",
+  "datePublished": "2026-06-23T06:00:48+00:00",
+  "dateModified": "2026-06-23T06:00:48+00:00",
+  "description": "The old internet asked whether something was true. That was not always a sophisticated question, but at least it had a certain peasant honesty. Did the thing happen? Did the person say it? Is the photograph real? Is the document authentic? Is the...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-compliance-watermark/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!bYwK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5914226b-169f-4f5f-92ff-91aec73b7b17_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 639,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecyberneticceviche.substack.com/p/the-compliance-watermark"
+  }
+}
