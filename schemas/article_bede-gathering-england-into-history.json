@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/bede-gathering-england-into-history/",
+  "headline": "Bede: Gathering England into History",
+  "url": "https://cogitating-ceviche.com/posts/bede-gathering-england-into-history/",
+  "datePublished": "2026-06-24T06:01:19+00:00",
+  "dateModified": "2026-06-24T06:01:19+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowBede: Gathering England into HistoryA Northumbrian monk gathered scattered kingdoms, missions, and saints into the account by which early English Christianity remembered itself.What Was at RiskBefore England...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/bede-gathering-england-into-history/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!V3X4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31c1da10-32c6-42e9-af09-4ddace5d3f75_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI, history",
+  "wordCount": 536,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/bede-gathering-england-into-history"
+  }
+}
