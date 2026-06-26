@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-confiscation-basket-republic/",
+  "headline": "The Confiscation Basket Republic",
+  "url": "https://cogitating-ceviche.com/posts/the-confiscation-basket-republic/",
+  "datePublished": "2026-06-26T06:00:48+00:00",
+  "dateModified": "2026-06-26T06:00:48+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowThe future arrived in a middle-school classroom and was immediately placed in a plastic pouch.This was not the future we were promised. The future was supposed to be frictionless, personalized, connected,...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-confiscation-basket-republic/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!88ZD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F807161d1-d5f5-4836-8e5a-9fcfdafc861a_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 765,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-confiscation-basket-republic"
+  }
+}

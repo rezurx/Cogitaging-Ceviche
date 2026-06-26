@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-25T08:44:30.712835",
+  "generatedAt": "2026-06-26T08:48:12.707985",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-confiscation-basket-republic.json",
     "article_bede-gathering-england-into-history.json",
     "article_the-compliance-watermark.json",
     "article_when-compassion-becomes-control.json",
@@ -27,7 +28,6 @@
     "article_the-heat-must-go-somewhere.json",
     "article_the-false-gospel-of-constant-access.json",
     "article_cogitating-cevichés-week-in-review-26-20.json",
-    "article_algorithmic-feudalism.json",
     "article_the-cloud-has-plumbing.json",
     "article_agentic-by-acclamation.json",
     "article_plausible-polished-probably-wrong.json",
