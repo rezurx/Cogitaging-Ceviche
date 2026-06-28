@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-26-25/",
+  "headline": "Cogitating Ceviche’s Week in Review (26-25)",
+  "url": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-26-25/",
+  "datePublished": "2026-06-28T06:01:35+00:00",
+  "dateModified": "2026-06-28T06:01:35+00:00",
+  "description": "The Cogitating Ceviché is a . , .Discussion via NotebookLMEditorial SummaryThis week moved through mercy, labels, memory, restraint, and ruin. Calista Freiheit opened with a sober warning about compassion that forgets the person before it claims to...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/cogitating-ceviches-week-in-review-26-25/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!qqIe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F470a9be3-98e0-4c91-8b38-088a11a93f8f_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 255,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/cogitating-ceviches-week-in-review-53c"
+  }
+}

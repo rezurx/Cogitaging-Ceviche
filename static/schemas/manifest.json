@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-27T08:24:28.836826",
+  "generatedAt": "2026-06-28T08:38:27.537928",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-ceviches-week-in-review-26-25.json",
     "article_the-confiscation-basket-republic.json",
     "article_bede-gathering-england-into-history.json",
     "article_the-compliance-watermark.json",
@@ -27,7 +28,6 @@
     "article_nikola-tesla-when-vision-could-not-become-institution.json",
     "article_the-heat-must-go-somewhere.json",
     "article_the-false-gospel-of-constant-access.json",
-    "article_cogitating-cevichés-week-in-review-26-20.json",
     "article_the-cloud-has-plumbing.json",
     "article_agentic-by-acclamation.json",
     "article_plausible-polished-probably-wrong.json",
