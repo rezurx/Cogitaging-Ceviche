@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-29T10:19:01.601801",
+  "generatedAt": "2026-06-30T08:54:12.783713",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-intern-now-has-api-keys.json",
     "article_the-mercy-of-ordinary-rules.json",
     "article_cogitating-ceviches-week-in-review-26-25.json",
     "article_the-confiscation-basket-republic.json",
@@ -41,8 +42,7 @@
     "article_technical-debt-as-cultural-debt.json",
     "article_the-ui-of-authority.json",
     "article_nothing-exists-until-it-is-logged.json",
-    "article_after-the-bubble.json",
-    "article_perfect-recall-zero-memory.json"
+    "article_after-the-bubble.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
