@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-06-30T08:54:12.783713",
+  "generatedAt": "2026-07-01T09:26:37.893331",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_norbert-wiener-when-control-became-understanding.json",
     "article_the-intern-now-has-api-keys.json",
     "article_the-mercy-of-ordinary-rules.json",
     "article_cogitating-ceviches-week-in-review-26-25.json",
@@ -27,7 +28,6 @@
     "article_children-are-not-lifestyle-accessories.json",
     "article_cogitating-cevichés-week-in-review-26-21.json",
     "article_the-return-of-the-salon.json",
-    "article_nikola-tesla-when-vision-could-not-become-institution.json",
     "article_the-heat-must-go-somewhere.json",
     "article_the-cloud-has-plumbing.json",
     "article_agentic-by-acclamation.json",
