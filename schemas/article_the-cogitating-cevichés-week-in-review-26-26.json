@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-cogitating-cevichés-week-in-review-26-26/",
+  "headline": "The Cogitating Ceviché’s Week in Review (26-26)",
+  "url": "https://cogitating-ceviche.com/posts/the-cogitating-cevichés-week-in-review-26-26/",
+  "datePublished": "2026-07-05T06:01:34+00:00",
+  "dateModified": "2026-07-05T06:01:34+00:00",
+  "description": "The Cogitating Ceviché is a . , .Discussion via NotebookLMInfogram created with NotebookLMEditorial SummaryAnother week at The Cogitating Ceviché explored the quiet systems that shape modern life. Calista Freiheit examined the hidden costs behind...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-cogitating-cevichés-week-in-review-26-26/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!yJY6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ef9127c-1497-41ac-aacf-31b66918ff04_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 227,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-cogitating-ceviches-week-in-review"
+  }
+}

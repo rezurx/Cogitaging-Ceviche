@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-07-04T08:21:25.427668",
+  "generatedAt": "2026-07-05T08:38:13.656351",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-cogitating-cevichés-week-in-review-26-26.json",
     "article_the-eulogy-economy.json",
     "article_norbert-wiener-when-control-became-understanding.json",
     "article_the-intern-now-has-api-keys.json",
@@ -27,7 +28,6 @@
     "article_the-masoretes-precision-as-devotion.json",
     "article_infrastructure-is-the-new-ideology.json",
     "article_children-are-not-lifestyle-accessories.json",
-    "article_cogitating-cevichés-week-in-review-26-21.json",
     "article_the-heat-must-go-somewhere.json",
     "article_the-cloud-has-plumbing.json",
     "article_agentic-by-acclamation.json",
