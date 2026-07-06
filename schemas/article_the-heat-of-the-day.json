@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-heat-of-the-day/",
+  "headline": "The Heat of the Day",
+  "url": "https://cogitating-ceviche.com/posts/the-heat-of-the-day/",
+  "datePublished": "2026-07-06T06:00:37+00:00",
+  "dateModified": "2026-07-06T06:00:37+00:00",
+  "description": "Image crerated with generative AIThe Cogitating Ceviché is a . , . nowThe Heat of the DayOn the danger we have edited out of welcomeIt was the hottest part of the day when the three of them appeared, and Abraham was ninety-nine years old.He was...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-heat-of-the-day/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!MZIg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F959c8ef8-07d4-4434-bb45-f36242fa45b1_1402x1122.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Calista F. Freiheit"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 479,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-heat-of-the-day"
+  }
+}
