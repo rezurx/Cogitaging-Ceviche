@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-07-06T09:52:48.701700",
+  "generatedAt": "2026-07-07T09:21:13.790513",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-last-humans-in-the-loop.json",
     "article_the-heat-of-the-day.json",
     "article_the-cogitating-cevichés-week-in-review-26-26.json",
     "article_the-eulogy-economy.json",
@@ -41,8 +42,7 @@
     "article_the-world-as-a-feed.json",
     "article_technical-debt-as-cultural-debt.json",
     "article_the-ui-of-authority.json",
-    "article_nothing-exists-until-it-is-logged.json",
-    "article_after-the-bubble.json"
+    "article_nothing-exists-until-it-is-logged.json"
   ],
   "faqpage_schemas": [],
   "total_articles": 40,
