@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/oswald-chambers-a-life-left-in-notes/",
+  "headline": "Oswald Chambers: A Life Left in Notes",
+  "url": "https://cogitating-ceviche.com/posts/oswald-chambers-a-life-left-in-notes/",
+  "datePublished": "2026-07-08T06:01:15+00:00",
+  "dateModified": "2026-07-08T06:01:15+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowHe taught whoever was in the room. His most famous book was taken down in shorthand by the woman in the back row.Aberdeen to ZeitounOswald Chambers had every instrument a religious teacher needs to become an...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/oswald-chambers-a-life-left-in-notes/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!Z4kJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fee28fd-0f85-4428-af10-ddcf11e374bf_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "general",
+  "wordCount": 487,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/oswald-chambers-a-life-left-in-notes"
+  }
+}

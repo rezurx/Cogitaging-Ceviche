@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-07-07T09:21:13.790513",
+  "generatedAt": "2026-07-08T08:05:41.577493",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_oswald-chambers-a-life-left-in-notes.json",
     "article_the-last-humans-in-the-loop.json",
     "article_the-heat-of-the-day.json",
     "article_the-cogitating-cevichés-week-in-review-26-26.json",
@@ -27,7 +28,6 @@
     "article_the-duty-to-be-unimpressed.json",
     "article_cogitating-ceviches-week-in-review-26-22.json",
     "article_the-age-gate-and-the-panopticon-nursery.json",
-    "article_the-masoretes-precision-as-devotion.json",
     "article_infrastructure-is-the-new-ideology.json",
     "article_the-heat-must-go-somewhere.json",
     "article_the-cloud-has-plumbing.json",
