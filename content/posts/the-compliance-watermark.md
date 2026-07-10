@@ -1,6 +1,6 @@
 +++
 title = "The Compliance Watermark"
-date = "2026-06-23T06:00:48+00:00"
+date = "2026-06-23T06:00:47+00:00"
 draft = false
 canonicalUrl = "https://thecyberneticceviche.substack.com/p/the-compliance-watermark"
 source = "Cybernetic-Ceviche"
