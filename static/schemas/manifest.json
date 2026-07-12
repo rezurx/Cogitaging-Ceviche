@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-07-11T07:38:01.435282",
+  "generatedAt": "2026-07-12T07:56:45.499095",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_cogitating-ceviches-week-in-review-26-27.json",
     "article_the-audit-of-idleness.json",
     "article_oswald-chambers-a-life-left-in-notes.json",
     "article_the-last-humans-in-the-loop.json",
@@ -27,7 +28,6 @@
     "article_richard-brinsley-sheridan-scandal-wit-and-the-theater-of-social-hypocrisy.json",
     "article_tokenized-everything-and-the-bureaucratization-of-magic-beans.json",
     "article_the-duty-to-be-unimpressed.json",
-    "article_cogitating-ceviches-week-in-review-26-22.json",
     "article_infrastructure-is-the-new-ideology.json",
     "article_the-heat-must-go-somewhere.json",
     "article_the-cloud-has-plumbing.json",
