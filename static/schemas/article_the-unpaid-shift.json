@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://cogitating-ceviche.com/posts/the-unpaid-shift/",
+  "headline": "The Unpaid Shift",
+  "url": "https://cogitating-ceviche.com/posts/the-unpaid-shift/",
+  "datePublished": "2026-07-13T06:01:49+00:00",
+  "dateModified": "2026-07-13T06:01:49+00:00",
+  "description": "The Cogitating Ceviché is a . , . nowThe Unpaid ShiftSomewhere in the last two decades, the grocery store hired you. It did not interview you or add you to payroll. It removed the cashier from one lane, then two, then most of them, and set up a...",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cogitating-ceviche.com/posts/the-unpaid-shift/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://substackcdn.com/image/fetch/$s_!tMpQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20d22561-d0df-41d3-847d-c39e49e876de_1672x941.png",
+    "width": 1456,
+    "height": 1456
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Mauve Sanger"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://cogitating-ceviche.com/about/#person",
+    "name": "Conrad T. Hannon",
+    "url": "https://cogitating-ceviche.com/about/"
+  },
+  "keywords": "AI",
+  "wordCount": 384,
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "url": "https://thecogitatingceviche.substack.com/p/the-unpaid-shift"
+  }
+}
