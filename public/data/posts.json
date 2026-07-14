@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T04:07:21.722819",
+  "generatedAt": "2026-07-14T07:13:06.107981",
   "items": [
     {
       "title": "The Unpaid Shift",
@@ -182,6 +182,15 @@
       "source": "substack"
     },
     {
+      "title": "The Machines That Apologize",
+      "subtitle": "Software has learned to say sorry. It has not learned to mean it.",
+      "url": "https://thecyberneticceviche.substack.com/p/the-machines-that-apologize",
+      "published": "Tue, 14 Jul 2026 06:00:29 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!tEsw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91571b43-c712-4a54-8606-8ed02b3fbfac_1376x768.png",
+      "excerpt": "Somewhere right now a screen is telling someone it is sorry It does not know the person It does not know what went wrong It is sorry all the same, sorry in the bright, weightless way that only software can...",
+      "source": "substack"
+    },
+    {
       "title": "The Last Humans in the Loop",
       "subtitle": "Automation’s ghost story was always a labor story.",
       "url": "https://thecyberneticceviche.substack.com/p/the-last-humans-in-the-loop",
@@ -349,15 +358,6 @@
       "url": "https://thecyberneticceviche.substack.com/p/the-ui-of-authority",
       "published": "Tue, 03 Mar 2026 07:02:03 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!EtN9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ffa3c25-7ef0-46aa-86a4-ce8899c20094_1536x1024.png",
-      "excerpt": "Read more...",
-      "source": "substack"
-    },
-    {
-      "title": "Nothing Exists Until It Is Logged",
-      "subtitle": "On the quiet theology of documentation, and the sin of leaving no trace",
-      "url": "https://thecyberneticceviche.substack.com/p/nothing-exists-until-it-is-logged",
-      "published": "Tue, 24 Feb 2026 07:01:51 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!uPNR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36fec1b8-226e-4673-8939-16670b3446bc_1536x1024.png",
       "excerpt": "Read more...",
       "source": "substack"
     }
