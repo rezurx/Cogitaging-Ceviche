@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-07-14T07:44:27.305609",
+  "generatedAt": "2026-07-15T07:48:15.753036",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_george-marshall-authority-without-mythology.json",
     "article_the-machines-that-apologize.json",
     "article_the-unpaid-shift.json",
     "article_cogitating-ceviches-week-in-review-26-27.json",
@@ -27,7 +28,6 @@
     "article_the-feminine-strength-modern-culture-misnames-as-fragility.json",
     "article_cogitating-cevichés-week-in-review-26-23.json",
     "article_the-age-of-performative-competence.json",
-    "article_richard-brinsley-sheridan-scandal-wit-and-the-theater-of-social-hypocrisy.json",
     "article_tokenized-everything-and-the-bureaucratization-of-magic-beans.json",
     "article_infrastructure-is-the-new-ideology.json",
     "article_the-heat-must-go-somewhere.json",
