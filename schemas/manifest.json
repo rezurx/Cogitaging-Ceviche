@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-07-16T07:53:05.766370",
+  "generatedAt": "2026-07-17T07:50:33.913026",
   "person_schema": "person.json",
   "website_schema": "website.json",
   "article_schemas": [
+    "article_the-tyranny-of-the-optional.json",
     "article_george-marshall-authority-without-mythology.json",
     "article_the-machines-that-apologize.json",
     "article_the-unpaid-shift.json",
@@ -27,7 +28,6 @@
     "article_the-county-commission-owns-the-cloud.json",
     "article_the-feminine-strength-modern-culture-misnames-as-fragility.json",
     "article_cogitating-cevichés-week-in-review-26-23.json",
-    "article_the-age-of-performative-competence.json",
     "article_tokenized-everything-and-the-bureaucratization-of-magic-beans.json",
     "article_infrastructure-is-the-new-ideology.json",
     "article_the-heat-must-go-somewhere.json",
