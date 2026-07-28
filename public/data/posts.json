@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T03:12:27.113412",
+  "generatedAt": "2026-07-28T06:31:28.840629",
   "items": [
     {
       "title": "The Holiness of the Repaired Thing",
@@ -182,6 +182,15 @@
       "source": "substack"
     },
     {
+      "title": "The Second Opinion Machine",
+      "subtitle": "We wanted an oracle. What actually helps is a machine that disagrees.",
+      "url": "https://thecyberneticceviche.substack.com/p/the-second-opinion-machine",
+      "published": "Tue, 28 Jul 2026 06:00:32 GMT",
+      "image": "https://substackcdn.com/image/fetch/$s_!pGzW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b36e3d8-5405-4d9f-acfb-0458ca5e2df0_1672x941.png",
+      "excerpt": "We were promised an oracle The autonomous physician The self-driving law firm The laboratory that runs itself while the scientists are freed for higher work, though no one ever said what The machine would know, and we would be relieved...",
+      "source": "substack"
+    },
+    {
       "title": "Could the Electric Grid Become a National Scientific Computer?",
       "subtitle": "A proposal for engineers, economists, and regulators to examine, criticize, and perhaps build",
       "url": "https://thecyberneticceviche.substack.com/p/could-the-electric-grid-become-a",
@@ -349,15 +358,6 @@
       "url": "https://thecyberneticceviche.substack.com/p/the-world-as-a-feed",
       "published": "Tue, 17 Mar 2026 06:00:43 GMT",
       "image": "https://substackcdn.com/image/fetch/$s_!kXOv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F892398cb-cead-4e27-ba40-4b377110eaec_1280x720.jpeg",
-      "excerpt": "Read more...",
-      "source": "substack"
-    },
-    {
-      "title": "Technical Debt as Cultural Debt",
-      "subtitle": "When organizations stop repairing what is broken, the broken thing becomes the culture",
-      "url": "https://thecyberneticceviche.substack.com/p/technical-debt-as-cultural-debt",
-      "published": "Tue, 10 Mar 2026 06:01:50 GMT",
-      "image": "https://substackcdn.com/image/fetch/$s_!13vP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa9f56bf-3a3b-4872-a978-a2cba5512ed6_1536x1024.png",
       "excerpt": "Read more...",
       "source": "substack"
     }
